@@ -1,0 +1,10879 @@
+window.STORY_DATA={
+ "title": "The Quiet Kind",
+ "chapters": [
+  {
+   "n": 0,
+   "title": "A Lamp in October",
+   "sub": "Ironwood Junction, the present",
+   "intro": "The wire office has gone quiet for the night. Eli Ashby has not."
+  },
+  {
+   "n": 1,
+   "title": "Chalk and Ruler",
+   "sub": "Larkspur, a long time ago",
+   "intro": "A quiet boy, a loud schoolhouse, and the first things he learned to keep to himself."
+  },
+  {
+   "n": 2,
+   "title": "Paper Outlaws",
+   "sub": "Larkspur, the middle years",
+   "intro": "Friends, a feud over drawings, and the night the money was gone."
+  },
+  {
+   "n": 3,
+   "title": "The New Girl",
+   "sub": "Larkspur, the seventh year",
+   "intro": "The fourteenth of October. He was home sick. Everything started without him."
+  },
+  {
+   "n": 4,
+   "title": "Across the Yard",
+   "sub": "Larkspur, the eighth to the tenth year",
+   "intro": "Three years. One girl. A great many looks, and not one sentence."
+  },
+  {
+   "n": 5,
+   "title": "The Road That Loops",
+   "sub": "Larkspur and Ironwood, the eleventh year",
+   "intro": "The one time he asked for something. And what it cost."
+  },
+  {
+   "n": 6,
+   "title": "What Would You Say",
+   "sub": "Larkspur, the twelfth year",
+   "intro": "The happiest letter he ever received. And the silence that came after it."
+  },
+  {
+   "n": 7,
+   "title": "Second-Hand Truths",
+   "sub": "Larkspur and North Ridge",
+   "intro": "Everything he learned about her, he learned from somebody else."
+  },
+  {
+   "n": 8,
+   "title": "The Cousin's Hand",
+   "sub": "The Territorial Academy, North Ridge",
+   "intro": "She came back as a friend. With a story he couldn't believe and couldn't argue with."
+  },
+  {
+   "n": 9,
+   "title": "The Long Quarantine",
+   "sub": "Larkspur and North Ridge",
+   "intro": "Two years shut indoors. Time enough to heal. Time enough to try again, and to learn what \"okay\" can mean."
+  },
+  {
+   "n": 10,
+   "title": "Same Sky, Same Birthday",
+   "sub": "Ironwood Junction, the first working years",
+   "intro": "A stranger kept appearing exactly when he wished for her. Then the wishing stopped working."
+  },
+  {
+   "n": 11,
+   "title": "The Relay Shack",
+   "sub": "The beach outside Ironwood Junction",
+   "intro": "Alone at a repeater station by the sea, with a wire that never stops talking. And one piece of news it should never have carried."
+  },
+  {
+   "n": 12,
+   "title": "The Spark at the Basin",
+   "sub": "Ironwood Junction, back at the main office",
+   "intro": "He'd decided to be alone, and was finally at peace with it. Then someone decided otherwise."
+  },
+  {
+   "n": 13,
+   "title": "Coffee at the Kettle & Lamp",
+   "sub": "Ironwood Junction",
+   "intro": "A new clerk who understood him without explanation. A cup of coffee nobody planned. And a story everyone told without him."
+  },
+  {
+   "n": 14,
+   "title": "Autopilot",
+   "sub": "Ironwood and Larkspur",
+   "intro": "The road gets him to work every day. He just isn't on it."
+  },
+  {
+   "n": 15,
+   "title": "The Question",
+   "sub": "Larkspur, October again",
+   "intro": "One honest question. Asked the right way, for once."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "p1",
+   "chapter": 0,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The last telegram of the night comes through at a quarter past ten. A cattle price from somewhere far away."
+    },
+    {
+     "k": "narr",
+     "t": "Eli copies it out in his careful hand. He has always had good handwriting. It is one of the few things he has never doubted."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Ten fifteen. Nine hours of other people's words. Not one of them was meant for me."
+    },
+    {
+     "k": "narr",
+     "t": "He hangs up the headset. The key goes still. The room fills up with a silence that is louder than the clicking ever was."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Go home. Sleep. Do it again tomorrow."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "...When did tomorrow start feeling like a chore someone else assigned me?"
+    }
+   ],
+   "loc": "office",
+   "mood": "night",
+   "goal": "Finish the last message of your shift",
+   "place": "Ironwood Wire Office",
+   "date": "October, the present"
+  },
+  {
+   "id": "p2",
+   "chapter": 0,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He does not remember the ride home. He knows he made it. Pilgrim is in the stall, unsaddled. The gate is latched."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "How did I get here? I know the road. I can't see it. It's like the road happened to somebody else."
+    },
+    {
+     "k": "narr",
+     "t": "Ma's lamp is still lit in the window. She leaves it burning until he's home. She has done that his whole life."
+    },
+    {
+     "s": "ma",
+     "t": "Eli? That you?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "It's me, Ma. Go to sleep.",
+     "to": "ma"
+    },
+    {
+     "s": "ma",
+     "t": "There's bread under the cloth. You didn't eat at that office, I know you didn't.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "I ate.",
+     "to": "ma"
+    },
+    {
+     "k": "narr",
+     "t": "He didn't."
+    },
+    {
+     "s": "ma",
+     "t": "...Goodnight, son.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "What do you say back?",
+      "opts": [
+       {
+        "t": "\"Goodnight, Ma. Thank you for the lamp.\"",
+        "fx": {
+         "HEART": 1,
+         "ma": 1
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "Hm. It's only a lamp.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "It isn't. Both of them know it isn't."
+         }
+        ]
+       },
+       {
+        "t": "\"Goodnight.\"",
+        "say": [
+         {
+          "k": "narr",
+          "t": "The lamp goes out a moment later."
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Say nothing and go upstairs.",
+        "fx": {
+         "STONE": 1,
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "You hear her wait a little longer before she turns the wick down."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "home",
+   "mood": "night",
+   "goal": "Ride home to the Ashby cottage",
+   "place": "The Ashby cottage",
+   "date": "Later that night"
+  },
+  {
+   "id": "p3",
+   "chapter": 0,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Under the bed there's a biscuit tin with a picture of a ship on the lid. The paint has worn off where his thumbs have held it."
+    },
+    {
+     "k": "narr",
+     "t": "He hasn't opened it in a long time. Tonight he can't sleep, and the tin is the only thing in the room that knows him."
+    },
+    {
+     "item": {
+      "id": "tin",
+      "name": "The tin box",
+      "desc": "A biscuit tin with a ship on the lid. Everything you never threw away is inside."
+     }
+    },
+    {
+     "k": "narr",
+     "t": "Inside: a splinter of yellow wood. A drawing of an outlaw on a card. A page torn from an autograph book. A bundle of letters tied with string. A newspaper cutting folded very small."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "If anybody ever finds this, they didn't find it by accident. I'd have had to hand it to them."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "And if they're reading it... I wasn't doing well. I want that written down somewhere."
+    },
+    {
+     "k": "narr",
+     "t": "He picks up the splinter of yellow wood first. It's the oldest thing in the box."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Where do I even start?"
+    },
+    {
+     "choice": {
+      "prompt": "Where do you start?",
+      "opts": [
+       {
+        "t": "\"At the beginning. The schoolhouse.\"",
+        "fx": {
+         "HEART": 1
+        },
+        "say": [
+         {
+          "s": "eli",
+          "k": "thought",
+          "t": "The beginning, then. Before any of it hurt."
+         }
+        ]
+       },
+       {
+        "t": "\"It doesn't matter. None of it does.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "eli",
+          "k": "thought",
+          "t": "...But my hands are already untying the string."
+         }
+        ]
+       },
+       {
+        "t": "\"Wherever it stops hurting.\"",
+        "fx": {
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "eli",
+          "k": "thought",
+          "t": "It doesn't stop hurting anywhere. That's the trouble. Start anyway."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "The lamp flickers. The splinter is warm from his hand."
+    },
+    {
+     "k": "narr",
+     "t": "And Larkspur comes back to him, the way it was, small and loud and full of chalk dust."
+    }
+   ],
+   "loc": "home",
+   "mood": "night",
+   "goal": "Open the tin box under your bed",
+   "place": "Upstairs",
+   "date": "Past midnight",
+   "journal": [
+    {
+     "t": "I'm going to remember it properly this time. All of it.",
+     "fx": {
+      "HEART": 1
+     }
+    },
+    {
+     "t": "Remembering is a way of not sleeping. Fine.",
+     "fx": {
+      "DRIFT": 1
+     }
+    },
+    {
+     "t": "I keep these things because nobody else would.",
+     "fx": {
+      "STONE": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "c1a",
+   "chapter": 1,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Larkspur. A town small enough that the church bell reaches every porch, and the creek is the loudest thing after dark."
+    },
+    {
+     "k": "narr",
+     "t": "Eli is five. His boots are new and they pinch. His collar is buttoned so high he has to lift his chin to breathe."
+    },
+    {
+     "s": "ma",
+     "t": "Hold still. There. Now you look like somebody's son.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Is Pa coming to watch?",
+     "to": "ma"
+    },
+    {
+     "s": "ma",
+     "t": "Your Pa's with the cavalry out past the Sweetgrass, baby. He'll write. He always writes.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "He doesn't always write. I count the letters. There have been three."
+    },
+    {
+     "s": "june",
+     "t": "The schoolhouse smells like wet chalk and Miss Thorne. You'll hate it.",
+     "to": "eli"
+    },
+    {
+     "s": "ma",
+     "t": "June Ashby.",
+     "to": "june"
+    },
+    {
+     "s": "june",
+     "t": "...You'll be fine. I'm right across the hall. If anybody's mean you come get me.",
+     "to": "eli"
+    },
+    {
+     "s": "ma",
+     "t": "The coach comes at half past eight. Old Amos will take you and bring you back. You don't get off anywhere else, hear?",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Ma is waiting for an answer.",
+      "opts": [
+       {
+        "t": "\"Yes, Ma. I won't get lost.\"",
+        "fx": {
+         "ma": 1
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "I know you won't. You're careful. You get that from me.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Can't I stay home with you?\"",
+        "fx": {
+         "HEART": 1
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "Oh, Eli. If I could keep you in my apron pocket all day I would.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "She holds his face in both hands for a moment longer than she needs to."
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Look at your boots.",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "Ma kneels and reties a lace that wasn't loose. It's the only way she knows how to say it."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "ma",
+     "t": "Go on. Big day. I'll have the lamp lit when you're home.",
+     "to": "eli"
+    }
+   ],
+   "loc": "home",
+   "mood": "day",
+   "goal": "Talk to Ma before your first day of school",
+   "talk": "ma",
+   "others": [
+    "june"
+   ],
+   "place": "The Ashby cottage",
+   "date": "Autumn, long ago"
+  },
+  {
+   "id": "c1b",
+   "chapter": 1,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The schoolhouse is the biggest building Eli has ever been inside. The ceiling is so high his voice would get lost up there. So he doesn't use it."
+    },
+    {
+     "s": "larkin",
+     "t": "You must be the Ashby boy. Come, come. Stand on the line. Hands out of your pockets.",
+     "to": "eli"
+    },
+    {
+     "s": "larkin",
+     "t": "I'm going to point at a few things and you're going to tell me what they are. That's all. No wrong answers today.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "She points at a slate."
+    },
+    {
+     "choice": {
+      "prompt": "\"What is this?\"",
+      "opts": [
+       {
+        "t": "\"A slate.\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "larkin",
+          "t": "Good.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"...For writing.\"",
+        "fx": {
+         "HEART": 1
+        },
+        "say": [
+         {
+          "s": "larkin",
+          "t": "That's what it's for, yes. Good boy.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "She points at a bell. He knows it. A cup. He knows it. A globe, which he has never seen in his life."
+    },
+    {
+     "s": "larkin",
+     "t": "And this?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "...A ball with the whole world painted on it.",
+     "to": "larkin"
+    },
+    {
+     "s": "larkin",
+     "t": "Ha! Well. That's exactly what it is. Write him in, Mr. Cutter. He'll do.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Years later, it's the only thing I remember clearly from that day. A ball with the whole world painted on it, and a woman laughing like I'd said something clever."
+    }
+   ],
+   "loc": "school",
+   "mood": "day",
+   "goal": "Meet the headmistress at the schoolhouse",
+   "talk": "larkin",
+   "place": "Larkspur Schoolhouse",
+   "date": "Admission day"
+  },
+  {
+   "id": "c1c",
+   "chapter": 1,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "There are thirty children and one Eli. Everybody seems to already know everybody."
+    },
+    {
+     "s": "bright",
+     "t": "You can sit by the window, Eli. Best seat in the room. You can watch the swallows when your eyes get tired.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Miss Bright has a soft voice and chalk on her sleeves. She is the kindest grown-up he has met who isn't his mother."
+    },
+    {
+     "s": "bright",
+     "t": "Let's try the reading primer. Sound it out with me.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "The primer is full of hard little sounds that bump into each other. When he reads two lines aloud his throat closes and the third line won't come."
+    },
+    {
+     "s": "bright",
+     "t": "That's alright. Let's try something else. Watch my hand.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "She writes his name in cursive on the slate. E-l-i, all joined up, each letter holding hands with the next."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Oh."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It looks like it's moving even when it's still."
+    },
+    {
+     "choice": {
+      "prompt": "What do you do?",
+      "opts": [
+       {
+        "t": "Copy the loops, carefully, over and over.",
+        "fx": {
+         "NERVE": 1,
+         "HEART": 1,
+         "set": [
+          "cursive"
+         ]
+        },
+        "say": [
+         {
+          "s": "bright",
+          "t": "Look at that. You've got a writer's hand, Eli Ashby.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "He fills the slate. Then the other side. Then he asks for more chalk."
+         }
+        ]
+       },
+       {
+        "t": "Copy it once, then wipe it away before anyone sees.",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "bright",
+          "t": "I saw it anyway. It was lovely.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Stare at it until the bell rings.",
+        "fx": {
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "When the bell rings, the letters are still on the slate. He doesn't want to wipe them off."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "Nobody sits next to him at lunch. He eats by the window and watches the swallows like she told him to."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It would be nice to have a friend. Just one. Somebody whose slate I could look at."
+    }
+   ],
+   "loc": "school",
+   "mood": "day",
+   "goal": "Find your seat in Miss Bright's class",
+   "talk": "bright",
+   "place": "The little classroom",
+   "date": "The first weeks"
+  },
+  {
+   "id": "c1d",
+   "chapter": 1,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The homework is three pages of the primer, copied out. Eli manages a line and a half before his hand stops working."
+    },
+    {
+     "s": "june",
+     "t": "Give it here.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Miss Thorne will know.",
+     "to": "june"
+    },
+    {
+     "s": "june",
+     "t": "Miss Thorne can't tell a five-year-old's handwriting from an eight-year-old's. She can barely tell children from furniture.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "June copies the pages in a hurry, her tongue between her teeth. Ma pretends not to see from the stove."
+    },
+    {
+     "choice": {
+      "prompt": "June hands it back.",
+      "opts": [
+       {
+        "t": "\"Thanks, June.\"",
+        "fx": {
+         "HEART": 1,
+         "june": 1
+        },
+        "say": [
+         {
+          "s": "june",
+          "t": "Don't thank me. Just get better at it, so I don't have to.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I could've done it.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "june",
+          "t": "Sure you could. Next year.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Take it without a word."
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "That night he practices his cursive by the lamp until Ma takes the slate away and tucks him in."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Writing my own letters is easy. Writing what they want is impossible. Nobody seems to understand there's a difference."
+    }
+   ],
+   "loc": "home",
+   "mood": "golden",
+   "goal": "Go home and do your homework",
+   "talk": "june",
+   "place": "The Ashby cottage",
+   "date": "That evening"
+  },
+  {
+   "id": "c1e",
+   "chapter": 1,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The next year, June has her own work. The homework is not done. Only the first page, in Eli's best cursive, and then nothing."
+    },
+    {
+     "k": "narr",
+     "t": "Prayers happen inside the classroom. Before them, every child brings their book to Miss Thorne's desk."
+    },
+    {
+     "s": "thorne",
+     "t": "Ashby. Book.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "If I don't hand it in, she'll count the books and know. If I do hand it in, she'll open it and know."
+    },
+    {
+     "choice": {
+      "prompt": "There is no good choice. Which do you make?",
+      "opts": [
+       {
+        "t": "Hand it in and hope she doesn't open it.",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "She opens it."
+         }
+        ]
+       },
+       {
+        "t": "Tell her the truth: \"I couldn't finish it.\"",
+        "fx": {
+         "NERVE": 1,
+         "HEART": 1,
+         "set": [
+          "told_thorne"
+         ]
+        },
+        "say": [
+         {
+          "s": "thorne",
+          "t": "Couldn't. Couldn't.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Hold the book behind your back.",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "She takes it out of his hands."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "Miss Thorne keeps a yellow wooden ruler on her desk. Everybody knows about the ruler."
+    },
+    {
+     "k": "narr",
+     "t": "She uses it on him in front of the whole class. She doesn't stop until the ruler does, and it breaks."
+    },
+    {
+     "k": "narr",
+     "t": "A splinter skids across the floor and stops against his boot."
+    },
+    {
+     "k": "narr",
+     "t": "Nobody says anything. Thirty children look at their hands. Then they say morning prayers."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I don't cry. I want it written down that I didn't cry."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "...I didn't cry because I couldn't find where the crying was supposed to come from."
+    },
+    {
+     "item": {
+      "id": "splinter",
+      "name": "A splinter of yellow wood",
+      "desc": "From a ruler that broke before you did."
+     }
+    }
+   ],
+   "loc": "school",
+   "mood": "overcast",
+   "goal": "Hand in your homework before morning prayers",
+   "talk": "thorne",
+   "place": "The upper classroom",
+   "date": "Next year, a grey morning",
+   "journal": [
+    {
+     "t": "I learned to keep my head down. It works.",
+     "fx": {
+      "STONE": 1
+     }
+    },
+    {
+     "t": "I learned that grown-ups can be wrong, and loud about it.",
+     "fx": {
+      "NERVE": 1
+     }
+    },
+    {
+     "t": "I don't really remember the pain. I remember the floor.",
+     "fx": {
+      "DRIFT": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "c1f",
+   "chapter": 1,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He doesn't take the coach home. He walks to the creek and sits where the water is loudest."
+    },
+    {
+     "k": "narr",
+     "t": "There's a girl there already, skipping stones. She's very bad at it."
+    },
+    {
+     "s": "girl",
+     "t": "You're the one who got the ruler.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "...",
+     "to": "girl"
+    },
+    {
+     "s": "girl",
+     "t": "It's alright. She's horrible. My brother says she eats her pupils for supper.",
+     "to": "eli"
+    },
+    {
+     "s": "girl",
+     "t": "Here. You throw one. I can never make them jump.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "She holds out a flat stone.",
+      "opts": [
+       {
+        "t": "Throw it. Show her how.",
+        "fx": {
+         "HEART": 1,
+         "set": [
+          "stone_girl"
+         ]
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "It skips four times. She claps like it's the best thing she's ever seen."
+         },
+         {
+          "s": "girl",
+          "t": "Again! Teach me!",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I don't know how either.\"",
+        "fx": {
+         "HEART": 1
+        },
+        "say": [
+         {
+          "s": "girl",
+          "t": "Then we'll both be bad at it. That's better than being bad alone.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Shake your head.",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "girl",
+          "t": "Suit yourself. I'll sit here anyway.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "They sit there until the light goes orange. She talks. He listens. He likes it. He doesn't feel strange around her at all."
+    },
+    {
+     "k": "narr",
+     "t": "Years later, Eli will try very hard to remember her face. He won't be able to. Not her face, not her name."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Just the stones. And the feeling that I was allowed to be quiet next to somebody."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Girls were always easier to sit with. I never knew why. It wasn't anything like love. It was just... quieter."
+    }
+   ],
+   "loc": "bridge",
+   "mood": "golden",
+   "goal": "Walk down to the creek after school",
+   "talk": "girl",
+   "place": "The creek bridge",
+   "date": "That afternoon"
+  },
+  {
+   "id": "c1g",
+   "chapter": 1,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Aunt Rhoda takes them to the fair when it comes through. There's a man who eats fire, and a dancing dog, and a tent that smells of sugar."
+    },
+    {
+     "s": "rhoda",
+     "t": "Hold my hand, Eli. If you get lost in this crowd they'll sell you to the circus.",
+     "to": "eli"
+    },
+    {
+     "s": "june",
+     "t": "They would not. He's too small to be useful.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Later, they stand on a narrow wooden walk over the water and watch a little painted boat bobbing at its rope."
+    },
+    {
+     "s": "rhoda",
+     "t": "You like the boat?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "It looks like it wants to go somewhere.",
+     "to": "rhoda"
+    },
+    {
+     "s": "rhoda",
+     "t": "Boats always do. That's why you tie them up.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I remember the boat. I remember the planks under my feet. I've never been able to find that place again."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I've walked every pier in the territory. None of them are it. Maybe it only existed that one afternoon."
+    },
+    {
+     "item": {
+      "id": "boat",
+      "name": "A ticket from the summer fair",
+      "desc": "Admit one. The ink has faded to almost nothing."
+     }
+    }
+   ],
+   "loc": "pond",
+   "mood": "golden",
+   "goal": "Go to the summer fair with Aunt Rhoda",
+   "talk": "rhoda",
+   "others": [
+    "june"
+   ],
+   "place": "The south pier",
+   "date": "Summer, the fair comes to town"
+  },
+  {
+   "id": "c1h",
+   "chapter": 1,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "In the second year there's a boy called Theo Briggs with a brass pencil sharpener shaped like a rocket. Everybody wants to touch it. Eli just wants to look."
+    },
+    {
+     "k": "narr",
+     "t": "And there's another new boy, the shortest in the room, who sits down next to Eli without asking."
+    },
+    {
+     "s": "toby",
+     "t": "I'm Toby. Toby Pruett. My Pa runs the general store. You can have a peppermint if you don't tell anybody I gave you one.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "...Why are you sitting here?",
+     "to": "toby"
+    },
+    {
+     "s": "toby",
+     "t": "You looked like you'd be quiet. I like quiet people. They don't laugh when I can't reach the coat hooks.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Toby holds out a peppermint.",
+      "opts": [
+       {
+        "t": "Take it. \"I'm Eli.\"",
+        "fx": {
+         "HEART": 1,
+         "toby": 2
+        },
+        "say": [
+         {
+          "s": "toby",
+          "t": "I know. Everybody knows. You're the ruler boy. Don't worry, I won't call you that.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I don't take things from people.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "toby",
+          "t": "That's dumb. It's a peppermint, not a dowry.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "He leaves it on Eli's desk anyway. Eli eats it on the coach home."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I don't know why, but I knew right then. This short, loud boy was going to be there for the rest of my life."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I was right about that. I've been wrong about almost everything else."
+    },
+    {
+     "s": "toby",
+     "t": "Want to see something? Penelope Gray brought a music box. It plays a waltz. Come on!",
+     "to": "eli"
+    }
+   ],
+   "loc": "school",
+   "mood": "day",
+   "goal": "Find out who the new boy in your class is",
+   "talk": "toby",
+   "place": "Larkspur Schoolhouse",
+   "date": "Second year"
+  },
+  {
+   "id": "c1i",
+   "chapter": 1,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Penelope Gray is the class leader. She has ribbons from back East and a music box and handwriting even neater than his. Everyone wants to be her friend."
+    },
+    {
+     "k": "narr",
+     "t": "Eli wants to be her friend more than anyone. He has never said a word to her."
+    },
+    {
+     "s": "toby",
+     "t": "She's leaving. Her family's going to Denver. Today's her last day.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Penelope is standing by the churchyard gate with her mother and a trunk. She's crying a little, very neatly."
+    },
+    {
+     "choice": {
+      "prompt": "This is your last chance to speak to her.",
+      "opts": [
+       {
+        "t": "Walk over. \"Goodbye, Penelope. I liked your music box.\"",
+        "fx": {
+         "NERVE": 2,
+         "HEART": 1,
+         "set": [
+          "said_bye_pen"
+         ]
+        },
+        "say": [
+         {
+          "s": "penelope",
+          "t": "...You're Eli. You never talk.",
+          "to": "eli"
+         },
+         {
+          "s": "penelope",
+          "t": "Thank you. I'll miss it here. Even Miss Thorne.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "She gives him a ribbon. Blue. He keeps it for twenty years."
+         }
+        ]
+       },
+       {
+        "t": "Wave from where you are.",
+        "fx": {
+         "HEART": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "She doesn't see. Or she does and doesn't know who you are. Either way, the coach pulls away."
+         }
+        ]
+       },
+       {
+        "crack": true,
+        "crackNote": "Your feet won't move. Your mouth won't open.",
+        "t": "Walk over and say goodbye."
+       },
+       {
+        "silent": true,
+        "t": "Stay behind Toby.",
+        "fx": {
+         "STONE": 1,
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "The trunk goes up onto the coach. The coach goes down the road. That's all."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "toby",
+     "t": "Heartbreaking news, huh?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "...I don't know what you mean.",
+     "to": "toby"
+    },
+    {
+     "s": "toby",
+     "t": "Sure you don't.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It was the first time I learned that people leave before you're ready. I wish it had been the last."
+    }
+   ],
+   "loc": "yard",
+   "mood": "overcast",
+   "goal": "Say goodbye to Penelope Gray",
+   "talk": "penelope",
+   "others": [
+    "toby"
+   ],
+   "place": "The old churchyard",
+   "date": "Third year",
+   "journal": [
+    {
+     "t": "I should've said more. Next time I will.",
+     "fx": {
+      "NERVE": 1,
+      "HEART": 1
+     }
+    },
+    {
+     "t": "People leave. Better not to want them in the first place.",
+     "fx": {
+      "STONE": 1
+     }
+    },
+    {
+     "t": "It's just a girl with a music box. It doesn't matter.",
+     "fx": {
+      "DRIFT": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "c2a",
+   "chapter": 2,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "In the fourth year, Eli has lunch with two boys from June's class. Nate and Nico. They're older and they let him sit with them anyway."
+    },
+    {
+     "s": "nate",
+     "t": "Look what Nico smuggled in. His uncle's stereoscope.",
+     "to": "eli"
+    },
+    {
+     "s": "nico",
+     "t": "You put the card in, and you look, and it's like you're standing in Paris. Or on the moon. Go on.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Eli looks. Two flat pictures become one deep one. A city he'll never see stands up off the card."
+    },
+    {
+     "choice": {
+      "prompt": "What do you say?",
+      "opts": [
+       {
+        "t": "\"How does it do that?\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "nico",
+          "t": "Nobody knows. My uncle says it's two eyes lying to your brain at the same time.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Can I look again?\"",
+        "fx": {
+         "HEART": 1
+        },
+        "say": [
+         {
+          "s": "nate",
+          "t": "Look as long as you like. Just don't let Miss Thorne see.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "He doesn't remember much else about that year. Lunches. Laughing. Two older boys being kind to a younger one for no reason."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Nate still writes to me now and then. Nico, I don't know. People just... go somewhere. You never get a letter saying where."
+    }
+   ],
+   "loc": "school",
+   "mood": "day",
+   "goal": "Eat lunch with Nate and Nico",
+   "talk": "nate",
+   "others": [
+    "nico"
+   ],
+   "place": "Behind the schoolhouse",
+   "date": "Fourth year"
+  },
+  {
+   "id": "c2b",
+   "chapter": 2,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Sixth year. A boy arrives with a name so long the schoolmaster gives up halfway through reading it aloud."
+    },
+    {
+     "s": "rook",
+     "t": "Reginald Oswin Okafor-Kincaid. Don't bother. Everybody just calls me Rook. Because of the R. And because I steal things.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "...Do you?",
+     "to": "rook"
+    },
+    {
+     "s": "rook",
+     "t": "Only shiny things and only from people who deserve it. Want a cookie? I stole it from the teacher's tin.",
+     "to": "eli"
+    },
+    {
+     "s": "toby",
+     "t": "He's insane. I like him.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Rook is everything Eli isn't. Loud. Unafraid. He climbs the bell rope during recess. He talks to girls like they're just people, which they are."
+    },
+    {
+     "choice": {
+      "prompt": "Rook holds out the stolen cookie.",
+      "opts": [
+       {
+        "t": "Take it. Grin.",
+        "fx": {
+         "HEART": 1,
+         "rook": 2
+        },
+        "say": [
+         {
+          "s": "rook",
+          "t": "See, I knew you had it in you. Quiet ones always do.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"We'll get in trouble.\"",
+        "fx": {
+         "NERVE": 1,
+         "rook": 1
+        },
+        "say": [
+         {
+          "s": "rook",
+          "t": "Trouble is just a word grown-ups use for fun they didn't think of first.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Look at the cookie, then at him.",
+        "fx": {
+         "rook": 1
+        },
+        "say": [
+         {
+          "s": "rook",
+          "t": "Fine, I'll eat it. But I'm saving you the next one. Partners.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Rook. Brother from another mother, he'd say, years later. He never worried about anything. He did all the crazy things I only ever wished I could."
+    }
+   ],
+   "loc": "school",
+   "mood": "golden",
+   "goal": "Meet the new boy everyone is talking about",
+   "talk": "rook",
+   "others": [
+    "toby"
+   ],
+   "place": "The schoolyard",
+   "date": "Sixth year"
+  },
+  {
+   "id": "c2c",
+   "chapter": 2,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "That spring, every boy in Larkspur is drawing outlaws. Heroes on squares of cardboard. The Ghost of Dry Gulch. Six-Gun Sal. The Iron Comanche Express."
+    },
+    {
+     "k": "narr",
+     "t": "Eli's drawings are the best. Everybody says so. He invents his own outlaws, and his lines are clean, and the faces look like they're thinking."
+    },
+    {
+     "s": "gideon",
+     "t": "That's a good one. The Lantern Kid. You made him up?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Yeah. He only robs trains at night so nobody can see he's scared.",
+     "to": "gideon"
+    },
+    {
+     "k": "narr",
+     "t": "Gideon Hale is a strange, fierce boy. If you give him something and then you quarrel, he'll march up and make you give it back. Fair is fair."
+    },
+    {
+     "s": "gideon",
+     "t": "Don't give me anything. I don't take things. If you take things, people own a piece of you.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I remember that. I took it home and kept it. For years I didn't take anything from anybody, so nobody could ever ask for it back."
+    },
+    {
+     "s": "abel",
+     "t": "Gideon's being Gideon. Here, Eli, trade me the Lantern Kid. I'll give you two Sals.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Abel offers a trade.",
+      "opts": [
+       {
+        "t": "Trade with Abel.",
+        "fx": {
+         "HEART": 1,
+         "set": [
+          "traded"
+         ]
+        },
+        "say": [
+         {
+          "s": "abel",
+          "t": "Pleasure doing business, partner.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I don't trade them. I just draw them.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "abel",
+          "t": "Suit yourself, artist.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "Give Abel the card for nothing.",
+        "fx": {
+         "HEART": 1,
+         "abel": 1
+        },
+        "say": [
+         {
+          "s": "gideon",
+          "t": "You'll regret that.",
+          "to": "eli"
+         },
+         {
+          "s": "abel",
+          "t": "He won't. Mind your own cards.",
+          "to": "gideon"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "statue",
+   "mood": "day",
+   "goal": "Trade outlaw cards at Founder's Rock",
+   "talk": "gideon",
+   "others": [
+    "abel",
+    "rook"
+   ],
+   "place": "Founder's Rock",
+   "date": "That spring"
+  },
+  {
+   "id": "c2d",
+   "chapter": 2,
+   "lines": [
+    {
+     "s": "gideon",
+     "t": "Those are mine.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "What?",
+     "to": "gideon"
+    },
+    {
+     "s": "gideon",
+     "t": "The Lantern Kid. The Coyote Twins. You copied them off my cards. Everyone can see it.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "It isn't true. Eli has drawn every line himself, at night, by the lamp. But Gideon says it loudly, in the yard, and a ring of boys has started to form."
+    },
+    {
+     "s": "toby",
+     "t": "That's a lie and you know it.",
+     "to": "gideon"
+    },
+    {
+     "s": "gideon",
+     "t": "Is it? Ask him to prove it.",
+     "to": "toby"
+    },
+    {
+     "k": "narr",
+     "t": "Eli has no way to prove it. Nobody ever believes the quiet one."
+    },
+    {
+     "choice": {
+      "prompt": "Everyone is watching. What do you do?",
+      "opts": [
+       {
+        "t": "\"I drew them. You know I drew them.\"",
+        "fx": {
+         "NERVE": 2,
+         "set": [
+          "stood_up"
+         ]
+        },
+        "say": [
+         {
+          "s": "gideon",
+          "t": "Then draw one now. Go on. In front of everybody.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "His hand won't stop shaking. The line comes out crooked. Somebody laughs."
+         }
+        ]
+       },
+       {
+        "t": "Tear the cards up. All of them.",
+        "fx": {
+         "STONE": 2,
+         "set": [
+          "tore_cards"
+         ]
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "He rips them in half, then in half again. The Lantern Kid comes apart down the middle of his scared little face."
+         },
+         {
+          "s": "toby",
+          "t": "Eli, no! Those were yours!",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Walk away.",
+        "fx": {
+         "DRIFT": 1,
+         "STONE": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "He walks away. That night he burns the whole stack in Ma's stove, one by one."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "After that, Gideon didn't speak to me for months. It was a war nobody else could see. Two boys passing each other in silence, every single day."
+    },
+    {
+     "item": {
+      "id": "card",
+      "name": "The Lantern Kid",
+      "desc": "One outlaw card that survived. He only robs trains at night so nobody sees he's scared."
+     }
+    }
+   ],
+   "loc": "school",
+   "mood": "overcast",
+   "goal": "Find out why Gideon is angry with you",
+   "talk": "gideon",
+   "others": [
+    "toby"
+   ],
+   "place": "The schoolyard",
+   "date": "A week later"
+  },
+  {
+   "id": "c2e",
+   "chapter": 2,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Only one person knows about the silent war. Abel Finch. He finds Eli behind the chapel, where nobody goes."
+    },
+    {
+     "s": "abel",
+     "t": "You didn't copy them. I watched you draw the Coyote Twins in class. You did the second one upside down to see if it looked right.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Nobody else thinks so.",
+     "to": "abel"
+    },
+    {
+     "s": "abel",
+     "t": "Nobody else was watching. I was.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Abel is a boy who has the same thoughts as Eli, but says them out loud. Last month he knocked over the glass jars in the science cupboard. The snake in alcohol. The two-headed frog. It took a week to air the room out."
+    },
+    {
+     "s": "abel",
+     "t": "You know Dahlia Reyes? Third row? She asked me if you were alright. She said you looked sad.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Dahlia. I liked her. I never said so. I never said anything about anything, back then."
+    },
+    {
+     "choice": {
+      "prompt": "Abel waits.",
+      "opts": [
+       {
+        "t": "\"Tell her I'm fine. ...And thank her.\"",
+        "fx": {
+         "HEART": 1,
+         "abel": 1
+        },
+        "say": [
+         {
+          "s": "abel",
+          "t": "Tell her yourself. She's not going to bite. Probably.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Why would she care?\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "abel",
+          "t": "People care, Eli. You just don't let them see you see it.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Thanks for being on my side, Abel.\"",
+        "fx": {
+         "HEART": 2,
+         "abel": 2
+        },
+        "say": [
+         {
+          "s": "abel",
+          "t": "There's no side. There's just you and the truth, and Gideon being an idiot.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "chapel",
+   "mood": "golden",
+   "goal": "Find Abel behind the chapel",
+   "talk": "abel",
+   "place": "Behind St. Agnes' Chapel",
+   "date": "The cold war"
+  },
+  {
+   "id": "c2f",
+   "chapter": 2,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "A notice goes up in the schoolhouse. The Territorial Telegraph Company will teach one bright pupil the wire, free of charge, at the post office in town."
+    },
+    {
+     "k": "narr",
+     "t": "Eli sits the exam. He finishes first. He gets every answer right."
+    },
+    {
+     "s": "clerk",
+     "t": "Ashby, Eli. Highest marks in the district. You start Tuesday. Four o'clock until six.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "The wire key sits on the counter like a strange brass animal. When the clerk taps it, a needle answers from a hundred miles away."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It was like something from another planet. I didn't understand it. I didn't understand that I would spend my whole life next to one of these."
+    },
+    {
+     "choice": {
+      "prompt": "The clerk lets you try the key.",
+      "opts": [
+       {
+        "t": "Tap out your name, slowly.",
+        "fx": {
+         "NERVE": 1,
+         "set": [
+          "wire_name"
+         ]
+        },
+        "say": [
+         {
+          "s": "clerk",
+          "t": "Dash-dot-dot... Not bad. Bit heavy on the dots.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "Ask how far the wire goes.",
+        "fx": {
+         "HEART": 1
+        },
+        "say": [
+         {
+          "s": "clerk",
+          "t": "All the way to the ocean, son. And under it, they say.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "k": "thought",
+          "t": "All the way to the ocean. And I'd never even seen a lake."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "post",
+   "mood": "day",
+   "goal": "Sit the telegraph scholarship exam at the post office",
+   "talk": "clerk",
+   "place": "Post & Coach Office",
+   "date": "Late in the sixth year"
+  },
+  {
+   "id": "c2g",
+   "chapter": 2,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "After his lesson, Eli goes to catch the coach home. He reaches into his pocket for the fare."
+    },
+    {
+     "k": "narr",
+     "t": "The pocket is empty."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "No. No, no. It was there. Ma gave it to me this morning. Two coins. It was there."
+    },
+    {
+     "k": "narr",
+     "t": "He checks the other pocket. His boots. The floor of the post office. Nothing."
+    },
+    {
+     "s": "amos",
+     "t": "Fare, young Ashby?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "...I'll take the next one.",
+     "to": "amos"
+    },
+    {
+     "k": "narr",
+     "t": "He sits down on the bench under the coach sign. People from Larkspur come and go. Mr. Pruett. Mrs. Bell. A man who goes to their church. Any of them would lend a boy a coin."
+    },
+    {
+     "choice": {
+      "prompt": "Mrs. Bell is walking past. You could ask her.",
+      "opts": [
+       {
+        "crack": true,
+        "crackNote": "Your throat closes. She's already past.",
+        "t": "\"Mrs. Bell, could I... borrow...\""
+       },
+       {
+        "crack": true,
+        "crackNote": "You open your mouth. Nothing.",
+        "t": "Ask the man from church."
+       },
+       {
+        "silent": true,
+        "t": "Stay on the bench.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "An hour passes. Then two. The lamps come on. The last coach of the day goes past without him."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I've never been able to explain why I couldn't ask. It wasn't pride. It was like the words lived on the other side of a glass wall."
+    },
+    {
+     "k": "narr",
+     "t": "And then a horse comes up the road too fast, and it's Ma, still in her apron, her hair coming loose."
+    },
+    {
+     "s": "ma",
+     "t": "Eli! Oh, thank God, thank God.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "She rode all the way to the junction looking for him. She'd asked at every house on the way."
+    },
+    {
+     "s": "ma",
+     "t": "Why didn't you ask somebody? Anybody? You know half this town!",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Ma is holding you so tight it hurts.",
+      "opts": [
+       {
+        "t": "\"I lost the money. I'm sorry. I'm sorry, Ma.\"",
+        "fx": {
+         "HEART": 2,
+         "ma": 2
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "Hush. Money's money. You're you. Don't you ever sit in the dark for two coins again.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I couldn't.\"",
+        "fx": {
+         "NERVE": 1,
+         "ma": 1
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "...I know, baby. I know you couldn't. I don't understand it, but I know.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Hold onto her.",
+        "fx": {
+         "ma": 1,
+         "DRIFT": -1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "Neither of you says anything all the way home. She keeps one hand behind her, holding your wrist, the whole ride."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "post",
+   "mood": "dusk",
+   "goal": "Catch the evening coach home from the post office",
+   "talk": "amos",
+   "place": "The coach stop",
+   "date": "A Tuesday evening"
+  },
+  {
+   "id": "c2h",
+   "chapter": 2,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The silent war ends the way those things end. Nobody apologizes. One day Gideon just sits down next to him and says, \"Pass the salt,\" and that's that."
+    },
+    {
+     "s": "rook",
+     "t": "To the Paper Outlaws. Wanted in six territories. Mostly for being ugly.",
+     "to": "eli"
+    },
+    {
+     "s": "gideon",
+     "t": "...I know you drew them. I always knew.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Then why?",
+     "to": "gideon"
+    },
+    {
+     "s": "gideon",
+     "t": "I don't know. I was jealous. I get stuck on a thing and I can't get unstuck. I'm sorry.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Gideon is waiting.",
+      "opts": [
+       {
+        "t": "\"It's alright. Pass the salt.\"",
+        "fx": {
+         "HEART": 2,
+         "gideon": 2
+        },
+        "say": [
+         {
+          "s": "gideon",
+          "t": "Ha. Fair is fair.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"You made me burn them all.\"",
+        "fx": {
+         "NERVE": 1,
+         "gideon": 1
+        },
+        "say": [
+         {
+          "s": "gideon",
+          "t": "I know. I'll owe you for that forever. I don't take things, but I'll owe you.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Nod and look at the fire.",
+        "fx": {
+         "gideon": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Gideon taught me something without meaning to. That it was alright to receive things. That he could be angry at me and still never take back what he'd given."
+    },
+    {
+     "s": "abel",
+     "t": "Eli. You're smiling.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Am I?",
+     "to": "abel"
+    },
+    {
+     "s": "abel",
+     "t": "First time this year.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "That year, I loved being alive. I'm writing that down too. I loved it. Everything was going well, and I was happy, and I knew I was happy while it was happening. That almost never happens."
+    }
+   ],
+   "loc": "ridge",
+   "mood": "dusk",
+   "goal": "Meet the boys at the Coyote Ridge campfire",
+   "talk": "rook",
+   "others": [
+    "gideon",
+    "abel",
+    "toby"
+   ],
+   "place": "Coyote Ridge",
+   "date": "The end of sixth year",
+   "journal": [
+    {
+     "t": "I was happy. It's allowed to count even if it didn't last.",
+     "fx": {
+      "HEART": 2
+     }
+    },
+    {
+     "t": "I should have learned to ask for help that night at the coach stop. I didn't.",
+     "fx": {
+      "NERVE": 1
+     }
+    },
+    {
+     "t": "Nothing good lasts. I learned that too.",
+     "fx": {
+      "STONE": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "c3a",
+   "chapter": 3,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "In the seventh year, the school splits the class in two. Rook and Abel go upstairs to Miss Bright's room. Eli stays downstairs with Mr. Cutter."
+    },
+    {
+     "k": "narr",
+     "t": "He makes three new friends. Adam, who is very serious. Bram, who is very tall. And Ezra Cole, who listens like it matters."
+    },
+    {
+     "s": "ezra",
+     "t": "You miss them. Rook and Abel.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "They're only upstairs.",
+     "to": "ezra"
+    },
+    {
+     "s": "ezra",
+     "t": "Upstairs is a long way when you're twelve.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Something strange has happened in the downstairs room. The girls have stopped talking to the boys. If a boy speaks to a girl, the other boys howl about it for a week."
+    },
+    {
+     "s": "adam",
+     "t": "Upstairs, Miss Bright told them there's no shame in boys and girls being friends. They all talk to each other up there. It's like a different country.",
+     "to": "eli"
+    },
+    {
+     "s": "bram",
+     "t": "I'd switch rooms if they'd let me.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Ezra looks at you.",
+      "opts": [
+       {
+        "t": "\"Me too. I'd switch tomorrow.\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "You'd have to ask. You never ask for anything.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Doesn't matter. I don't talk to anyone anyway.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "You talk to me.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "...You don't count. You're Ezra.",
+          "to": "ezra"
+         },
+         {
+          "s": "ezra",
+          "t": "I'll take that as a compliment.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I think it's sad. Everybody being afraid of each other.\"",
+        "fx": {
+         "HEART": 1,
+         "ezra": 1
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "Yeah. It is.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "school",
+   "mood": "day",
+   "goal": "Find your new classmates in the seventh-year room",
+   "talk": "ezra",
+   "others": [
+    "adam",
+    "bram"
+   ],
+   "place": "Larkspur Schoolhouse",
+   "date": "Seventh year, autumn"
+  },
+  {
+   "id": "c3b",
+   "chapter": 3,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "On the fourteenth of October, Eli wakes up with a fever and Ma keeps him home. He sleeps most of the day."
+    },
+    {
+     "k": "narr",
+     "t": "In the afternoon June comes home from school full of news."
+    },
+    {
+     "s": "june",
+     "t": "There's a new girl. Rosalind Marlowe. From Fort Calder. Her father's the new surveyor.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "So?",
+     "to": "june"
+    },
+    {
+     "s": "june",
+     "t": "So she's in the upstairs room and she talks to the boys. Just walks up and talks to them. Like they're people. Half the girls hate her already.",
+     "to": "eli"
+    },
+    {
+     "s": "june",
+     "t": "Rook challenged her to a race and she beat him. In a skirt.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Eli lies in bed and listens to June describe a girl he hasn't met. He forms a picture of her out of words."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Years later I'd think: I missed the first day. I wasn't there. Everybody else met her first. Maybe that set the pattern for everything."
+    },
+    {
+     "choice": {
+      "prompt": "You ask June...",
+      "opts": [
+       {
+        "t": "\"What does she look like?\"",
+        "fx": {
+         "HEART": 1
+        },
+        "say": [
+         {
+          "s": "june",
+          "t": "Ooh. Why do you want to know?",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "I don't. Forget it.",
+          "to": "june"
+         }
+        ]
+       },
+       {
+        "t": "\"Is she nice?\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "june",
+          "t": "She's loud. But yeah. I think she's nice.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Turn over and face the wall.",
+        "fx": {
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "june",
+          "t": "...You're no fun when you're sick.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "home",
+   "mood": "overcast",
+   "goal": "You're home sick. Listen to June's news",
+   "talk": "june",
+   "place": "The Ashby cottage",
+   "date": "The fourteenth of October"
+  },
+  {
+   "id": "c3c",
+   "chapter": 3,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "She's easy to find. She's the center of a knot of upstairs boys, playing kick-the-can, shrieking with laughter."
+    },
+    {
+     "k": "narr",
+     "t": "Rosalind Marlowe. Rosie. Dark hair coming out of its braid. A scab on one knee. She kicks the can so hard it hits the bell."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I'd never seen a girl talk to boys without being afraid. She mingled with all of them like it was nothing. Like it was the most natural thing in the world."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "And I felt something I didn't have a name for yet. It wasn't love. It was jealousy. Of every single one of those boys."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I wanted to be her friend. That's all. I wanted, so badly, to be her friend."
+    },
+    {
+     "choice": {
+      "prompt": "You watch from across the yard.",
+      "opts": [
+       {
+        "t": "Edge a little closer.",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "You get as far as the water pump. The bell rings. She runs inside without seeing you."
+         }
+        ]
+       },
+       {
+        "t": "Keep watching.",
+        "fx": {
+         "DRIFT": 1
+        }
+       },
+       {
+        "t": "Look away before anyone notices.",
+        "fx": {
+         "STONE": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "school",
+   "mood": "day",
+   "goal": "Go back to school and see the new girl for yourself",
+   "place": "The schoolyard",
+   "date": "A few days later"
+  },
+  {
+   "id": "c3d",
+   "chapter": 3,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "After school, the children wait for their coaches at the stop by the post office. Rosie and Rook are arguing, which is how they say hello."
+    },
+    {
+     "s": "rook",
+     "t": "You cheated. Nobody beats me fair.",
+     "to": "rosie"
+    },
+    {
+     "s": "rosie",
+     "t": "I beat you fair and square, you sore loser.",
+     "to": "rook"
+    },
+    {
+     "s": "rook",
+     "t": "Go jump in the creek, Marlowe.",
+     "to": "rosie"
+    },
+    {
+     "k": "narr",
+     "t": "Rosie turns around. And for the first time, she looks right at Eli."
+    },
+    {
+     "s": "rosie",
+     "t": "Did you hear that? He told me to go jump in the creek. You're my witness.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "She's talking to him. She's actually talking to him."
+    },
+    {
+     "choice": {
+      "prompt": "Rosie Marlowe is waiting for you to say something.",
+      "opts": [
+       {
+        "t": "\"He tells everyone that. It means he likes you.\"",
+        "fx": {
+         "NERVE": 2,
+         "HEART": 1,
+         "rosie": 2,
+         "set": [
+          "first_words"
+         ]
+        },
+        "say": [
+         {
+          "s": "rosie",
+          "t": "Ha! Does it? Rook, is that true?",
+          "to": "eli"
+         },
+         {
+          "s": "rook",
+          "t": "Traitor.",
+          "to": "eli"
+         },
+         {
+          "s": "rosie",
+          "t": "I like you. What's your name?",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "Eli.",
+          "to": "rosie"
+         },
+         {
+          "s": "rosie",
+          "t": "I like you, Eli. You're on my side now.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"...I heard.\"",
+        "fx": {
+         "NERVE": 1,
+         "rosie": 1
+        },
+        "say": [
+         {
+          "s": "rosie",
+          "t": "Good. When I drown, you tell them it was Rook.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "She laughs. The coach comes. She waves to him from the step. To him."
+         }
+        ]
+       },
+       {
+        "crack": true,
+        "crackNote": "Your face goes hot. Nothing comes out.",
+        "t": "Say something clever."
+       },
+       {
+        "silent": true,
+        "t": "Nod.",
+        "fx": {
+         "rosie": 0,
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "rosie",
+          "t": "...Okay, quiet witness. I'll take a nod.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "That was the first time. I've replayed it so many times it's worn thin, like a ticket you keep in your pocket."
+    }
+   ],
+   "loc": "post",
+   "mood": "golden",
+   "goal": "Wait for the coach after school",
+   "talk": "rosie",
+   "others": [
+    "rook"
+   ],
+   "place": "The coach stop",
+   "date": "Late October"
+  },
+  {
+   "id": "c3e",
+   "chapter": 3,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The plan is simple. He'll walk up to her during recess, by the churchyard wall where she likes to sit, and say: \"Do you want to be friends?\""
+    },
+    {
+     "k": "narr",
+     "t": "Four words. He practices them every night."
+    },
+    {
+     "s": "ezra",
+     "t": "Today?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Today.",
+     "to": "ezra"
+    },
+    {
+     "k": "narr",
+     "t": "Rosie is sitting on the wall, braiding grass."
+    },
+    {
+     "choice": {
+      "prompt": "You walk up to her...",
+      "opts": [
+       {
+        "crack": true,
+        "crackNote": "Halfway there, a boy calls her name. She jumps down and runs off.",
+        "t": "\"Rosie, do you want to be—\""
+       },
+       {
+        "crack": true,
+        "crackNote": "She looks up. Smiles. You say \"Nice day,\" and walk on.",
+        "t": "\"Do you want to be friends?\""
+       },
+       {
+        "crack": true,
+        "crackNote": "The bell rings.",
+        "t": "Just say it."
+       },
+       {
+        "t": "Turn around. Try tomorrow.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "Tomorrow becomes next week. Next week becomes spring. Spring becomes the last week of school."
+    },
+    {
+     "s": "ezra",
+     "t": "You never asked her.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "There'll be time.",
+     "to": "ezra"
+    },
+    {
+     "s": "ezra",
+     "t": "Will there?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Every single day of the seventh year I meant to ask. I have never been so sure of anything I didn't do."
+    }
+   ],
+   "loc": "yard",
+   "mood": "golden",
+   "goal": "Ask Rosie to be your friend",
+   "talk": "rosie",
+   "others": [
+    "ezra"
+   ],
+   "place": "The old churchyard",
+   "date": "All that year"
+  },
+  {
+   "id": "c3f",
+   "chapter": 3,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Last day. Sam Whitley has a brass telegraph token he's not supposed to have, and he asks Eli to hide it in his bag."
+    },
+    {
+     "s": "sam",
+     "t": "Just till the bell. Cutter searches my desk.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "At the bell, Sam asks for it back. Eli tosses it to him across the room."
+    },
+    {
+     "k": "narr",
+     "t": "Sam fumbles. The token sails straight past him, out the open window, and wedges itself in the gap behind the shutter."
+    },
+    {
+     "k": "narr",
+     "t": "Sam doesn't see where it went. He starts shouting. Eli starts shouting. And Mr. Cutter comes in, furious at the noise."
+    },
+    {
+     "s": "master",
+     "t": "What is this racket? Whose shoe is that on the sill?",
+     "to": "sam"
+    },
+    {
+     "k": "narr",
+     "t": "In the front row, Henry Pike leans over to peek at the muddy shoe on the windowsill, like a hen looking at a worm."
+    },
+    {
+     "k": "narr",
+     "t": "It's so ridiculous that Eli laughs out loud."
+    },
+    {
+     "k": "narr",
+     "t": "Mr. Cutter turns. He doesn't ask a single question. He slaps Eli across the face."
+    },
+    {
+     "k": "narr",
+     "t": "The sound is very loud in the quiet room. The print of four fingers stays on his cheek all the way home."
+    },
+    {
+     "choice": {
+      "prompt": "Ma sees your face when you get home. What do you tell her?",
+      "opts": [
+       {
+        "t": "The truth. All of it.",
+        "fx": {
+         "NERVE": 1,
+         "ma": 1
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "He did what? Without even asking you? I'll walk down there tomorrow.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "Don't, Ma. It's the last day. It's done.",
+          "to": "ma"
+         }
+        ]
+       },
+       {
+        "t": "\"I fell.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "She looks at the shape of a hand on your cheek and doesn't believe you. She doesn't push either."
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Go straight upstairs.",
+        "fx": {
+         "STONE": 1,
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "The grown-ups in that school had a way of deciding what happened before anybody told them."
+    }
+   ],
+   "loc": "school",
+   "mood": "day",
+   "goal": "Collect your things on the last day of term",
+   "talk": "sam",
+   "others": [
+    "master"
+   ],
+   "place": "The downstairs room",
+   "date": "The last day of the seventh year"
+  },
+  {
+   "id": "c3g",
+   "chapter": 3,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Summer. Rook knows a way up the old water tower that nobody's supposed to know. From the top you can see the whole of Larkspur, every lamp."
+    },
+    {
+     "s": "rook",
+     "t": "That one's the Marlowe place. On the hill. See the yellow window?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Why would I care which one's the Marlowe place?",
+     "to": "rook"
+    },
+    {
+     "s": "rook",
+     "t": "No reason. No reason at all.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Something has changed over the summer, in the quiet part of Eli where he keeps things."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "At first I just wanted to be her friend. Now I caught myself thinking: what if she were always here? Not just at school. Always. What if she were always with me?"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I was thirteen. I didn't know anything. I only knew that the yellow window on the hill was the brightest one."
+    },
+    {
+     "s": "rook",
+     "t": "Next year we'll all be in the same room again. Upstairs. Her too.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Rook means well.",
+      "opts": [
+       {
+        "t": "\"Next year I'll talk to her. I swear.\"",
+        "fx": {
+         "NERVE": 2,
+         "HEART": 1,
+         "set": [
+          "swore"
+         ]
+        },
+        "say": [
+         {
+          "s": "rook",
+          "t": "Atta boy. I'll hold you to it. I'll push you down the stairs at her if I have to.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Don't tell anyone, Rook.\"",
+        "fx": {
+         "rook": 1
+        },
+        "say": [
+         {
+          "s": "rook",
+          "t": "Tell them what? I don't know anything. I'm just a boy on a water tower.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Watch the yellow window until it goes out.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "card": {
+      "title": "Next year",
+      "body": "The school board decided that boys and girls of the eighth year would be taught in separate rooms. Eli read the notice twice. Then a third time, in case it changed."
+     }
+    }
+   ],
+   "loc": "tower",
+   "mood": "night",
+   "goal": "Climb the old water tower with Rook",
+   "talk": "rook",
+   "place": "The old water tower",
+   "date": "That summer",
+   "journal": [
+    {
+     "t": "I'll talk to her. Next chance I get.",
+     "fx": {
+      "NERVE": 1,
+      "HEART": 1
+     }
+    },
+    {
+     "t": "Of course. Of course they split us up.",
+     "fx": {
+      "STONE": 1
+     }
+    },
+    {
+     "t": "It's just a window. It's just a girl.",
+     "fx": {
+      "DRIFT": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "c4a",
+   "chapter": 4,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The eighth year passes in separate rooms. In the ninth, by some miracle, they put everybody back together. Rosie sits two rows ahead of him and one to the left."
+    },
+    {
+     "k": "narr",
+     "t": "Their teacher, Mr. Avery, is friendly and young and lets them talk. It should be easy now."
+    },
+    {
+     "k": "narr",
+     "t": "It isn't. If a boy so much as borrows a girl's pencil, the others hoot about it for days. And Eli has no idea how you start a conversation with someone you've been thinking about for two years."
+    },
+    {
+     "s": "ezra",
+     "t": "You're staring at the back of her head again.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "I'm not.",
+     "to": "ezra"
+    },
+    {
+     "s": "ezra",
+     "t": "You are. Your ears go red. It's like a signal fire.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Eli has never told anybody. Not Toby. Not even Rook, though Rook guessed. He's always been afraid of being judged for wanting something."
+    },
+    {
+     "choice": {
+      "prompt": "Ezra is the one person you trust. Tell him?",
+      "opts": [
+       {
+        "t": "\"I like her, Ezra. I've liked her since the seventh year.\"",
+        "fx": {
+         "NERVE": 2,
+         "HEART": 1,
+         "ezra": 2,
+         "set": [
+          "told_ezra"
+         ]
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "I know.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "You know?",
+          "to": "ezra"
+         },
+         {
+          "s": "ezra",
+          "t": "Everybody's got a face, Eli. Yours just takes longer to read. I won't tell anyone. Not ever.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "He never does."
+         }
+        ]
+       },
+       {
+        "t": "\"Don't be stupid.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "Alright. I'll be stupid quietly, then.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Shrug.",
+        "fx": {
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "Your secret's safe. Whatever it is.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "school",
+   "mood": "day",
+   "goal": "Talk to Ezra after class",
+   "talk": "ezra",
+   "place": "Larkspur Schoolhouse",
+   "date": "Ninth year"
+  },
+  {
+   "id": "c4b",
+   "chapter": 4,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Eli did a stupid thing. He'd thought it was clever, at night, by the lamp."
+    },
+    {
+     "k": "narr",
+     "t": "He wrote out a little card in his best cursive, like the ones in the society pages: \"Mr. E. Ashby and Miss R. Marlowe request the pleasure...\" and pinned it, unsigned, to the board."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I thought people would read it and think somebody else had noticed us. That it would just... put the idea in the air. Without me having to say anything."
+    },
+    {
+     "k": "narr",
+     "t": "It took them less than a day to recognize his handwriting. Nobody else in Larkspur writes a capital M like that."
+    },
+    {
+     "s": "bram",
+     "t": "\"Request the pleasure!\" Ashby, you old dog. Request the pleasure of what?",
+     "to": "eli"
+    },
+    {
+     "s": "sam",
+     "t": "Does Marlowe know? Somebody go ask Marlowe!",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "The laughter is getting louder. Rosie is across the room. She's seen it.",
+      "opts": [
+       {
+        "t": "Rip the card down. \"It's a joke. It's just a joke.\"",
+        "fx": {
+         "STONE": 1,
+         "rosie": -1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "Rosie looks at you for a long second. Then she looks away."
+         }
+        ]
+       },
+       {
+        "t": "\"Yeah. I wrote it. So what?\"",
+        "fx": {
+         "NERVE": 2,
+         "rosie": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "The laughing stutters. Nobody knows what to do with a quiet boy who doesn't deny it. Rosie bites her lip. She might be smiling. You'll never know."
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Walk out of the room.",
+        "fx": {
+         "DRIFT": 1,
+         "STONE": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "You sit behind the woodshed until the bell. Ezra brings your coat."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "After that, everyone knew. I'd been so careful to never tell anybody, and I told everybody, all at once, in the worst possible way."
+    }
+   ],
+   "loc": "school",
+   "mood": "overcast",
+   "goal": "See what everyone is laughing at by the notice board",
+   "talk": "bram",
+   "others": [
+    "sam",
+    "adam"
+   ],
+   "place": "The schoolhouse notice board",
+   "date": "Winter of the ninth year"
+  },
+  {
+   "id": "c4c",
+   "chapter": 4,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Tenth year. Exams. They split the boys and girls again, but in the afternoons everyone studies outside, each pupil assigned to a pillar along the long porch, to keep them from talking."
+    },
+    {
+     "k": "narr",
+     "t": "Rosie picks the pillar you can see from Eli's window. Of all the pillars. That one."
+    },
+    {
+     "k": "narr",
+     "t": "He looks up from his book. She's looking at him."
+    },
+    {
+     "k": "narr",
+     "t": "She doesn't look away."
+    },
+    {
+     "choice": {
+      "prompt": "She's still looking.",
+      "opts": [
+       {
+        "t": "Hold her gaze.",
+        "fx": {
+         "NERVE": 1,
+         "rosie": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "Three seconds. Four. She tilts her head, just slightly, then goes back to her book."
+         }
+        ]
+       },
+       {
+        "t": "Look down at your book, quickly.",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "When you look back up, she's smiling at the page."
+         }
+        ]
+       },
+       {
+        "t": "Smile. Just a little.",
+        "fx": {
+         "HEART": 1,
+         "rosie": 2
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "She smiles back. It's the smallest thing in the world. It's enough to live on for a month."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It happened every day. If she didn't like it, she could've complained. Moved pillars. Turned her back. She didn't. She looked at me, every day, for no reason I could ever be sure of."
+    },
+    {
+     "k": "narr",
+     "t": "And sometimes, on the porch, when she thinks nobody can see, she cries. Quietly, into her sleeve. Eli doesn't know why."
+    },
+    {
+     "choice": {
+      "prompt": "She's crying again. You could go to her.",
+      "opts": [
+       {
+        "crack": true,
+        "crackNote": "What if you say the wrong thing and she moves pillars forever?",
+        "t": "Go over and ask if she's alright."
+       },
+       {
+        "t": "Leave your handkerchief on her pillar when she's not looking.",
+        "fx": {
+         "HEART": 2,
+         "rosie": 1,
+         "set": [
+          "handkerchief"
+         ]
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "The next day, it's folded neatly on your windowsill. Nobody saw who put it there."
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Stay where you are.",
+        "fx": {
+         "STONE": 1,
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I was always afraid to ask. I told myself I was being respectful. I wasn't. I was scared."
+    }
+   ],
+   "loc": "school",
+   "mood": "golden",
+   "goal": "Take your study place on the schoolhouse porch",
+   "place": "The study porch",
+   "date": "Tenth year"
+  },
+  {
+   "id": "c4d",
+   "chapter": 4,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The last day of school. Everybody has an autograph book, passing them around for each other to fill in. Favorite color. Favorite song. Best memory. What do you think of the owner?"
+    },
+    {
+     "k": "narr",
+     "t": "Eli has decided. Today he'll tell her. If he doesn't today, there might not be another day."
+    },
+    {
+     "k": "narr",
+     "t": "But Rosie is never alone. Hattie and Lou are glued to her side like burrs."
+    },
+    {
+     "s": "rosie",
+     "t": "Eli! Give me your book. I'll sign it.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "She writes for a long time. He watches her hand move and tries to guess the words."
+    },
+    {
+     "s": "rosie",
+     "t": "There. Don't read it till you get home.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "She hands the book back. Hattie is already pulling her away.",
+      "opts": [
+       {
+        "t": "\"Rosie— wait. Can I tell you something?\"",
+        "fx": {
+         "NERVE": 2,
+         "set": [
+          "almost"
+         ]
+        },
+        "say": [
+         {
+          "s": "rosie",
+          "t": "Can it wait? Lou's mother is taking our likeness at the photographer's. Write to me! My address is in the book.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "And she's gone."
+         }
+        ]
+       },
+       {
+        "t": "\"Thank you.\"",
+        "fx": {
+         "HEART": 1
+        },
+        "say": [
+         {
+          "s": "rosie",
+          "t": "Don't be a stranger, Ashby.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Take the book.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "At home, he opens it. Under \"Address,\" in her round hand: 14 Hill Road, Larkspur."
+    },
+    {
+     "k": "narr",
+     "t": "Under \"What do you think of the owner?\" — nothing. Instead, she's written a quotation about time."
+    },
+    {
+     "card": {
+      "title": "The autograph book",
+      "body": "\"Time is a river. It doesn't wait at the bank for anyone.\" — R.M."
+     }
+    },
+    {
+     "item": {
+      "id": "page",
+      "name": "A page from the autograph book",
+      "desc": "Her address, and a sentence about time. Nothing about you. You read it a thousand times anyway."
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I should've understood. A girl who wanted me would've written something about me. But I was fifteen and I read it a thousand different ways, and every way had me in it somewhere."
+    }
+   ],
+   "loc": "school",
+   "mood": "golden",
+   "goal": "Get Rosie to sign your autograph book",
+   "talk": "rosie",
+   "others": [
+    "hattie",
+    "lou"
+   ],
+   "place": "The schoolyard",
+   "date": "The last day of the tenth year"
+  },
+  {
+   "id": "c4e",
+   "chapter": 4,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Eli finds Abel on the churchyard wall."
+    },
+    {
+     "s": "eli",
+     "t": "Will you tell her? That I like her. Just tell her. You talk to everybody.",
+     "to": "abel"
+    },
+    {
+     "k": "narr",
+     "t": "Abel is quiet for a long time."
+    },
+    {
+     "s": "abel",
+     "t": "No.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Abel—",
+     "to": "abel"
+    },
+    {
+     "s": "abel",
+     "t": "It's not right, Eli. It's not mine to say. If you like her, she deserves to hear it from you. Not from me, not from a card on a notice board. From you.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "He's right, and you hate that he's right.",
+      "opts": [
+       {
+        "t": "\"You're right.\"",
+        "fx": {
+         "NERVE": 1,
+         "abel": 1
+        },
+        "say": [
+         {
+          "s": "abel",
+          "t": "I know. It's awful. Being right is the worst.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Some friend you are.\"",
+        "fx": {
+         "STONE": 1,
+         "abel": -1
+        },
+        "say": [
+         {
+          "s": "abel",
+          "t": "I'm the friend who won't let you hide behind me. That's the good kind, even if it doesn't feel like it.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Look at the graves.",
+        "fx": {
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "abel",
+          "t": "...You can still write to her. She gave you her address. That's not nothing.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "yard",
+   "mood": "dusk",
+   "goal": "Ask Abel to tell Rosie for you",
+   "talk": "abel",
+   "place": "The old churchyard",
+   "date": "That evening"
+  },
+  {
+   "id": "c4f",
+   "chapter": 4,
+   "lines": [
+    {
+     "s": "bram",
+     "t": "I know where she lives. Well, I know roughly where. Out past the hill road somewhere.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "It says Hill Road in the book.",
+     "to": "bram"
+    },
+    {
+     "s": "bram",
+     "t": "There are three hill roads, Ashby. Get on the horse.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "They borrow Pilgrim and Bram's father's mare. It's a warm evening. The kind of evening where anything might happen."
+    },
+    {
+     "ride": {
+      "notices": [
+       "A meadowlark on a post",
+       "The smell of cut hay",
+       "Bram singing off-key"
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "They take the hill road. It curves through the trees, and up, and around, and down again..."
+    },
+    {
+     "k": "narr",
+     "t": "...and brings them out exactly where they started. Founder's Rock. The same stone, the same tree."
+    },
+    {
+     "s": "bram",
+     "t": "That's... that's not possible.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "They try the second hill road. Same thing. The road loops back on itself like a snake swallowing its tail."
+    },
+    {
+     "s": "bram",
+     "t": "Sorry, Eli. I really thought I knew.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "The sun is setting.",
+      "opts": [
+       {
+        "t": "\"It's fine. It was fun, anyway.\"",
+        "fx": {
+         "HEART": 1,
+         "set": [
+          "loop_ok"
+         ]
+        },
+        "say": [
+         {
+          "s": "bram",
+          "t": "It was, wasn't it?",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Of course. Of course it loops.\"",
+        "fx": {
+         "STONE": 1
+        }
+       },
+       {
+        "silent": true,
+        "t": "Look back down the road.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Years later, that road became the shape of everything. I'd take a road toward her and end up back where I started. Again and again. Same rock, same tree."
+    }
+   ],
+   "loc": "statue",
+   "mood": "golden",
+   "goal": "Meet Bram at Founder's Rock to go find her house",
+   "talk": "bram",
+   "place": "Founder's Rock",
+   "date": "A week later",
+   "journal": [
+    {
+     "t": "I'll write to her. She gave me the address for a reason.",
+     "fx": {
+      "NERVE": 1,
+      "HEART": 1
+     }
+    },
+    {
+     "t": "I'm the kind of person who gets almost there. Every time.",
+     "fx": {
+      "STONE": 1,
+      "DRIFT": 1
+     }
+    },
+    {
+     "t": "Maybe it wasn't the road. Maybe it was me.",
+     "fx": {
+      "DRIFT": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "c5a",
+   "chapter": 5,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Uncle Wendell says the upper academy in Ironwood is better. Better teachers, better prospects. Ma and Pa listen to Uncle Wendell, because Uncle Wendell owns things."
+    },
+    {
+     "k": "narr",
+     "t": "So it's decided, and nobody asks Eli. He finds out the way he finds out most things: by being told."
+    },
+    {
+     "s": "ma",
+     "t": "It's a good school, Eli. Your Pa wrote. He says it's what's best.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Pa hasn't been home in two years.",
+     "to": "ma"
+    },
+    {
+     "s": "ma",
+     "t": "Eli.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "...Sorry.",
+     "to": "ma"
+    },
+    {
+     "k": "narr",
+     "t": "The academy in Ironwood is all red brick and strangers. The boys have pressed collars and already know each other. Nobody here has seen him drop a token out a window, or draw the Lantern Kid, or stare at the back of anyone's head."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It should've felt like a fresh start. It felt like being erased."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "And underneath it, the real reason, the one I couldn't say: What if she goes back to Larkspur for the upper years? What if I'm here, and she's there?"
+    },
+    {
+     "choice": {
+      "prompt": "Ma is watching you look at the building.",
+      "opts": [
+       {
+        "t": "\"I'll try, Ma.\"",
+        "fx": {
+         "ma": 1
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "That's all I ask.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I don't belong here.\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "Give it a week.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Pick up your bag.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "depot",
+   "mood": "golden",
+   "goal": "Take the coach to your new school in Ironwood",
+   "talk": "ma",
+   "place": "Ironwood stage depot",
+   "date": "Early summer"
+  },
+  {
+   "id": "c5b",
+   "chapter": 5,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He gives it a week. On the seventh day, he comes home, sets his bag on the kitchen table, and doesn't take it upstairs."
+    },
+    {
+     "k": "narr",
+     "t": "The school fees haven't been paid yet. There's still time. There's still exactly enough time."
+    },
+    {
+     "s": "ma",
+     "t": "What's this?",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "You've never asked her for anything. Not once. Not a toy, not a coin, not a day off.",
+      "opts": [
+       {
+        "t": "\"I want to go back to Larkspur. Please. I've never asked you for anything.\"",
+        "fx": {
+         "NERVE": 3,
+         "HEART": 1,
+         "ma": 2,
+         "set": [
+          "asked_ma"
+         ]
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "Ma sits down slowly."
+         },
+         {
+          "s": "ma",
+          "t": "No. You haven't. Not since you were little. Not even when you should have.",
+          "to": "eli"
+         },
+         {
+          "s": "ma",
+          "t": "...Alright. I'll write to your father. I'll handle Wendell. You go back.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "Really?",
+          "to": "ma"
+         },
+         {
+          "s": "ma",
+          "t": "If my boy finally wants something badly enough to say it out loud, I'm not going to be the one who teaches him not to.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I'm not going back to Ironwood.\"",
+        "fx": {
+         "NERVE": 2,
+         "STONE": 1,
+         "ma": 1,
+         "set": [
+          "asked_ma"
+         ]
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "Is that so.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "Please, Ma.",
+          "to": "ma"
+         },
+         {
+          "k": "narr",
+          "t": "It's the \"please\" that does it. She's never heard him say it like that."
+         },
+         {
+          "s": "ma",
+          "t": "...Alright. Alright. Larkspur it is.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It was the only time in my life I stood against them. And the last time I ever asked them for anything. I've regretted a lot. Never that."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "...Even though of course it was for her. Of course it was."
+    }
+   ],
+   "loc": "home",
+   "mood": "dusk",
+   "goal": "Tell Ma you want to go back",
+   "talk": "ma",
+   "place": "The Ashby cottage",
+   "date": "One week later"
+  },
+  {
+   "id": "c5c",
+   "chapter": 5,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Back in Larkspur. Toby whoops so loud Mr. Avery drops his chalk. Rook lifts him off the ground. Ezra just nods, like he knew."
+    },
+    {
+     "s": "rook",
+     "t": "Prodigal son! The fatted calf is in my lunch tin. It's a sausage.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Eli looks around the room. At every desk. At the door, every time it opens."
+    },
+    {
+     "s": "toby",
+     "t": "She's not coming, Eli.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Who?",
+     "to": "toby"
+    },
+    {
+     "s": "toby",
+     "t": "Don't. The Marlowes sent her to St. Ursula's. The girls' academy, out past Fort Calder. She boards there now.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "The room tilts a little."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I'd fought my parents for the first and only time. I'd come all the way back. And she'd gone somewhere else."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It felt like I'd lost her for good, and I'd never even had her."
+    },
+    {
+     "choice": {
+      "prompt": "Toby is holding your shoulder.",
+      "opts": [
+       {
+        "t": "\"I'm glad I'm back anyway. I missed you idiots.\"",
+        "fx": {
+         "HEART": 2,
+         "toby": 1,
+         "rook": 1
+        },
+        "say": [
+         {
+          "s": "rook",
+          "t": "Idiots! We're idiots now! He's back thirty seconds and he's insulting us. I love it.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"It doesn't matter.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "toby",
+          "t": "It does. It's alright that it does.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Sit down at your old desk.",
+        "fx": {
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "Ezra sits down next to you without a word. He doesn't move for the rest of the day."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "If it weren't for them, I think I would have just drifted away right then. They kept me in the room."
+    }
+   ],
+   "loc": "school",
+   "mood": "day",
+   "goal": "Find your friends on the first day back",
+   "talk": "toby",
+   "others": [
+    "rook",
+    "ezra"
+   ],
+   "place": "Larkspur Schoolhouse",
+   "date": "The eleventh year"
+  },
+  {
+   "id": "c5d",
+   "chapter": 5,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Then, one Sunday, Eli hears from Hattie's little sister that the Marlowes come down from the hill to St. Agnes' every Sunday when Rosie's home from school."
+    },
+    {
+     "k": "narr",
+     "t": "Every Sunday."
+    },
+    {
+     "k": "narr",
+     "t": "Eli has not been to church voluntarily since he was nine. Suddenly he finds a reason every single week. Ma's arm needs holding. June needs walking. He's turned devout, overnight."
+    },
+    {
+     "k": "narr",
+     "t": "She sits four pews from the front, in a grey dress. He sits in the back, behind a pillar, where he can see her and she can't see him."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I didn't pray. I watched. I'm not proud of it. But it was the only window I had left."
+    },
+    {
+     "choice": {
+      "prompt": "The service is ending. She's turning toward the aisle.",
+      "opts": [
+       {
+        "t": "Lean out from behind the pillar. Let her see you.",
+        "fx": {
+         "NERVE": 1,
+         "rosie": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "Her eyes find you. A flicker. Surprise, and something else. Then her mother takes her arm."
+         }
+        ]
+       },
+       {
+        "t": "Duck behind the pillar.",
+        "fx": {
+         "STONE": 1
+        }
+       },
+       {
+        "silent": true,
+        "t": "Keep watching. Just watch.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "Every Sunday after that, he's there. He watches her from a distance, week after week, and calls it being close."
+    },
+    {
+     "item": {
+      "id": "ribbon",
+      "name": "A grey ribbon",
+      "desc": "It fell from her hair onto the chapel step. You meant to give it back. You never did."
+     }
+    }
+   ],
+   "loc": "chapel",
+   "mood": "day",
+   "goal": "Go to Sunday service at St. Agnes'",
+   "place": "St. Agnes' Chapel",
+   "date": "A Sunday in autumn"
+  },
+  {
+   "id": "c5e",
+   "chapter": 5,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "There's a boy in Eli's class called Percy Dunn. Jumpy, clever, talks too fast, laughs at his own jokes before he finishes them."
+    },
+    {
+     "k": "narr",
+     "t": "Percy's cousin Sadie was at St. Ursula's with Rosie, until she left. And Percy, it turns out, writes to Rosie now and then. He has her address at the girls' school."
+    },
+    {
+     "s": "eli",
+     "t": "Percy. Please. I just want to write to her.",
+     "to": "percy"
+    },
+    {
+     "s": "percy",
+     "t": "Ha! No. Absolutely not. That's private correspondence. That's a matter of honor, Ashby. Ha!",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Percy is enjoying this.",
+      "opts": [
+       {
+        "t": "\"I'll do your arithmetic for a month.\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "percy",
+          "t": "Tempting! No.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Please. I'll beg if you want me to. I'll get on my knees right here.\"",
+        "fx": {
+         "NERVE": 2,
+         "HEART": -1,
+         "set": [
+          "begged"
+         ]
+        },
+        "say": [
+         {
+          "s": "percy",
+          "t": "Whoa, whoa. Get up. People are looking. ...Still no, though.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Forget it.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "percy",
+          "t": "Ha! Forgotten.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I was ready to bow down to that boy for a single line of ink. I've never been so humiliated by something that felt so necessary."
+    }
+   ],
+   "loc": "store",
+   "mood": "day",
+   "goal": "Ask Percy Dunn for Rosie's address at St. Ursula's",
+   "talk": "percy",
+   "place": "Pruett's General Store",
+   "date": "Winter of the eleventh year"
+  },
+  {
+   "id": "c5f",
+   "chapter": 5,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "There's one person in Larkspur that Percy Dunn is afraid of, and it's Gideon Hale."
+    },
+    {
+     "s": "gideon",
+     "t": "I heard about Percy.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Everybody heard about Percy.",
+     "to": "gideon"
+    },
+    {
+     "s": "gideon",
+     "t": "Here.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "He holds out a scrap of paper. An address in Percy's frantic handwriting. Miss R. Marlowe, St. Ursula's Academy for Girls, Fort Calder Road."
+    },
+    {
+     "s": "eli",
+     "t": "How did you—",
+     "to": "gideon"
+    },
+    {
+     "s": "gideon",
+     "t": "I asked him. Fairly. In a tone of voice. ...I told you I'd owe you forever. For the drawings. Now I don't. Fair is fair.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Gideon is already turning to go.",
+      "opts": [
+       {
+        "t": "\"Gideon. Thank you. Truly.\"",
+        "fx": {
+         "HEART": 2,
+         "gideon": 2
+        },
+        "say": [
+         {
+          "s": "gideon",
+          "t": "Don't thank me. Write her a good letter. Don't make it stupid.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"You didn't have to.\"",
+        "fx": {
+         "NERVE": 1,
+         "gideon": 1
+        },
+        "say": [
+         {
+          "s": "gideon",
+          "t": "I know. That's what made it worth something.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Hold the paper like it's made of glass."
+       }
+      ]
+     }
+    },
+    {
+     "item": {
+      "id": "address",
+      "name": "An address in Percy's handwriting",
+      "desc": "St. Ursula's Academy for Girls. Fort Calder Road."
+     }
+    }
+   ],
+   "loc": "statue",
+   "mood": "golden",
+   "goal": "Find Gideon at Founder's Rock",
+   "talk": "gideon",
+   "place": "Founder's Rock",
+   "date": "A few days later"
+  },
+  {
+   "id": "c5g",
+   "chapter": 5,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "There's a problem. The Ashby household has one post box, and Ma reads everything that comes through it."
+    },
+    {
+     "s": "june",
+     "t": "So have it sent to me. Under a girl's name. Miss Ellie Ash. Ma never opens my letters, she says they're \"full of nonsense.\"",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "You'd do that?",
+     "to": "june"
+    },
+    {
+     "s": "june",
+     "t": "I'd do anything that annoys Uncle Wendell. And this would, if he knew. Write your letter, lovesick.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "He writes it. He crosses it out. He writes it again. In the end he sends one word."
+    },
+    {
+     "s": "eli",
+     "t": "Hello.",
+     "to": "rosie",
+     "k": "letter"
+    },
+    {
+     "k": "narr",
+     "t": "Two weeks. Then June slides an envelope under his door, addressed to Miss Ellie Ash."
+    },
+    {
+     "s": "rosie",
+     "t": "Who is this?",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "s": "eli",
+     "t": "Take a guess.",
+     "to": "rosie",
+     "k": "letter"
+    },
+    {
+     "s": "rosie",
+     "t": "Sadie? Is it Sadie? Sadie, if this is you, I'll kill you.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "s": "eli",
+     "t": "It isn't Sadie.",
+     "to": "rosie",
+     "k": "letter"
+    },
+    {
+     "s": "rosie",
+     "t": "Then tell me your name, or I'm burning the next one without reading it.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "choice": {
+      "prompt": "This is it. What do you write?",
+      "opts": [
+       {
+        "t": "\"If I tell you my name, will you still write back?\"",
+        "fx": {
+         "NERVE": 2,
+         "rosie": 1,
+         "set": [
+          "asked_first"
+         ]
+        },
+        "say": [
+         {
+          "s": "rosie",
+          "t": "Yes. Probably. Tell me.",
+          "to": "eli",
+          "k": "letter"
+         },
+         {
+          "s": "eli",
+          "t": "It's Eli. Eli Ashby. From the window seat.",
+          "to": "rosie",
+          "k": "letter"
+         }
+        ]
+       },
+       {
+        "t": "\"It's Eli. From the coach stop. Your witness.\"",
+        "fx": {
+         "NERVE": 2,
+         "HEART": 1,
+         "rosie": 2
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "You hold your breath for two weeks."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "The reply comes on a Thursday."
+    },
+    {
+     "s": "rosie",
+     "t": "Eli! The quiet witness! Why didn't you just say so? You're so strange. Write me back, I'm bored to death here.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "She wrote back. She wrote back. I read it standing up in June's room, and June pretended not to watch me, and I didn't care."
+    },
+    {
+     "item": {
+      "id": "letters",
+      "name": "A bundle of letters",
+      "desc": "Addressed to Miss Ellie Ash. Every one of them is from Fort Calder."
+     }
+    }
+   ],
+   "loc": "home",
+   "mood": "night",
+   "goal": "Write your first letter to Rosie",
+   "talk": "june",
+   "place": "The Ashby cottage",
+   "date": "That night",
+   "journal": [
+    {
+     "t": "I'll write to her every week. Small things. I won't push.",
+     "fx": {
+      "HEART": 1,
+      "NERVE": 1
+     }
+    },
+    {
+     "t": "I'll wait. We'll talk properly after exams. I don't want to spoil her studies.",
+     "fx": {
+      "HEART": 1,
+      "set": [
+       "patient"
+      ]
+     }
+    },
+    {
+     "t": "What if she stops? She'll stop. Everybody does.",
+     "fx": {
+      "STONE": 1,
+      "DRIFT": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "c6a",
+   "chapter": 6,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The letters come every week or two. Small things. Her terrible roommate. The nuns' soup. A cat that sneaks into chapel. He writes back about Larkspur, about Pilgrim, about nothing."
+    },
+    {
+     "k": "narr",
+     "t": "Sometimes the letters are a little cringeworthy. He doesn't care. He finds ways to keep the conversation going, the way you'd keep a fire going in the rain."
+    },
+    {
+     "s": "rook",
+     "t": "Well? What did she say this week? Read it out.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "I'm not reading it out.",
+     "to": "rook"
+    },
+    {
+     "s": "toby",
+     "t": "He tells us anyway. Every single time. Give it a minute.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "He tells them. He always does. They got him the address, after all. It feels fair."
+    },
+    {
+     "s": "gideon",
+     "t": "She asked if you were discussing her letters with the whole school. Percy told her you were.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "I told her the truth. Only one friend knows. The one who got me the address. He's not angry.",
+     "to": "gideon"
+    },
+    {
+     "s": "gideon",
+     "t": "I'm not. I'm the least angry person on this ridge.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Ezra is looking at you.",
+      "opts": [
+       {
+        "t": "\"I'm going to wait. After the final exams, I'll tell her properly.\"",
+        "fx": {
+         "HEART": 1,
+         "NERVE": 1,
+         "set": [
+          "patient"
+         ]
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "That's... actually very decent of you.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "I don't want to mess up her studies. She works hard.",
+          "to": "ezra"
+         }
+        ]
+       },
+       {
+        "t": "\"What if she's just bored at school? What if it's nothing?\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "rook",
+          "t": "Then it's nothing and you had fun. Stop chewing the end off everything.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Watch the fire.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "ridge",
+   "mood": "dusk",
+   "goal": "Meet the boys at Coyote Ridge",
+   "talk": "rook",
+   "others": [
+    "toby",
+    "ezra",
+    "gideon"
+   ],
+   "place": "Coyote Ridge",
+   "date": "Spring of the twelfth year"
+  },
+  {
+   "id": "c6b",
+   "chapter": 6,
+   "lines": [
+    {
+     "s": "june",
+     "t": "Miss Ellie Ash. Another one. This one's thick.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "He takes it upstairs. It's an ordinary letter, at first. The soup. The cat. Exams. And then, at the bottom, in a hand that looks a little different, a little rushed:"
+    },
+    {
+     "s": "rosie",
+     "t": "What would you say if I said I love you?",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "k": "narr",
+     "t": "He reads it eleven times."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Every year since the seventh. Every pillar. Every Sunday behind the chapel pillar. All of it was in that one line."
+    },
+    {
+     "choice": {
+      "prompt": "You pick up your pen.",
+      "opts": [
+       {
+        "t": "\"Yes. You know, this is the thing I've wanted to tell you for so long. I love you too.\"",
+        "fx": {
+         "HEART": 3,
+         "NERVE": 2,
+         "rosie": 3,
+         "set": [
+          "said_love"
+         ]
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "And, because he is Eli, he adds: \"But let's not worry about it now. We'll talk properly when exams are done. I'll wait. I've always waited.\""
+         },
+         {
+          "k": "narr",
+          "t": "And, because he is seventeen, he adds: \"Say it to me, though. Just once. Properly.\""
+         }
+        ]
+       },
+       {
+        "t": "\"Are you sure? Don't joke about this.\"",
+        "fx": {
+         "NERVE": 1,
+         "rosie": 1,
+         "set": [
+          "said_love"
+         ]
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "He crosses it out. He writes the first thing instead. Of course he does."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "Two weeks. Three. The reply comes."
+    },
+    {
+     "s": "rosie",
+     "t": "I love you.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "s": "rosie",
+     "t": "My hand is shaking. I'm writing this in the chapel so the nuns won't see. My hand is shaking so much I can hardly hold the pen.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It was the best moment of my life. I've had twenty-eight years to find a better one and I haven't."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I felt like I had a reason. To work hard, to become something. To deserve that shaking hand."
+    },
+    {
+     "item": {
+      "id": "loveletter",
+      "name": "\"My hand is shaking.\"",
+      "desc": "The letter. You keep it at the bottom of the bundle, so it's the last one you read."
+     }
+    }
+   ],
+   "loc": "home",
+   "mood": "golden",
+   "goal": "June has a letter for you",
+   "talk": "june",
+   "place": "The Ashby cottage",
+   "date": "An ordinary Tuesday"
+  },
+  {
+   "id": "c6c",
+   "chapter": 6,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He doesn't have to tell Toby. His face tells Toby."
+    },
+    {
+     "s": "toby",
+     "t": "She said it. She said it! Rook! ROOK! She said it!",
+     "to": "eli"
+    },
+    {
+     "s": "rook",
+     "t": "I'm right here, you don't have to scream. ...Come here, Ashby. Come here.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Rook hugs him so hard his ribs creak. Mr. Pruett gives them each a peppermint and doesn't ask why."
+    },
+    {
+     "choice": {
+      "prompt": "What do you do, now that she's said it?",
+      "opts": [
+       {
+        "t": "Keep it simple. A little heart at the end of each letter. Nothing that might weigh on her.",
+        "fx": {
+         "HEART": 1,
+         "NERVE": 1,
+         "set": [
+          "light"
+         ]
+        },
+        "say": [
+         {
+          "s": "toby",
+          "t": "Look at you. Respectful. Patient. Who are you?",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "If you keep pushing someone, they start to hate it. I don't want her to ever hate it.",
+          "to": "toby"
+         }
+        ]
+       },
+       {
+        "t": "\"I'm going to ride to St. Ursula's this weekend.\"",
+        "fx": {
+         "NERVE": 1,
+         "rosie": -1
+        },
+        "say": [
+         {
+          "s": "rook",
+          "t": "To a convent school? You'll get shot by a nun.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "You don't go. You write instead. It's probably for the best."
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Grin until your face hurts.",
+        "fx": {
+         "HEART": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "She writes about her lessons. He writes about seeing her at chapel on Sundays, from behind his pillar. She writes that she knew he was there. She always knew."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "That summer, her dream and my dream were the same dream. I really believe that. For a little while, we were both alive in the same direction."
+    }
+   ],
+   "loc": "store",
+   "mood": "day",
+   "goal": "Tell Toby the news",
+   "talk": "toby",
+   "others": [
+    "rook"
+   ],
+   "place": "Pruett's General Store",
+   "date": "The next day"
+  },
+  {
+   "id": "c6d",
+   "chapter": 6,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The twenty-fourth of August. He writes, like always. Just \"Hello, how was your week?\""
+    },
+    {
+     "k": "narr",
+     "t": "The reply isn't in her handwriting."
+    },
+    {
+     "s": "danny",
+     "t": "My sister has gone out. She is not available. — D. Marlowe",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "s": "june",
+     "t": "Who's D. Marlowe?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Her brother. Danny. He's in the eighth year with Percy's brother.",
+     "to": "june"
+    },
+    {
+     "k": "narr",
+     "t": "After that, the letters come again, but they're different. Short. Late. Polite, like a letter to an uncle."
+    },
+    {
+     "s": "rosie",
+     "t": "I've been moved to the boarding house for the rest of the year. I won't be able to write very often.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "She never mentioned it before. Not once. All those letters, all the soup and the cat, and not one word about moving."
+    },
+    {
+     "choice": {
+      "prompt": "June is watching your face.",
+      "opts": [
+       {
+        "t": "\"Something's wrong. Something happened.\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "june",
+          "t": "Maybe she's just busy. Final year.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"She's just busy. It's fine.\"",
+        "fx": {
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "june",
+          "t": "...Sure.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"June, did Ma read one of the letters?\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "june",
+          "t": "No! Never. I swear on my life, Eli.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "home",
+   "mood": "overcast",
+   "goal": "June has another letter",
+   "talk": "june",
+   "place": "The Ashby cottage",
+   "date": "The twenty-fourth of August"
+  },
+  {
+   "id": "c6e",
+   "chapter": 6,
+   "lines": [
+    {
+     "s": "eli",
+     "t": "Write to her. Just ask her where she is. How she is. Please.",
+     "to": "percy"
+    },
+    {
+     "s": "percy",
+     "t": "Ha. Alright. Alright! Since you look like a ghost.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Percy writes. The reply comes back fast. Percy reads it out at the post office counter."
+    },
+    {
+     "s": "percy",
+     "t": "\"She's at the boarding house till the end of term. — D.\" That's her brother again. Huh. Funny. She usually writes back herself.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It looked wrong. It felt wrong. Her brother answering her letters, twice, like he was standing guard over her."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "But I didn't want to believe it was anything. So I didn't."
+    },
+    {
+     "choice": {
+      "prompt": "Percy shrugs.",
+      "opts": [
+       {
+        "t": "\"Thanks, Percy. Really.\"",
+        "fx": {
+         "HEART": 1,
+         "percy": 1
+        },
+        "say": [
+         {
+          "s": "percy",
+          "t": "Ha. Don't. I feel bad now. Why do I feel bad?",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Something's wrong, Percy. You can see it too.\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "percy",
+          "t": "I see a brother being nosy. That's all brothers are for.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Walk out.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "post",
+   "mood": "overcast",
+   "goal": "Ask Percy to write to her for you",
+   "talk": "percy",
+   "place": "Post & Coach Office",
+   "date": "September"
+  },
+  {
+   "id": "c6f",
+   "chapter": 6,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "And then the letters stop coming back at all. Instead, his own letters come back. Unopened. Stamped in red across the front: RETURN TO SENDER."
+    },
+    {
+     "k": "narr",
+     "t": "He writes under June's name. Returned. Under Toby's name. That one she opens and answers, kindly, until he signs it \"Eli.\" Then it comes back too."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Every time I said my name, the door shut."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I couldn't send a wire. She'd saved my letters under a girl's name; if her family saw a wire from a boy... I told myself her parents had found out. That was the only thing that made sense."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "But it wasn't that. I know now it wasn't that."
+    },
+    {
+     "k": "narr",
+     "t": "He walks to the post office every day for three months. Every day the box is either empty or full of his own handwriting coming back to him."
+    },
+    {
+     "choice": {
+      "prompt": "The clerk is locking up. There's one letter. It's yours, returned.",
+      "opts": [
+       {
+        "t": "Put it in the tin with the others.",
+        "fx": {
+         "DRIFT": 1
+        }
+       },
+       {
+        "t": "Tear it up on the step.",
+        "fx": {
+         "STONE": 2
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "The pieces blow down Main Street. You don't chase them."
+         }
+        ]
+       },
+       {
+        "t": "Write another one tonight.",
+        "fx": {
+         "NERVE": 1,
+         "HEART": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "You write it. It comes back on Thursday."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "What happened? What did I do? I asked myself that every day. I'm still asking. Some questions don't wear out."
+    }
+   ],
+   "loc": "post",
+   "mood": "night",
+   "goal": "Check the post box one more time",
+   "place": "The coach office, after hours",
+   "date": "Autumn, every day"
+  },
+  {
+   "id": "c6g",
+   "chapter": 6,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "One evening, the clerk at the post office waves him over. A wire's come in for \"E. Ashby, Larkspur.\" From Red Bluff."
+    },
+    {
+     "k": "narr",
+     "t": "Red Bluff is near Fort Calder. His heart does something painful."
+    },
+    {
+     "s": "lettie",
+     "t": "WHO IS THIS STOP YOU SENT A LETTER TO MY BOARDING HOUSE STOP",
+     "to": "eli",
+     "k": "wire"
+    },
+    {
+     "k": "narr",
+     "t": "He'd written to every boarding house near St. Ursula's. Half-mad. Hoping one of them was hers."
+    },
+    {
+     "choice": {
+      "prompt": "You wire back, ten cents a word.",
+      "opts": [
+       {
+        "t": "\"WHY WONT YOU SPEAK TO ME STOP PLEASE STOP\"",
+        "fx": {
+         "NERVE": 1,
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "lettie",
+          "t": "IM SORRY STOP I DONT KNOW YOU STOP WRONG PERSON STOP",
+          "to": "eli",
+          "k": "wire"
+         }
+        ]
+       },
+       {
+        "t": "\"IS THAT YOU STOP PLEASE JUST TELL ME\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "lettie",
+          "t": "NO STOP SORRY STOP WRONG PERSON STOP",
+          "to": "eli",
+          "k": "wire"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "It isn't her. Of course it isn't her. He'd heard a voice that was forty percent like hers, in the clicking of a wire, and reached for it."
+    },
+    {
+     "s": "eli",
+     "t": "SORRY STOP I THOUGHT YOU WERE MY GIRL STOP",
+     "to": "lettie",
+     "k": "wire"
+    },
+    {
+     "k": "narr",
+     "t": "He thinks that's the end of it. But a week later, a letter comes from Red Bluff."
+    },
+    {
+     "s": "lettie",
+     "t": "My name is Lettie Shaw. I'm not your girl, but you sounded like you needed someone to tell. So tell me. What happened?",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "choice": {
+      "prompt": "A stranger is asking.",
+      "opts": [
+       {
+        "t": "Tell her everything.",
+        "fx": {
+         "HEART": 2,
+         "NERVE": 1,
+         "set": [
+          "told_lettie"
+         ]
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "You write eleven pages. She writes back four. She doesn't tell you what to do. She just says: \"That sounds like it hurt. I'm sorry it hurt.\""
+         },
+         {
+          "k": "narr",
+          "t": "Nobody else had said that. Not like that."
+         }
+        ]
+       },
+       {
+        "t": "Write back: \"Thank you. I'm alright.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "She writes once more anyway. \"You don't sound alright. The offer stands.\""
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "Lettie Shaw writes to him, on and off, for a year. And then, one spring, she sends him an invitation. Printed on cream card. She's getting married."
+    },
+    {
+     "item": {
+      "id": "invitation",
+      "name": "A wedding invitation from Red Bluff",
+      "desc": "From a stranger who listened. You didn't go. You wrote to say congratulations, and meant it."
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Strange, what the world sends you. I lost the girl I loved, and a stranger I'd never met was kinder to me than anyone."
+    }
+   ],
+   "loc": "post",
+   "mood": "dusk",
+   "goal": "Answer the wire that came for you",
+   "talk": "clerk",
+   "place": "Post & Coach Office",
+   "date": "Winter",
+   "journal": [
+    {
+     "t": "I'll find out what happened. One day she'll tell me.",
+     "fx": {
+      "NERVE": 1
+     }
+    },
+    {
+     "t": "I don't want to know anymore. Knowing would be worse.",
+     "fx": {
+      "STONE": 1
+     }
+    },
+    {
+     "t": "It's like it happened to somebody else. I watch it from far away.",
+     "fx": {
+      "DRIFT": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "c7a",
+   "chapter": 7,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Months. And then one day, June comes in holding a letter like it might bite."
+    },
+    {
+     "s": "june",
+     "t": "It's her. It's her handwriting.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "It's a short letter. Polite. Like nothing ever happened. Like there was never a shaking hand in a chapel."
+    },
+    {
+     "s": "rosie",
+     "t": "Hello Eli. I hope you are well. I'm going to the nursing college in Port Ellis after this term, so I won't be able to write much. Also, I told your cousin Mabel about you.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "k": "narr",
+     "t": "He doesn't even know Mabel was her cousin. He reads that line six times."
+    },
+    {
+     "s": "eli",
+     "t": "What did she say?",
+     "to": "rosie",
+     "k": "letter"
+    },
+    {
+     "s": "rosie",
+     "t": "I'll tell you when I'm leaving for Port Ellis.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "choice": {
+      "prompt": "What do you write back?",
+      "opts": [
+       {
+        "t": "Don't ask about any of it. Just be glad she's writing.",
+        "fx": {
+         "HEART": 1,
+         "DRIFT": 1,
+         "set": [
+          "never_asked"
+         ]
+        },
+        "say": [
+         {
+          "s": "eli",
+          "k": "thought",
+          "t": "If I asked why she'd stopped, she might stop again. Talking to her made me happy. That was enough. I made it be enough."
+         }
+        ]
+       },
+       {
+        "t": "Ask her, gently: \"What happened last year?\"",
+        "fx": {
+         "NERVE": 2,
+         "rosie": -1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "Her reply takes a month. It doesn't mention last year at all. You don't ask again."
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Fold it up without answering.",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "You last four days before you write back."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "home",
+   "mood": "golden",
+   "goal": "Read the letter that finally came back",
+   "talk": "june",
+   "place": "The Ashby cottage",
+   "date": "Spring, months later"
+  },
+  {
+   "id": "c7b",
+   "chapter": 7,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The letters are formal now. And whenever he tries to be kind, she's sharp."
+    },
+    {
+     "s": "eli",
+     "t": "Have you been eating properly? The nuns' soup sounded awful.",
+     "to": "rosie",
+     "k": "letter"
+    },
+    {
+     "s": "rosie",
+     "t": "And what exactly will you do about it if I haven't?",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Every kindness bounced off like it had hit a wall. But I kept throwing them. I didn't know how to stop."
+    },
+    {
+     "choice": {
+      "prompt": "You read her reply.",
+      "opts": [
+       {
+        "t": "Write back something gentle anyway.",
+        "fx": {
+         "HEART": 1,
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "eli",
+          "t": "Nothing, I suppose. I'd just like to know you're alright.",
+          "to": "rosie",
+          "k": "letter"
+         },
+         {
+          "k": "narr",
+          "t": "She doesn't answer that part."
+         }
+        ]
+       },
+       {
+        "t": "Write back something sharp.",
+        "fx": {
+         "STONE": 1,
+         "rosie": -1
+        },
+        "say": [
+         {
+          "s": "eli",
+          "t": "Nothing. Clearly.",
+          "to": "rosie",
+          "k": "letter"
+         },
+         {
+          "k": "narr",
+          "t": "You regret it before the ink dries."
+         }
+        ]
+       },
+       {
+        "t": "Don't answer that letter. Wait for the next.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "home",
+   "mood": "dusk",
+   "goal": "Write to Rosie again",
+   "place": "Upstairs",
+   "date": "That summer"
+  },
+  {
+   "id": "c7c",
+   "chapter": 7,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Hattie Lowe, who sat next to Rosie in the tenth year, still writes to her too. One afternoon she pulls Eli aside by the churchyard wall."
+    },
+    {
+     "s": "hattie",
+     "t": "You should see this. I don't know if I should show you. But you should see it.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "It's a letter from Rosie to Hattie. Hattie had asked, the way girls ask: \"Are you sweet on anyone?\""
+    },
+    {
+     "s": "rosie",
+     "t": "No. But I did receive a proposal. I don't think I'm mature enough to decide something like that. And my parents are important to me.",
+     "to": "hattie",
+     "k": "letter"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "A proposal. Mine. That was me. \"I received a proposal\" — like a parcel delivered to the wrong door."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "But hadn't she asked first? What would you say if I said I love you? Hadn't her hand been shaking?"
+    },
+    {
+     "choice": {
+      "prompt": "Hattie is watching you.",
+      "opts": [
+       {
+        "t": "\"Thank you for showing me, Hattie.\"",
+        "fx": {
+         "NERVE": 1,
+         "HEART": 1,
+         "hattie": 1
+        },
+        "say": [
+         {
+          "s": "hattie",
+          "t": "I'm sorry, Eli. I think she's... confused. I don't think she meant to hurt you.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"That's not what happened. She asked first.\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "hattie",
+          "t": "I believe you. I just don't know what she believes.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Give the letter back.",
+        "fx": {
+         "STONE": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "yard",
+   "mood": "day",
+   "goal": "See what Hattie wants to show you",
+   "talk": "hattie",
+   "place": "The old churchyard",
+   "date": "The end of the twelfth year"
+  },
+  {
+   "id": "c7d",
+   "chapter": 7,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The last night of school. All of them, together. The Paper Outlaws, wanted in six territories. Abel brought a bottle of sarsaparilla he says is whiskey."
+    },
+    {
+     "s": "rook",
+     "t": "To the end of being boys. Tomorrow we're men. God help the territory.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Halfway through the night, June rides up the ridge with a letter in her coat. She shrugs: \"It came this afternoon. Figured you'd want it.\""
+    },
+    {
+     "s": "rosie",
+     "t": "Congratulations on finishing. I wish you well. I'm leaving for Port Ellis next week and I won't be writing anymore. Please don't write back. Goodbye, Eli.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "k": "narr",
+     "t": "The fire crackles. Rook's still talking. Nobody notices Eli fold the letter into eighths."
+    },
+    {
+     "choice": {
+      "prompt": "Ezra notices.",
+      "opts": [
+       {
+        "t": "Hand him the letter.",
+        "fx": {
+         "NERVE": 1,
+         "ezra": 1
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "...Do you want to talk about it, or do you want to sit by the fire and not talk about it?",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "The second one.",
+          "to": "ezra"
+         },
+         {
+          "s": "ezra",
+          "t": "Good. I'm better at that one.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"It's nothing. A letter from June's friend.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "Alright. If you say so.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Throw it in the fire.",
+        "fx": {
+         "STONE": 1,
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "Ezra watches it burn. He doesn't ask. He just sits closer."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "She doesn't stay gone, though. That's the thing. Three months later, there's another letter. And then nothing. And then another."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "She'd block the door and open it again. Over and over. And every time it opened, I walked straight through."
+    }
+   ],
+   "loc": "ridge",
+   "mood": "night",
+   "goal": "Ride out with the boys for your farewell night",
+   "talk": "rook",
+   "others": [
+    "toby",
+    "ezra",
+    "gideon",
+    "abel"
+   ],
+   "place": "Coyote Ridge",
+   "date": "The last night of school"
+  },
+  {
+   "id": "c7e",
+   "chapter": 7,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "She's home for Christmas. After the service, in the crowd at the chapel door, they end up face to face for the first time in two years."
+    },
+    {
+     "s": "rosie",
+     "t": "Eli.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Rosie. ...Merry Christmas.",
+     "to": "rosie"
+    },
+    {
+     "k": "narr",
+     "t": "She's wearing a locket. Open. Inside is a tintype of a handsome man with oiled hair."
+    },
+    {
+     "choice": {
+      "prompt": "You ask...",
+      "opts": [
+       {
+        "t": "\"Who's that in the locket?\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "rosie",
+          "t": "That? That's my sweetheart.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "...Okay.",
+          "to": "rosie"
+         },
+         {
+          "k": "narr",
+          "t": "Just \"okay.\" You don't know what else to say. Inside, a building is falling down."
+         }
+        ]
+       },
+       {
+        "t": "\"It suits you.\"",
+        "fx": {
+         "HEART": 1
+        },
+        "say": [
+         {
+          "s": "rosie",
+          "t": "Thank you. It's my sweetheart.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "...Okay.",
+          "to": "rosie"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Look at the locket and say nothing.",
+        "fx": {
+         "STONE": 1,
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "rosie",
+          "t": "It's my sweetheart, if you're wondering.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "Weeks later, Hattie tells him: it was a tintype of a stage actor. A famous one, from the touring company in Fort Calder. Rosie had laughed about it with her friends."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "She'd shown me a picture of a stranger and called him her sweetheart. Just to see what I'd do. Or so I'd stop. I never knew which."
+    },
+    {
+     "k": "narr",
+     "t": "After the holidays, the letters stop again. All of them. Returned."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "And I just... kept hoping. That she'd come back, or that I'd convince her, or at least that someone would tell me what happened."
+    }
+   ],
+   "loc": "chapel",
+   "mood": "day",
+   "goal": "Go to Sunday service. She's home for the holidays",
+   "talk": "rosie",
+   "place": "St. Agnes' Chapel",
+   "date": "Christmas"
+  },
+  {
+   "id": "c7f",
+   "chapter": 7,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The twenty-fifth of August. Opening day at the Territorial Academy up on North Ridge. Toby's here too, and, inexplicably, Percy."
+    },
+    {
+     "k": "narr",
+     "t": "There's a ceremony. A brass band. A speech about the future of the territory. Eli hears none of it."
+    },
+    {
+     "s": "percy",
+     "t": "I wrote to Rosie last week. Ha. I told her: \"Our boy's still thinking about you, you know. He's really down. You ought to write him.\"",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "You what?",
+     "to": "percy"
+    },
+    {
+     "s": "percy",
+     "t": "Somebody had to say something! You never say anything!",
+     "to": "eli"
+    },
+    {
+     "s": "toby",
+     "t": "Percy. Shut up. Right now.",
+     "to": "percy"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Percy meant well. Percy always meant well. That was the worst thing about him."
+    },
+    {
+     "choice": {
+      "prompt": "You can't take it back now.",
+      "opts": [
+       {
+        "t": "\"...Thanks for trying, Percy.\"",
+        "fx": {
+         "HEART": 1,
+         "percy": 1
+        },
+        "say": [
+         {
+          "s": "percy",
+          "t": "Ha. Yeah. You're welcome. Why do you look like that?",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Never speak to her about me again.\"",
+        "fx": {
+         "STONE": 1,
+         "percy": -1
+        },
+        "say": [
+         {
+          "s": "percy",
+          "t": "Alright, alright! Ha. Sorry.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Walk away from the ceremony.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "academy",
+   "mood": "golden",
+   "goal": "Attend the opening day at the Territorial Academy",
+   "talk": "toby",
+   "others": [
+    "percy"
+   ],
+   "place": "Territorial Academy",
+   "date": "The twenty-fifth of August"
+  },
+  {
+   "id": "c7g",
+   "chapter": 7,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "When he gets home that night, there's a wire waiting. The first wire she's ever sent him."
+    },
+    {
+     "s": "rosie",
+     "t": "STILL STUCK ON THAT STOP GO DO SOMETHING WITH YOUR LIFE STOP",
+     "to": "eli",
+     "k": "wire"
+    },
+    {
+     "k": "narr",
+     "t": "Then: nothing. Every letter returned. For good, this time."
+    },
+    {
+     "k": "narr",
+     "t": "He stands in the kitchen holding the paper. Ma is asleep. The lamp is lit."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Every dream I had just... came apart. All at once, very quietly. No noise. Like a drawing torn down the middle."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "She left without telling me why. Without anything. I wasn't even worth the truth."
+    },
+    {
+     "choice": {
+      "prompt": "Ma's lamp is still burning.",
+      "opts": [
+       {
+        "t": "Wake Ma. Tell her.",
+        "fx": {
+         "HEART": 2,
+         "ma": 2,
+         "NERVE": 1,
+         "set": [
+          "told_ma"
+         ]
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "Eli? What's wrong? Oh... Oh, baby. Come here.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "You don't tell her everything. You don't know how. But you tell her a girl hurt you, and she doesn't ask which one, and she holds onto you until the lamp burns low."
+         }
+        ]
+       },
+       {
+        "t": "Turn the lamp down and go upstairs.",
+        "fx": {
+         "STONE": 2
+        }
+       },
+       {
+        "t": "Sit at the table until the sun comes up.",
+        "fx": {
+         "DRIFT": 2
+        }
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "After that night, things go grey. Not dark. Grey. He goes to the Academy. He passes his exams. He smiles when people expect a smile."
+    },
+    {
+     "k": "narr",
+     "t": "He tries to cry, once, alone, in the stable. It won't come. Like the well's gone dry."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I lost interest in everything. I just acted like everything was fine. Nobody could help, because nobody knew there was anything to help with."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "At night she came back. Every night, for a long time. Her memory was the only thing in that house that wasn't grey."
+    }
+   ],
+   "loc": "home",
+   "mood": "night",
+   "goal": "Ride home after the ceremony",
+   "place": "The Ashby cottage",
+   "date": "That same night",
+   "journal": [
+    {
+     "t": "One day I'll stop asking why. Not yet.",
+     "fx": {
+      "NERVE": 1,
+      "HEART": 1
+     }
+    },
+    {
+     "t": "I don't feel anything. That's easier.",
+     "fx": {
+      "STONE": 2
+     }
+    },
+    {
+     "t": "I'm going through the motions. My body goes to class. I don't know where I go.",
+     "fx": {
+      "DRIFT": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "c8a",
+   "chapter": 8,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "She doesn't write to Eli. But she writes to Toby. And to Percy. Long, chatty letters. She's studying to be a ray nurse in Port Ellis, working the new Roentgen machines that can see through skin to the bone."
+    },
+    {
+     "s": "toby",
+     "t": "She asked about you again. Sort of. She asked \"how everybody is,\" and then she asked about you specifically, and then she said \"never mind.\"",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Sometimes, when Toby's writing back, Eli takes the pen and adds a paragraph at the end. She answers those paragraphs. She never mentions they're his."
+    },
+    {
+     "s": "toby",
+     "t": "Percy heard a senior at her college proposed. And she was keen on him, Percy said. And then it just... ended. Nobody knows why.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Another story I'd only ever know the outline of."
+    },
+    {
+     "choice": {
+      "prompt": "Toby slides his letter-paper across the table.",
+      "opts": [
+       {
+        "t": "Add a paragraph. Something light.",
+        "fx": {
+         "HEART": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "You write about Pilgrim getting into the Academy orchard. She writes back: \"Tell Eli his horse is a criminal.\" It's the best thing you've read in a year."
+         }
+        ]
+       },
+       {
+        "t": "\"No. I'm done writing to her through you.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "toby",
+          "t": "Alright. ...You know I don't mind, though.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Look out the window.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "academy",
+   "mood": "day",
+   "goal": "Find Toby after lectures",
+   "talk": "toby",
+   "place": "Territorial Academy",
+   "date": "Second year at the Academy"
+  },
+  {
+   "id": "c8b",
+   "chapter": 8,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He decides not to let her go completely. He writes to her directly. Just a friendly note."
+    },
+    {
+     "k": "narr",
+     "t": "She writes back. And then again. They write every week. Sometimes she sends a wire for no reason, just \"HELLO STOP BORED STOP.\" He's happy again. Properly."
+    },
+    {
+     "k": "narr",
+     "t": "And then, one letter, out of nowhere, near the bottom:"
+    },
+    {
+     "s": "rosie",
+     "t": "I need to tell you something. The letter, back in school, that said \"what would you say if I said I love you\" — that wasn't me. My cousin Mabel was staying with me and she wrote that in. I didn't even know. I only found out recently.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "s": "rosie",
+     "t": "I'm sorry if it confused you.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Confused me."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "The shaking hand. The chapel. The nuns. \"I love you. My hand is shaking.\" Was that Mabel too? For three weeks, every letter?"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I knew she was lying. I knew it the way you know your own handwriting. But I wanted to keep talking to her more than I wanted to be right."
+    },
+    {
+     "choice": {
+      "prompt": "How do you answer?",
+      "opts": [
+       {
+        "t": "Don't fight. \"Alright. Thank you for telling me.\"",
+        "fx": {
+         "HEART": 1,
+         "DRIFT": 1,
+         "rosie": 1,
+         "set": [
+          "swallowed"
+         ]
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "You write it in your neatest hand so it won't look like it cost anything."
+         }
+        ]
+       },
+       {
+        "t": "\"That isn't true, Rosie. You and I both know it isn't.\"",
+        "fx": {
+         "NERVE": 3,
+         "rosie": -2,
+         "set": [
+          "called_lie"
+         ]
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "Her reply takes six weeks. It says: \"Believe what you want.\" And then, the week after, a letter about her exams, as if nothing happened."
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Don't answer for a month.",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "She writes first. That's never happened before. \"Are you angry?\" You write back: \"No.\" It's not true and it's not false."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "lodging",
+   "mood": "golden",
+   "goal": "Read the letter waiting at your lodging",
+   "place": "Academy lodging",
+   "date": "The third year"
+  },
+  {
+   "id": "c8c",
+   "chapter": 8,
+   "lines": [
+    {
+     "s": "ezra",
+     "t": "So you believe it? The cousin?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "No.",
+     "to": "ezra"
+    },
+    {
+     "s": "ezra",
+     "t": "Then why are you still writing to her?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Because if I believed the truth, I'd have to stop. And I'm not ready.",
+     "to": "ezra"
+    },
+    {
+     "k": "narr",
+     "t": "Larkspur is spread out below them. The yellow window on the hill is still there. Her parents' house. She's not in it."
+    },
+    {
+     "s": "ezra",
+     "t": "What do you actually want, Eli? Not from her. In general. What do you want?",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Ezra has never asked you that.",
+      "opts": [
+       {
+        "t": "\"I want to know what happened. Just the truth. That's all I want.\"",
+        "fx": {
+         "NERVE": 2
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "And if she never tells you?",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "Then I guess I'll want it forever.",
+          "to": "ezra"
+         }
+        ]
+       },
+       {
+        "t": "\"I want to stop wanting her.\"",
+        "fx": {
+         "NERVE": 1,
+         "HEART": 1
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "That's the first honest thing you've said all summer.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I don't know. I don't think I want anything anymore.\"",
+        "fx": {
+         "DRIFT": 2,
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "...That scares me more than anything else you could've said.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "tower",
+   "mood": "night",
+   "goal": "Climb the water tower with Ezra",
+   "talk": "ezra",
+   "place": "The old water tower",
+   "date": "That summer, home from the Academy"
+  },
+  {
+   "id": "c8d",
+   "chapter": 8,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "More news, second-hand. A boy in her class proposed. She said no. But the girls in her dormitory were pushing her to say yes, Percy says. Hounding her about it."
+    },
+    {
+     "k": "narr",
+     "t": "He can't carry it anymore. The not-knowing. He decides to end it the only way he knows: by saying the true thing, plainly, once. So that whatever happens, it's over."
+    },
+    {
+     "k": "narr",
+     "t": "He walks up to the old wishing well on North Ridge, where students go to make wishes, and writes it on his knee."
+    },
+    {
+     "choice": {
+      "prompt": "What do you write?",
+      "opts": [
+       {
+        "t": "\"I've loved you since the seventh year. I still do. I don't need an answer to be kind. I just needed you to hear it from me, not from a cousin, or a card, or Percy.\"",
+        "fx": {
+         "NERVE": 3,
+         "HEART": 2,
+         "set": [
+          "confessed_rosie"
+         ]
+        }
+       },
+       {
+        "t": "\"I think I still have feelings for you. Do you have any for me?\"",
+        "fx": {
+         "NERVE": 2,
+         "set": [
+          "confessed_rosie"
+         ]
+        }
+       },
+       {
+        "crack": true,
+        "crackNote": "You write three pages and tear them all up.",
+        "t": "Write it all, everything."
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "He drops a coin in the well before he posts it. Then a second one, in case the first didn't count."
+    },
+    {
+     "k": "narr",
+     "t": "Her answer comes in ten days."
+    },
+    {
+     "s": "rosie",
+     "t": "I'm not interested in you that way, Eli. I think we should just be friends. I hope that's alright.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "She didn't block me. She didn't return it. She just... put me in a room called \"friend\" and closed the door gently."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Somehow that was worse. You can be angry at a slammed door."
+    },
+    {
+     "choice": {
+      "prompt": "You read it at the well.",
+      "opts": [
+       {
+        "t": "\"It's alright. Friends, then.\"",
+        "fx": {
+         "HEART": 1,
+         "NERVE": 1
+        }
+       },
+       {
+        "t": "\"Friends. Sure.\"",
+        "fx": {
+         "STONE": 1
+        }
+       },
+       {
+        "silent": true,
+        "t": "Drop the letter down the well.",
+        "fx": {
+         "DRIFT": 1,
+         "STONE": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "It floats for a moment on the black water. Then it's gone."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "well",
+   "mood": "dusk",
+   "goal": "Write your confession at the wishing well",
+   "place": "The wishing well",
+   "date": "Autumn of the third year"
+  },
+  {
+   "id": "c8e",
+   "chapter": 8,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The letters thin out. Every week. Then every month. Then once a season. Then a card at Christmas, and nothing in between."
+    },
+    {
+     "s": "ma",
+     "t": "You've got a letter. From Port Ellis.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "It's just a Christmas card.",
+     "to": "ma"
+    },
+    {
+     "s": "ma",
+     "t": "You read a Christmas card like it's a will, Eli.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Even after all of it, the questions kept me up. If she never liked me, why did she look at me every day on that porch? Why did she close the door the one time I said \"I love you\"? Why did she tell Hattie she'd \"received a proposal\" — like it was a thing that happened to her, not a thing she started?"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Only she knows. And she'll never say. And if she did, I wouldn't believe her. That's where it ends: with no end at all."
+    },
+    {
+     "choice": {
+      "prompt": "Ma sets a cup of coffee in front of you.",
+      "opts": [
+       {
+        "t": "\"Ma... how did you know, with Pa?\"",
+        "fx": {
+         "HEART": 1,
+         "ma": 1
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "I didn't. I just picked him and kept picking him. Some days that's all love is. Picking somebody again.",
+          "to": "eli"
+         },
+         {
+          "s": "ma",
+          "t": "But they've got to pick you back, son. Or it's just you, standing in a field, picking.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Thanks, Ma.\"",
+        "fx": {
+         "ma": 1
+        }
+       },
+       {
+        "silent": true,
+        "t": "Drink the coffee.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "home",
+   "mood": "winter",
+   "goal": "Go home for the winter break",
+   "talk": "ma",
+   "place": "The Ashby cottage",
+   "date": "The following years",
+   "journal": [
+    {
+     "t": "I'll stop waiting for her to explain. I deserve to move on without an answer.",
+     "fx": {
+      "NERVE": 2,
+      "HEART": 1
+     }
+    },
+    {
+     "t": "Some people don't deserve the truth. Apparently I'm one of them.",
+     "fx": {
+      "STONE": 2
+     }
+    },
+    {
+     "t": "I'll keep the questions. They're all I have left of her.",
+     "fx": {
+      "DRIFT": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "c9a",
+   "chapter": 9,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The fever comes up the river in March. By April, the territory is closed. The Academy shuts its doors. Coaches stop. Everybody stays home, and waits."
+    },
+    {
+     "k": "narr",
+     "t": "It lasts two years."
+    },
+    {
+     "s": "ma",
+     "t": "Eggs. Water. Wood. Then you can go back to staring at the wall.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "I don't stare at the wall.",
+     "to": "ma"
+    },
+    {
+     "s": "june",
+     "t": "You stare at it like it owes you money.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Strangely, those two years are the gentlest he's had in a long time. Nothing is expected of him except eggs, water, wood. Nobody's writing. Nobody's leaving."
+    },
+    {
+     "choice": {
+      "prompt": "Ma hands you the egg basket.",
+      "opts": [
+       {
+        "t": "\"Thanks, Ma. For all of it.\"",
+        "fx": {
+         "HEART": 2,
+         "ma": 2,
+         "DRIFT": -1
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "For eggs? Lord. Go on. The hens won't wait.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "Make a joke. \"The hens and I understand each other.\"",
+        "fx": {
+         "HEART": 1,
+         "ma": 1
+        },
+        "say": [
+         {
+          "s": "june",
+          "t": "Because you both sit around all day making noises?",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Take the basket.",
+        "fx": {
+         "DRIFT": -1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "Slowly, very slowly, the grey lifts a little. He starts to notice things again. The light on the creek. Pilgrim's terrible manners. June's laugh."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "The quarantine was what finally let me breathe. Everything stopped, so I could stop too. Nobody could leave, so nobody could leave me."
+    }
+   ],
+   "loc": "home",
+   "mood": "overcast",
+   "goal": "Help Ma with the morning chores",
+   "talk": "ma",
+   "others": [
+    "june"
+   ],
+   "place": "The Ashby cottage",
+   "date": "The year of the fever"
+  },
+  {
+   "id": "c9b",
+   "chapter": 9,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "When the Academy reopens, there's a girl in his year he's known since the first week. Delphine Moreau. Sharp eyes, sharper tongue. He'd never noticed her before. He'd been too busy being heartbroken."
+    },
+    {
+     "k": "narr",
+     "t": "Now he notices."
+    },
+    {
+     "k": "narr",
+     "t": "But he's learned one thing, at least: this time, he wants to know first whether she's spoken for."
+    },
+    {
+     "s": "eli",
+     "t": "Is Delphine seeing anyone?",
+     "to": "percy"
+    },
+    {
+     "s": "percy",
+     "t": "Moreau? Ha! No. Single as a fence post. Although... people say she's got an attitude. She'll bite your head off.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "I like that she says what she thinks.",
+     "to": "percy"
+    },
+    {
+     "s": "percy",
+     "t": "Ha! You would. She takes the north coach, same as Toby.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "You could change coaches.",
+      "opts": [
+       {
+        "t": "Switch to the north coach.",
+        "fx": {
+         "NERVE": 1,
+         "set": [
+          "switched_coach"
+         ]
+        },
+        "say": [
+         {
+          "s": "percy",
+          "t": "Ha! Look at you. Strategic.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I'll just say hello in the hallway.\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "percy",
+          "t": "You? Say hello? In a hallway? Ha!",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Think about it for a week.",
+        "fx": {
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "You switch coaches anyway, a week later."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "academy",
+   "mood": "day",
+   "goal": "Ask Percy about Delphine Moreau",
+   "talk": "percy",
+   "place": "Territorial Academy",
+   "date": "The final year, after the fever"
+  },
+  {
+   "id": "c9c",
+   "chapter": 9,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The north coach. Delphine sits by the window. Eli sits two seats behind her, next to Toby."
+    },
+    {
+     "s": "toby",
+     "t": "You should know something. There's a blacksmith's apprentice. Jack Kettle. Big shoulders. He's always hanging around the depot when this coach comes in.",
+     "to": "eli"
+    },
+    {
+     "s": "toby",
+     "t": "People say she went riding with him. On her birthday.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Percy said she was single.",
+     "to": "toby"
+    },
+    {
+     "s": "toby",
+     "t": "Maybe she is. Maybe Percy's an idiot. Both can be true.",
+     "to": "eli"
+    },
+    {
+     "ride": {
+      "notices": [
+       "Delphine laughing at something",
+       "Sun through the coach window",
+       "Toby asleep on your shoulder"
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Every time I heard Jack Kettle's name, my chest went tight. The same tightness. The same place. Like an old wound that had learned to recognize the weather."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "But I wanted her to know. Even if it was hopeless. I wanted, just once, to say it before anybody else decided for me."
+    }
+   ],
+   "loc": "depot",
+   "mood": "golden",
+   "goal": "Catch the north coach home",
+   "talk": "toby",
+   "place": "The stage depot",
+   "date": "Autumn"
+  },
+  {
+   "id": "c9d",
+   "chapter": 9,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He finds her on the Academy steps, alone for once."
+    },
+    {
+     "s": "eli",
+     "t": "Delphine. Can I tell you something?",
+     "to": "delphine"
+    },
+    {
+     "s": "delphine",
+     "t": "You're Eli. From the north coach. You always look like you're about to say something and then don't.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "This time you say it.",
+      "opts": [
+       {
+        "t": "\"I like you. I've liked you since the spring. I don't need anything back. I just wanted you to know.\"",
+        "fx": {
+         "NERVE": 3,
+         "HEART": 1,
+         "set": [
+          "told_delphine"
+         ]
+        }
+       },
+       {
+        "t": "\"Would you ever... want to walk out with me?\"",
+        "fx": {
+         "NERVE": 2,
+         "set": [
+          "told_delphine"
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "s": "delphine",
+     "t": "...Oh.",
+     "to": "eli"
+    },
+    {
+     "s": "delphine",
+     "t": "That's very kind. But I'm not interested. I don't really know anything about love. Let's be friends?",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "She's waiting.",
+      "opts": [
+       {
+        "t": "\"Friends. Alright. Thank you for being honest.\"",
+        "fx": {
+         "HEART": 2,
+         "NERVE": 1,
+         "delphine": 1
+        },
+        "say": [
+         {
+          "s": "delphine",
+          "t": "You're strange, Eli Ashby. Most boys sulk.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "At least I said it. That's something.",
+          "to": "delphine"
+         }
+        ]
+       },
+       {
+        "t": "\"Sure.\"",
+        "fx": {
+         "STONE": 1
+        }
+       },
+       {
+        "silent": true,
+        "t": "Nod and go.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It hurt. But at least I'd said it. That was new. That was mine."
+    },
+    {
+     "k": "narr",
+     "t": "Three weeks later, she and Jack Kettle are walking out together. Openly. Everybody knows."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "\"I don't know anything about love.\" But she knew enough for Jack. Why couldn't she just tell me she was already spoken for? I'd have stepped back without a word."
+    }
+   ],
+   "loc": "academy",
+   "mood": "golden",
+   "goal": "Tell Delphine how you feel",
+   "talk": "delphine",
+   "place": "Territorial Academy",
+   "date": "That week"
+  },
+  {
+   "id": "c9e",
+   "chapter": 9,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "A few weeks after that, she and Jack split up. Loudly, by all accounts."
+    },
+    {
+     "s": "toby",
+     "t": "Start over. Be friends first, properly. Talk to her. Then, in time, ask again.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "So he does. He writes her notes. He thinks of topics all day. Books. Lectures. The Academy cat. The weather, God help him."
+    },
+    {
+     "s": "eli",
+     "t": "Did you finish the Henley essay? I thought the second half was nonsense.",
+     "to": "delphine",
+     "k": "letter"
+    },
+    {
+     "s": "delphine",
+     "t": "Yes.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "s": "eli",
+     "t": "Did you hear Professor Gault fell in the pond?",
+     "to": "delphine",
+     "k": "letter"
+    },
+    {
+     "s": "delphine",
+     "t": "Mm.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "s": "eli",
+     "t": "Are you going to the spring dance?",
+     "to": "delphine",
+     "k": "letter"
+    },
+    {
+     "s": "delphine",
+     "t": "Okay.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Okay. Mm. Yes. Like answering questions in an exam. I was the only one keeping it alive, blowing on a fire that didn't want to burn."
+    },
+    {
+     "choice": {
+      "prompt": "You read \"Okay.\" for the fourth time.",
+      "opts": [
+       {
+        "t": "Keep trying. One more note.",
+        "fx": {
+         "HEART": 1,
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "eli",
+          "t": "Would you take a walk with me? Just to talk, face to face.",
+          "to": "delphine",
+          "k": "letter"
+         },
+         {
+          "s": "delphine",
+          "t": "Maybe some other time.",
+          "to": "eli",
+          "k": "letter"
+         }
+        ]
+       },
+       {
+        "t": "Stop writing.",
+        "fx": {
+         "NERVE": 2,
+         "STONE": 1,
+         "set": [
+          "let_delphine_go"
+         ]
+        }
+       },
+       {
+        "silent": true,
+        "t": "Stare at the word \"Okay.\" until it stops looking like a word.",
+        "fx": {
+         "DRIFT": 2
+        }
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I'm not a stranger. I'm not asking for a dance or a ring. Just a walk. And she couldn't even give me that."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "But it's not worth anything when the other person doesn't want it. So I stopped. Quietly. No speech, no letter. I just stopped, and she never noticed."
+    }
+   ],
+   "loc": "lodging",
+   "mood": "dusk",
+   "goal": "Write to Delphine",
+   "place": "Academy lodging",
+   "date": "The spring after"
+  },
+  {
+   "id": "c9f",
+   "chapter": 9,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He graduates. He's good at the wire. The best in his year. Of course he is. It's the one thing he was always going to be."
+    },
+    {
+     "k": "narr",
+     "t": "Mr. Hargrove, the chief operator at Ironwood, looks him up and down."
+    },
+    {
+     "s": "hargrove",
+     "t": "Ashby. They say you can take sixty words a minute and never drop a letter.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Sixty-four, sir.",
+     "to": "hargrove"
+    },
+    {
+     "s": "hargrove",
+     "t": "Ha. Modest, too. Desk by the window. Shift's two to ten. Don't fall in love with the girls on the Port Ellis line, they're all engaged.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Desk by the window. Just like Miss Bright's class. Some things find you again."
+    },
+    {
+     "choice": {
+      "prompt": "Mr. Hargrove waits.",
+      "opts": [
+       {
+        "t": "\"Thank you, sir. I won't let you down.\"",
+        "fx": {
+         "HEART": 1,
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "hargrove",
+          "t": "They all say that. Prove it.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Two to ten. Understood.\"",
+        "fx": {
+         "STONE": 1
+        }
+       },
+       {
+        "silent": true,
+        "t": "Sit down at the key.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "office",
+   "mood": "day",
+   "goal": "Report for your first day at the wire office",
+   "talk": "hargrove",
+   "place": "Ironwood Wire Office",
+   "date": "After graduation",
+   "journal": [
+    {
+     "t": "I said it out loud to Delphine. I didn't hide. That counts.",
+     "fx": {
+      "NERVE": 2,
+      "HEART": 1
+     }
+    },
+    {
+     "t": "I keep choosing people who don't choose me back.",
+     "fx": {
+      "STONE": 1
+     }
+    },
+    {
+     "t": "Work is good. Work is quiet. Work doesn't leave.",
+     "fx": {
+      "DRIFT": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "c10a",
+   "chapter": 10,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "There's a woman who takes the evening coach from the millinery one stop past the wire office. Brown coat. A book always open, never read."
+    },
+    {
+     "k": "narr",
+     "t": "Her coach and his coach cross at the Ironwood depot every evening. Most evenings he doesn't need her coach. Some evenings he takes it anyway, and gets off at her stop, and catches another one home."
+    },
+    {
+     "k": "narr",
+     "t": "Her name, he learns from the depot ledger, is Iris Lane."
+    },
+    {
+     "k": "narr",
+     "t": "Her birthday, he learns from the same ledger — passengers write it for the season ticket — is the same as his. Same day. Same month."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Every time I wanted to see her, there she was. As if wanting were a kind of telegraph, and somewhere a needle twitched."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I see a hundred people from the millinery every week. None of them share my birthday. None of them keep appearing like that."
+    },
+    {
+     "choice": {
+      "prompt": "Iris is boarding her coach. She glances up.",
+      "opts": [
+       {
+        "t": "Tip your hat.",
+        "fx": {
+         "NERVE": 1,
+         "iris": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "She smiles, a little puzzled, the way you smile at someone you've seen before but can't place."
+         }
+        ]
+       },
+       {
+        "t": "Look at your boots.",
+        "fx": {
+         "STONE": 1
+        }
+       },
+       {
+        "silent": true,
+        "t": "Watch the coach go.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "depot",
+   "mood": "dusk",
+   "goal": "Wait for your evening coach at the depot",
+   "others": [
+    "iris"
+   ],
+   "place": "Ironwood stage depot",
+   "date": "The second spring at the wire office"
+  },
+  {
+   "id": "c10b",
+   "chapter": 10,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Rook works at the Ironwood freight yard now. He still laughs like he's in the seventh year."
+    },
+    {
+     "s": "rook",
+     "t": "Iris Lane? I know her! Well. I know of her. I thought she was from the Academy. I've been saying hello to her for a year.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "You've been— for a year?",
+     "to": "rook"
+    },
+    {
+     "s": "rook",
+     "t": "I say hello to everybody, Ashby. That's the trick. That's the whole trick. You should try it.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Eli tells him about the coaches. The birthday. The coincidences."
+    },
+    {
+     "s": "rook",
+     "t": "So say something. Say \"Happy almost-birthday, I believe we share it.\" It's practically a poem.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Rook is grinning.",
+      "opts": [
+       {
+        "t": "\"Maybe she's the one, Rook. Could she be?\"",
+        "fx": {
+         "HEART": 1,
+         "rook": 1
+        },
+        "say": [
+         {
+          "s": "rook",
+          "t": "Could be. Could be she's a woman who likes hats. Only one way to find out.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I'll get nervous. I always get nervous.\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "rook",
+          "t": "Then be nervous out loud. Nervous out loud is still out loud.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Stir your coffee.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "teahouse",
+   "mood": "golden",
+   "goal": "Meet Rook at the Kettle & Lamp",
+   "talk": "rook",
+   "place": "The Kettle & Lamp",
+   "date": "That week"
+  },
+  {
+   "id": "c10c",
+   "chapter": 10,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Ten o'clock. He's so tired he gets on the wrong coach. It's halfway back to the office before he notices."
+    },
+    {
+     "k": "narr",
+     "t": "He gets off. Waits in the cold. Catches the next coach toward the millinery to loop back around."
+    },
+    {
+     "k": "narr",
+     "t": "And there she is. Iris Lane. Alone, by the window, at ten at night, with her unread book."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It's not possible. It's just not possible. Out of every coach in this junction, at this hour—"
+    },
+    {
+     "choice": {
+      "prompt": "There's a free seat across from her.",
+      "opts": [
+       {
+        "crack": true,
+        "crackNote": "You sit two rows behind instead. You don't know why.",
+        "t": "Take the seat across from her."
+       },
+       {
+        "t": "Sit two rows behind. Close enough to see her reflection in the window.",
+        "fx": {
+         "DRIFT": 1
+        }
+       },
+       {
+        "silent": true,
+        "t": "Stand by the door.",
+        "fx": {
+         "STONE": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "She gets off at her stop. She doesn't look back. Why would she?"
+    }
+   ],
+   "loc": "office",
+   "mood": "night",
+   "goal": "Catch a coach home after your shift",
+   "others": [
+    "iris"
+   ],
+   "place": "Ironwood Wire Office",
+   "date": "A tired Thursday"
+  },
+  {
+   "id": "c10d",
+   "chapter": 10,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He makes a promise to himself. If he sees her this week, any day this week, he'll speak to her. He'll introduce himself. He'll ask her name like he doesn't already know it."
+    },
+    {
+     "k": "narr",
+     "t": "Monday. Nothing. Tuesday. Wednesday. Thursday."
+    },
+    {
+     "k": "narr",
+     "t": "Friday, he's given up, he's turning to go home — and a man from the millinery rides up and drops her off at the depot on the back of his horse."
+    },
+    {
+     "k": "narr",
+     "t": "She laughs at something he says. She waves him off. She stands there, alone, three yards away."
+    },
+    {
+     "choice": {
+      "prompt": "Three yards.",
+      "opts": [
+       {
+        "crack": true,
+        "crackNote": "Your heart is going so hard you can feel it in your teeth.",
+        "t": "Walk up and say hello."
+       },
+       {
+        "crack": true,
+        "crackNote": "The words are there. Right there. They won't come out.",
+        "t": "\"Excuse me, miss—\""
+       },
+       {
+        "t": "Get on your coach.",
+        "fx": {
+         "DRIFT": 1,
+         "STONE": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "He gets on his coach. Through the window, he watches her open her book."
+    },
+    {
+     "k": "narr",
+     "t": "After that week, he never sees her again. Not once. He takes her coach every night for a month. She's gone."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Is she spoken for? I don't know. Is she older? Younger? Did she ever notice me? I'll never know. I missed every single chance, and they were handed to me on a plate."
+    }
+   ],
+   "loc": "depot",
+   "mood": "dusk",
+   "goal": "Wait for Iris at the depot, like you promised yourself",
+   "others": [
+    "iris"
+   ],
+   "place": "Ironwood stage depot",
+   "date": "The next week"
+  },
+  {
+   "id": "c10e",
+   "chapter": 10,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The end of the east pier. Black water. Somebody's lantern on a boat, very far off."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Three weeks. No coincidences. No luck. The thread snapped and blew away."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "My whole life, whenever I needed something, I'd get close. So close I could touch it. And then I wouldn't get it. Since I was a boy."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I just want somebody to hold my hand and say: don't worry. It'll be alright."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "That's all. That's such a small thing to want."
+    },
+    {
+     "choice": {
+      "prompt": "The water is very dark.",
+      "opts": [
+       {
+        "t": "Think of Ma's lamp in the window.",
+        "fx": {
+         "HEART": 1,
+         "ma": 1,
+         "DRIFT": -1
+        },
+        "say": [
+         {
+          "s": "eli",
+          "k": "thought",
+          "t": "She'll have it lit. She always has it lit. Go home, Eli."
+         }
+        ]
+       },
+       {
+        "t": "Think of nothing at all.",
+        "fx": {
+         "DRIFT": 2
+        }
+       },
+       {
+        "t": "Throw a stone as far as you can.",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "You don't hear it land."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "He stays until the lantern on the far boat goes out. Then he walks back along the planks, one at a time, and goes home."
+    }
+   ],
+   "loc": "pier",
+   "mood": "night",
+   "goal": "Walk out to the end of the east pier",
+   "place": "The east pier",
+   "date": "Three weeks later"
+  },
+  {
+   "id": "c10f",
+   "chapter": 10,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "His birthday. Iris Lane's birthday too, somewhere in the world."
+    },
+    {
+     "k": "narr",
+     "t": "He'd planned, if things had gone differently, to spend it with her. Even as friends. Even one cup of coffee."
+    },
+    {
+     "s": "clerk",
+     "t": "Nothing for you today, Mr. Ashby. Sorry.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Nobody remembers. Not the office. Not the boys, who have their own troubles now. Ma's away visiting Aunt Rhoda; her card will come late."
+    },
+    {
+     "k": "narr",
+     "t": "He's short of money this month. He already owes Ma thirty dollars he hasn't paid back. He's too ashamed to ask for more."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Sometimes I feel like I don't exist. Like I'm walking around inside the world but nobody can see in."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Friends do care. I know they do. But friends can't hold you up forever. They've got their own weight."
+    },
+    {
+     "k": "narr",
+     "t": "There's a new telephone at the post office. Five cents a minute to Port Ellis. He's thought about it for a year."
+    },
+    {
+     "k": "narr",
+     "t": "He puts in the coins. He asks for the nursing college. He waits while they fetch her."
+    },
+    {
+     "s": "rosie",
+     "t": "...Eli? Is something wrong?",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "This is the third time you've tried to call. The first two times, you hung up before they fetched her.",
+      "opts": [
+       {
+        "t": "\"Rosie. I still love you. I wanted you to hear it in my voice, just once.\"",
+        "fx": {
+         "NERVE": 3,
+         "set": [
+          "called_rosie"
+         ]
+        }
+       },
+       {
+        "t": "\"Nothing's wrong. I just... I wanted to tell you something.\"",
+        "fx": {
+         "NERVE": 2,
+         "set": [
+          "called_rosie"
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "And then she says something."
+    },
+    {
+     "k": "narr",
+     "t": "He has never repeated it. Not to Rook, not to Ezra, not to Ma. Not in the diary he keeps under the floorboard. He doesn't have words for it."
+    },
+    {
+     "k": "narr",
+     "t": "It wasn't \"I'm not interested.\" It wasn't \"I'm not ready.\" It was something else. Something meant to make sure he never called again."
+    },
+    {
+     "k": "narr",
+     "t": "It works."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I hung up. I stood there with the earpiece in my hand until the operator asked if I needed help."
+    }
+   ],
+   "loc": "post",
+   "mood": "overcast",
+   "goal": "It's your birthday. Check the post",
+   "talk": "clerk",
+   "place": "Post & Coach Office",
+   "date": "Your birthday",
+   "journal": [
+    {
+     "t": "I don't have to repeat it. I don't have to carry it out loud. But I did call. I did say it.",
+     "fx": {
+      "NERVE": 2
+     }
+    },
+    {
+     "t": "That's it. No more. I'm done reaching for people.",
+     "fx": {
+      "STONE": 2
+     }
+    },
+    {
+     "t": "I don't remember walking home.",
+     "fx": {
+      "DRIFT": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "c10g",
+   "chapter": 10,
+   "lines": [
+    {
+     "s": "percy",
+     "t": "Ha. Did you see? The photographer in Port Ellis put her likeness in his window. Rosie Marlowe. With some fellow in a good suit. Arm in arm. Ha. ...Sorry. Was that the wrong thing to say?",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "It's in the society page too. \"Miss R. Marlowe, often seen in the company of Mr. —.\" He doesn't read the name."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Even after she said no. Even after the telephone. Somewhere in me I'd kept a little hope. That one day she might turn around."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Now it's never going to happen. Never. I said that word out loud in my room and it didn't even echo."
+    },
+    {
+     "choice": {
+      "prompt": "Percy is fidgeting.",
+      "opts": [
+       {
+        "t": "\"It's alright, Percy. Thank you for telling me straight.\"",
+        "fx": {
+         "HEART": 1,
+         "NERVE": 1,
+         "percy": 1
+        },
+        "say": [
+         {
+          "s": "percy",
+          "t": "Ha. Yeah. You're... taking it well? You're taking it alarmingly well.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I don't care anymore.\"",
+        "fx": {
+         "STONE": 2
+        },
+        "say": [
+         {
+          "s": "percy",
+          "t": "Ha. Right. Sure. Neither do I.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Fold the newspaper very small.",
+        "fx": {
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "You put it in your breast pocket. Later, it goes in the tin."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "item": {
+      "id": "clipping",
+      "name": "A newspaper clipping",
+      "desc": "The society page. You never read the name."
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I decided, that spring, to quit. Quit reaching. Quit writing. Quit everyone I knew, quietly, one by one, until there was nobody left to disappoint me."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I didn't, quite. Rook wouldn't let me. But I tried."
+    }
+   ],
+   "loc": "teahouse",
+   "mood": "overcast",
+   "goal": "See what Percy is waving at you",
+   "talk": "percy",
+   "place": "The Kettle & Lamp",
+   "date": "That spring"
+  },
+  {
+   "id": "c11a",
+   "chapter": 11,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The company sends him out to the relay shack on the beach. One man, one key, one stove, and the sea. He passes messages from the Port Ellis line to the main office and back."
+    },
+    {
+     "k": "narr",
+     "t": "Nobody visits. That suits him fine."
+    },
+    {
+     "k": "narr",
+     "t": "But the wire is never quiet. Every afternoon, the main office taps him. It's Viola Sutton, the operator on the Port Ellis desk. She's from down south, talks faster on the key than most people talk out loud."
+    },
+    {
+     "s": "viola",
+     "t": "ASHBY STOP YOU ALIVE OUT THERE STOP",
+     "to": "eli",
+     "k": "wire"
+    },
+    {
+     "s": "viola",
+     "t": "HARGROVE SPILLED COFFEE ON THE LEDGER AGAIN STOP NEW GIRL ON THE NIGHT DESK IS SWEET ON THE COAL MAN STOP TELL ME SOMETHING STOP",
+     "to": "eli",
+     "k": "wire"
+    },
+    {
+     "k": "narr",
+     "t": "She tells him everything. Who's quarreling, who's courting, what everybody had for lunch. He doesn't care about most of it. He listens anyway. It's company."
+    },
+    {
+     "choice": {
+      "prompt": "Viola is waiting for your reply.",
+      "opts": [
+       {
+        "t": "\"ALIVE STOP TELL ME ABOUT THE COAL MAN STOP\"",
+        "fx": {
+         "HEART": 1,
+         "viola": 1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "HA STOP KNEW YOU WERE A GOSSIP UNDERNEATH STOP",
+          "to": "eli",
+          "k": "wire"
+         }
+        ]
+       },
+       {
+        "t": "\"BUSY STOP\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "LIAR STOP NOBODY IS BUSY AT A RELAY SHACK STOP",
+          "to": "eli",
+          "k": "wire"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Tap back a single dot. Received.",
+        "fx": {
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "A DOT STOP YOU ARE IMPOSSIBLE STOP",
+          "to": "eli",
+          "k": "wire"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I didn't talk much. I never have. But she didn't seem to mind. She talked enough for two."
+    }
+   ],
+   "loc": "shack",
+   "mood": "day",
+   "goal": "Take up your new post at the relay shack",
+   "place": "The relay shack",
+   "date": "Two years later"
+  },
+  {
+   "id": "c11b",
+   "chapter": 11,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Toby rides out to the shack, which nobody ever does. He's got his serious face on."
+    },
+    {
+     "s": "toby",
+     "t": "It's Rosie. Her sweetheart, the one from the photograph — they're finished. It was bad, Eli. She telephoned me in the middle of the night. She was... in a very dark place. She said things that scared me.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Is she alright?",
+     "to": "toby"
+    },
+    {
+     "s": "toby",
+     "t": "She is now. She's got people. Her sister's with her. I just thought you'd want to know.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Something terrible and hopeful happens in Eli's chest at the same time."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I hated that I felt it. She was hurting, and some small selfish part of me thought: now she won't love anyone else. Now maybe..."
+    },
+    {
+     "choice": {
+      "prompt": "Toby is watching you.",
+      "opts": [
+       {
+        "t": "\"I hope she's alright. Truly. That's what matters.\"",
+        "fx": {
+         "HEART": 2,
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "toby",
+          "t": "Yeah. It is.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Do you think she'd want to hear from me?\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "toby",
+          "t": "I don't know. Wait a while. Her birthday's in a month. Wish her well. Just that.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Look at the sea.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "A month later, on her birthday, he sends a short, careful wire. HAPPY BIRTHDAY STOP HOPE THE YEAR IS KIND TO YOU STOP. She wires back: THANK YOU STOP."
+    },
+    {
+     "k": "narr",
+     "t": "Two words. He reads them all evening."
+    }
+   ],
+   "loc": "shack",
+   "mood": "golden",
+   "goal": "Toby has ridden all the way out to see you",
+   "talk": "toby",
+   "place": "The relay shack",
+   "date": "Autumn"
+  },
+  {
+   "id": "c11c",
+   "chapter": 11,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Then, out of nowhere, a message on the Port Ellis line addressed to the relay shack. To him."
+    },
+    {
+     "s": "rosie",
+     "t": "ELI STOP NEED HELP WITH A PAPER ON ROENTGEN WIRING STOP YOU KNOW WIRES STOP ARE YOU BUSY STOP",
+     "to": "eli",
+     "k": "wire"
+    },
+    {
+     "k": "narr",
+     "t": "He is never busy. He helps. They wire back and forth for two weeks. Coils and currents, and then jokes about her professor, and then how her mother is, and how his is."
+    },
+    {
+     "s": "rosie",
+     "t": "YOU WERE ALWAYS CLEVER STOP I REMEMBER THE WINDOW SEAT STOP",
+     "to": "eli",
+     "k": "wire"
+    },
+    {
+     "choice": {
+      "prompt": "It feels like being friends. Real friends, finally.",
+      "opts": [
+       {
+        "t": "Enjoy it. Ask for nothing more.",
+        "fx": {
+         "HEART": 2,
+         "rosie": 1
+        },
+        "say": [
+         {
+          "s": "eli",
+          "k": "thought",
+          "t": "For two weeks, it was like we were fifteen on that porch again. Except we were talking."
+         }
+        ]
+       },
+       {
+        "t": "Bring up the past. Just a little.",
+        "fx": {
+         "NERVE": 1,
+         "rosie": -1
+        },
+        "say": [
+         {
+          "s": "eli",
+          "t": "DO YOU REMEMBER THE PILLARS STOP",
+          "to": "rosie",
+          "k": "wire"
+         },
+         {
+          "k": "narr",
+          "t": "A long pause on the line. Then: PAPER IS DUE FRIDAY STOP. You don't bring it up again."
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Help with the paper and nothing else.",
+        "fx": {
+         "STONE": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "shack",
+   "mood": "dusk",
+   "goal": "Answer the wire from Port Ellis",
+   "place": "The relay shack",
+   "date": "That winter"
+  },
+  {
+   "id": "c11d",
+   "chapter": 11,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "September. Her birthday again. He wires good wishes and asks how the paper turned out."
+    },
+    {
+     "k": "narr",
+     "t": "The wire company sends back a slip: DELIVERED. RECEIVED. No reply."
+    },
+    {
+     "k": "narr",
+     "t": "Then he and Ezra plan a trip north, to the Dakota hills. She's working at a hospital near there now. He wires to ask if she knows a good boarding house in that town."
+    },
+    {
+     "k": "narr",
+     "t": "DELIVERED. RECEIVED. No reply."
+    },
+    {
+     "s": "ezra",
+     "t": "She saw it. She just didn't answer.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Maybe she's busy.",
+     "to": "ezra"
+    },
+    {
+     "s": "ezra",
+     "t": "Eli.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "...I know.",
+     "to": "ezra"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Left on \"received.\" There's a special kind of quiet in that word."
+    },
+    {
+     "ride": {
+      "notices": [
+       "Ezra pointing at an eagle",
+       "The Dakota hills, blue at dawn",
+       "A town you'll never see again"
+      ]
+     }
+    },
+    {
+     "choice": {
+      "prompt": "On the trip, Ezra asks if you're alright.",
+      "opts": [
+       {
+        "t": "\"No. But I'm glad you're here.\"",
+        "fx": {
+         "HEART": 2,
+         "ezra": 2,
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "Me too. Even though you snore.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I'm fine.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "You've been saying that since the seventh year. It's never once been true.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Watch the hills.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "depot",
+   "mood": "golden",
+   "goal": "Meet Ezra at the depot for your trip north",
+   "talk": "ezra",
+   "place": "Ironwood stage depot",
+   "date": "The following September"
+  },
+  {
+   "id": "c11e",
+   "chapter": 11,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He tries the Lonely Hearts column in the Ironwood paper. Once. Rook dares him, and he's too tired to argue."
+    },
+    {
+     "s": "clerk",
+     "t": "Two replies for box 14, Mr. Ashby.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "The first is from a schoolteacher up north. They write five letters. She's funny and careful. Then her letters simply stop, mid-conversation, like a door left open on an empty room. He writes twice more and gives up."
+    },
+    {
+     "k": "narr",
+     "t": "The second is from a woman in Red Bluff who, by her third letter, mentions her husband."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Why do married women write to the Lonely Hearts? Why does anybody write to anybody and then vanish? I'm so tired of being the one left holding the pen."
+    },
+    {
+     "choice": {
+      "prompt": "The clerk is waiting.",
+      "opts": [
+       {
+        "t": "Laugh about it. \"Well. At least I tried.\"",
+        "fx": {
+         "HEART": 1,
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "clerk",
+          "t": "That's the spirit, Mr. Ashby.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Cancel the notice.\"",
+        "fx": {
+         "STONE": 1
+        }
+       },
+       {
+        "silent": true,
+        "t": "Pocket the letters.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "post",
+   "mood": "overcast",
+   "goal": "Collect replies to your notice in the Lonely Hearts column",
+   "talk": "clerk",
+   "place": "Post & Coach Office",
+   "date": "That autumn"
+  },
+  {
+   "id": "c11f",
+   "chapter": 11,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Since the new year, he's had a feeling. A cold, heavy feeling, like weather coming. Something bad is on its way. He couldn't say what."
+    },
+    {
+     "s": "rook",
+     "t": "Sit down. Have you heard?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Heard what?",
+     "to": "rook"
+    },
+    {
+     "s": "rook",
+     "t": "I didn't want you reading it in the paper. There's a rumor. About Rosie. That she's getting married.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Eli laughs, actually laughs."
+    },
+    {
+     "s": "eli",
+     "t": "That's not true. She'd— that's not true.",
+     "to": "rook"
+    },
+    {
+     "s": "rook",
+     "t": "I hope it isn't. I'm just telling you what I heard.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Rook's hand is on your arm.",
+      "opts": [
+       {
+        "t": "\"Thanks for telling me, Rook. Really.\"",
+        "fx": {
+         "HEART": 1,
+         "rook": 2
+        },
+        "say": [
+         {
+          "s": "rook",
+          "t": "Brother from another mother. Who else was going to?",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"It's a rumor. Percy-grade nonsense.\"",
+        "fx": {
+         "DRIFT": 1
+        }
+       },
+       {
+        "silent": true,
+        "t": "Pull your arm away.",
+        "fx": {
+         "STONE": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "teahouse",
+   "mood": "winter",
+   "goal": "Meet Rook at the Kettle & Lamp",
+   "talk": "rook",
+   "place": "The Kettle & Lamp",
+   "date": "January"
+  },
+  {
+   "id": "c11g",
+   "chapter": 11,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The eighteenth of January. It's in the Port Ellis Herald. The engagement notice."
+    },
+    {
+     "card": {
+      "title": "The Port Ellis Herald",
+      "body": "Dr. and Mrs. H. Marlowe announce the engagement of their daughter, Miss Rosalind Marlowe, to Dr. A. Pemberton of the Royal Infirmary, Liverpool. The couple will make their home abroad."
+     }
+    },
+    {
+     "k": "narr",
+     "t": "Not the sweetheart from the photograph. Not anyone she loved. An arranged match, the gossip says. A doctor of her parents' choosing, older than her, same church, a position overseas."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I'd have done anything. Changed churches. Crossed an ocean. Become a doctor, if that's what it took. I'm not stupid. I could have done it. I just never thought I'd have to."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "And she didn't even marry someone she loved. She married someone she was handed."
+    },
+    {
+     "k": "narr",
+     "t": "He walks to the key at the back of the office. The clerk is at lunch. He puts his hand on the brass and taps."
+    },
+    {
+     "s": "eli",
+     "t": "WHY STOP WHY STOP WHY WOULD YOU STOP EVERYONE CHANGES THEIR MIND STOP STUPID STOP STUPID PEOPLE STOP I COULD HAVE STOP I COULD HAVE STOP",
+     "to": "nobody",
+     "k": "wire"
+    },
+    {
+     "s": "eli",
+     "t": "XXXXXX EEEEE TTTTTTTTTTTTT 9999 STOP STOP STOP STOP",
+     "to": "nobody",
+     "k": "wire"
+    },
+    {
+     "k": "narr",
+     "t": "The line isn't connected to anything. It goes nowhere. He taps until his fingers ache."
+    },
+    {
+     "choice": {
+      "prompt": "The clerk comes back. You take your hand off the key.",
+      "opts": [
+       {
+        "t": "Apologize. Go home.",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "clerk",
+          "t": "You alright, Mr. Ashby?",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "No. But I will be. I think.",
+          "to": "clerk"
+         }
+        ]
+       },
+       {
+        "t": "Say nothing and walk out.",
+        "fx": {
+         "STONE": 1,
+         "DRIFT": 1
+        }
+       },
+       {
+        "t": "Sit down on the floor behind the counter.",
+        "fx": {
+         "DRIFT": 2
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "The clerk doesn't say anything. He puts a cup of water next to you, and goes back to sorting the mail."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It felt like watching someone I loved die right in front of me. And I couldn't do anything. And I wasn't allowed to grieve, because she wasn't mine to lose."
+    }
+   ],
+   "loc": "post",
+   "mood": "winter",
+   "goal": "Read the Port Ellis paper at the post office",
+   "place": "Post & Coach Office",
+   "date": "The eighteenth of January"
+  },
+  {
+   "id": "c11h",
+   "chapter": 11,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "She starts appearing in his dreams. Every night. Sometimes she's fifteen, on the porch. Sometimes she's a stranger in a wedding dress who doesn't know him."
+    },
+    {
+     "k": "narr",
+     "t": "He wakes with his heart going too fast and his hands shaking. It happens in the day too. At the key. On the coach. His hands just... shake."
+    },
+    {
+     "k": "narr",
+     "t": "Then a wire from Mr. Hargrove: the relay shack is closing. Everybody back to the main office by the middle of February. Two to ten, every day."
+    },
+    {
+     "s": "ma",
+     "t": "You're not sleeping.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "I'm sleeping.",
+     "to": "ma"
+    },
+    {
+     "s": "ma",
+     "t": "I hear you walking. Every night. Up and down. Like your Pa used to before a long ride.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Ma has her hand on the door.",
+      "opts": [
+       {
+        "t": "\"Something's wrong with me, Ma. I don't know what.\"",
+        "fx": {
+         "NERVE": 2,
+         "HEART": 1,
+         "ma": 2,
+         "set": [
+          "told_ma_shaking"
+         ]
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "Then we'll find out what. That's all. You don't have to know yet. You just have to not hide it.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"It's just work.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "It's not work. But I'll wait till you're ready.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Pretend to be asleep.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "home",
+   "mood": "night",
+   "goal": "Go home and try to sleep",
+   "talk": "ma",
+   "place": "The Ashby cottage",
+   "date": "February",
+   "journal": [
+    {
+     "t": "If she'd loved me, I'd have fought the whole world. But there was nothing to fight for. That's what's so hard.",
+     "fx": {
+      "NERVE": 1,
+      "HEART": 1
+     }
+    },
+    {
+     "t": "I'm done. I don't care who stays. If you want to leave, leave.",
+     "fx": {
+      "STONE": 2
+     }
+    },
+    {
+     "t": "My hands keep shaking. My head is too loud. Maybe it isn't just heartbreak.",
+     "fx": {
+      "NERVE": 1,
+      "set": [
+       "noticed_symptoms"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c12a",
+   "chapter": 12,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "A strange thing happens after the engagement notice. A few weeks of being wrecked, and then... quiet. Like a fever breaking."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "The closure I'd waited ten years for finally came. Not the way I wanted. But it came. I could stop asking. I felt, for the first time in years, a little bit light."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I decided to stay single. To live my own life. No more complicated anything."
+    },
+    {
+     "k": "narr",
+     "t": "Back at the main office. Two to ten. And at the Port Ellis desk, finally in person after two years of dots and dashes: Viola Sutton."
+    },
+    {
+     "s": "viola",
+     "t": "Well, well. The relay hermit. You're taller than you tap.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "How do I tap short?",
+     "to": "viola"
+    },
+    {
+     "s": "viola",
+     "t": "You tap like a man who's saving his words for something. Sit, sit. Night desk gets supper at eight, you'll eat with us. I'll tell you everything you missed.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "She does. She tells him everything. He listens. That's how it always was on the wire, and it's how it is in person."
+    },
+    {
+     "choice": {
+      "prompt": "Viola is mid-story about the coal man.",
+      "opts": [
+       {
+        "t": "Laugh at the right part.",
+        "fx": {
+         "HEART": 1,
+         "viola": 1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "See? You do have a laugh in there. I knew it.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "Ask her a question about herself.",
+        "fx": {
+         "NERVE": 1,
+         "viola": 2
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "About me? Nobody asks about me. ...Alright. Sit down. This'll take a while.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Nod along.",
+        "fx": {
+         "viola": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "office",
+   "mood": "golden",
+   "goal": "Report back to the main wire office",
+   "talk": "viola",
+   "others": [
+    "hargrove"
+   ],
+   "place": "Ironwood Wire Office",
+   "date": "Mid-February"
+  },
+  {
+   "id": "c12b",
+   "chapter": 12,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Every night at eight, the night desk eats together. Afterwards, everyone washes their tins at the basin in the back. It's the one time all day nobody's tapping."
+    },
+    {
+     "k": "narr",
+     "t": "One evening, at the basin, Viola reaches past him for the soap and ends up very close. Face to face. Close enough that neither of them moves for a second."
+    },
+    {
+     "k": "narr",
+     "t": "That night he walks her home down Willow Lane, like he usually does now."
+    },
+    {
+     "s": "viola",
+     "t": "At the basin, tonight. Did you feel that?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Feel what?",
+     "to": "viola"
+    },
+    {
+     "s": "viola",
+     "t": "A spark. I felt a spark, Eli. Don't pretend you didn't notice.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "He didn't expect it. Not this. Not from her."
+    },
+    {
+     "choice": {
+      "prompt": "How do you answer?",
+      "opts": [
+       {
+        "t": "The truth: \"Viola, I've always thought of you as... one of the boys. Somebody I'm easy around.\"",
+        "fx": {
+         "NERVE": 2,
+         "viola": -1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "One of the boys. Wonderful. Every girl's dream.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I don't know what I felt.\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "Then think about it. I'll wait. Not forever, but I'll wait.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Keep walking.",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "Say something, Eli. Anything.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "viola",
+     "t": "If you don't feel it too, then... I'll stop. Talking to you so much, I mean. It won't be fair on me otherwise.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "She was already picturing us like a stage romance. Moonlight and violins. She saw love so differently from me. But she was the only person who'd talked to me every day for two years."
+    }
+   ],
+   "loc": "lane",
+   "mood": "night",
+   "goal": "Walk Viola home down Willow Lane",
+   "talk": "viola",
+   "place": "Willow Lane",
+   "date": "Two months later"
+  },
+  {
+   "id": "c12c",
+   "chapter": 12,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "She convinces him to try. Or he convinces himself. He's never been sure which."
+    },
+    {
+     "k": "narr",
+     "t": "But first he has to tell her who he is. All of it. He's never said it out loud, not in order, not to anyone."
+    },
+    {
+     "s": "eli",
+     "t": "I need you to know some things first. Before anything.",
+     "to": "viola"
+    },
+    {
+     "k": "narr",
+     "t": "He tells her about the quiet house. Pa's three letters a year. The ruler. The coach stop and the two coins. The seventh year. The porch. The shaking hand that wasn't hers, or was. The telephone call. The engagement notice."
+    },
+    {
+     "k": "narr",
+     "t": "Halfway through, he realizes his face is wet. He didn't feel it start."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "All those years I couldn't cry. And it came out at the end of a pier, in front of a girl I wasn't even sure I loved."
+    },
+    {
+     "s": "eli",
+     "t": "I'm not in a good place, Viola. I don't know if I can be what you want. I keep my distance from people. I don't know how not to.",
+     "to": "viola"
+    },
+    {
+     "s": "viola",
+     "t": "...Then we'll go slowly. No promises. No... commitments. We'll just see. Can we just see?",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "She's holding your hand.",
+      "opts": [
+       {
+        "t": "\"We can just see.\"",
+        "fx": {
+         "HEART": 2,
+         "viola": 2,
+         "set": [
+          "with_viola"
+         ]
+        }
+       },
+       {
+        "t": "\"Are you sure you want this? Want me?\"",
+        "fx": {
+         "NERVE": 1,
+         "viola": 1,
+         "set": [
+          "with_viola"
+         ]
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "I'm sure. I've been sure since the relay shack.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Squeeze her hand.",
+        "fx": {
+         "viola": 1,
+         "set": [
+          "with_viola"
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I knew she'd had a love before, a serious one. I knew she was used to boys falling over themselves for her. I wasn't like that. I didn't chase. But she wanted me anyway. And I hadn't been wanted in a very long time."
+    }
+   ],
+   "loc": "pier",
+   "mood": "night",
+   "goal": "Meet Viola at the east pier to talk properly",
+   "talk": "viola",
+   "place": "The east pier",
+   "date": "A week later"
+  },
+  {
+   "id": "c12d",
+   "chapter": 12,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "They see each other every day. And almost from the start, they understand love completely differently."
+    },
+    {
+     "k": "narr",
+     "t": "She wants a note on his desk every morning. She wants him to ask, every day, if she's eaten. She wants to hear it, often, out loud, in the ways she's used to hearing it."
+    },
+    {
+     "k": "narr",
+     "t": "He believes two people should be free. That you shouldn't have to report every hour of your life. That someone's presence is the proof, not the routine."
+    },
+    {
+     "s": "viola",
+     "t": "You were talking to Nell. On the night desk. For twenty minutes.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "She asked me how to fix her sounder.",
+     "to": "viola"
+    },
+    {
+     "s": "viola",
+     "t": "For twenty minutes? It's a sounder, Eli, not a steam engine.",
+     "to": "eli"
+    },
+    {
+     "s": "nell",
+     "t": "...I'll just. Go. Over there.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Viola's eyes are wet.",
+      "opts": [
+       {
+        "t": "\"I'm sorry. I'll be more careful.\"",
+        "fx": {
+         "HEART": 1,
+         "viola": 1,
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "You always say that. And then you forget to ask if I ate.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I'm allowed to talk to people, Viola.\"",
+        "fx": {
+         "NERVE": 2,
+         "viola": -1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "I know you're allowed! I'm not stupid! I just want to feel like I'm the one you choose.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I need time. I've never done this. I'm learning.\"",
+        "fx": {
+         "NERVE": 2,
+         "HEART": 1,
+         "viola": 1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "...I know. I know you are. I'm sorry. I just get frightened.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "viola",
+     "t": "I'm not alright. I think you should leave me alone tonight.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "He goes. An hour later, a note under his door: \"I won't ever leave you like that. Don't go. I didn't mean it.\""
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It happened again. And again. I couldn't understand those turns. Leave me alone. Don't leave me. I needed time to learn her way of loving. And it felt like we were fighting every day over things I didn't understand."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Wanting reassurance isn't wrong. I know that. But needing room didn't mean I didn't care."
+    }
+   ],
+   "loc": "office",
+   "mood": "dusk",
+   "goal": "Find out why Viola is upset with you",
+   "talk": "viola",
+   "others": [
+    "nell"
+   ],
+   "place": "Ironwood Wire Office",
+   "date": "That summer"
+  },
+  {
+   "id": "c12e",
+   "chapter": 12,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The fair comes through, like it did when he was small. He takes Viola. The fire-eater. The sugar tent. A little painted boat bobbing at a rope."
+    },
+    {
+     "s": "eli",
+     "t": "I've been here before. When I was five. My aunt brought us. I've been looking for this exact spot my whole life.",
+     "to": "viola"
+    },
+    {
+     "s": "viola",
+     "t": "And now you've found it. With me.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "She's happy. Really happy, the uncomplicated way she's happy sometimes, like a child."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Early on, I'd told her I didn't think I'd ever marry. I didn't know what love was supposed to feel like. I'd been alone too long."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "But somewhere along the way that changed. Standing on those planks, I could picture it. Her. A house. Ma liking her. A future, which I'd stopped believing in."
+    },
+    {
+     "choice": {
+      "prompt": "Viola is leaning on the rail.",
+      "opts": [
+       {
+        "t": "\"Viola... I think I'd marry you. If you'd have me. Someday.\"",
+        "fx": {
+         "HEART": 2,
+         "viola": 3,
+         "set": [
+          "promised"
+         ]
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "Eli Ashby. Are you serious?",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "I'm always serious. It's my worst quality.",
+          "to": "viola"
+         },
+         {
+          "k": "narr",
+          "t": "She cries and laughs at the same time. You make promises to each other on that pier. Real ones."
+         }
+        ]
+       },
+       {
+        "t": "\"This is a good day.\"",
+        "fx": {
+         "HEART": 1,
+         "viola": 1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "It's the best day.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Watch the boat.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "t": "And if we ever part... don't worry about me. I'll be alright. I can take it.",
+     "to": "viola"
+    },
+    {
+     "k": "narr",
+     "t": "He believes that when he says it."
+    },
+    {
+     "k": "narr",
+     "t": "On the way home, she squeezes his arm."
+    },
+    {
+     "s": "viola",
+     "t": "You take care of me like a husband would. Do you know that?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Nobody had ever said anything like that to me. I'd been alone so long. Those words went somewhere very deep, and stayed."
+    }
+   ],
+   "loc": "pond",
+   "mood": "golden",
+   "goal": "Take Viola to the summer fair at the south pier",
+   "talk": "viola",
+   "place": "The south pier",
+   "date": "Late summer"
+  },
+  {
+   "id": "c12f",
+   "chapter": 12,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Viola has a rheumatism of the joints. A real illness, a lifelong one. Some weeks her hands swell so badly she can't work the key."
+    },
+    {
+     "k": "narr",
+     "t": "Doc Whitlow gave her powders and rules. She doesn't always take the powders. She doesn't always follow the rules."
+    },
+    {
+     "s": "eli",
+     "t": "Did you take the powders today?",
+     "to": "viola"
+    },
+    {
+     "s": "viola",
+     "t": "Don't. Don't be my doctor. Be my sweetheart.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I didn't want to treat her like a patient. I wanted her to live her own life. But I was frightened for her."
+    },
+    {
+     "k": "narr",
+     "t": "And there's something else. Something he knows, and has tried not to think about. She still has feelings for the man she loved before him. A man of a different faith. They'd both known it could never work. Knowing that didn't make the feelings go away."
+    },
+    {
+     "choice": {
+      "prompt": "She's lying back on the pillows, eyes closed. You've wanted to ask for weeks.",
+      "opts": [
+       {
+        "t": "\"Viola. Who do you want? Him, or me? I need to know.\"",
+        "fx": {
+         "NERVE": 2,
+         "set": [
+          "asked_who"
+         ]
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "...I don't know. I don't want anyone. I don't want anything. I just want my hands to stop hurting.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "She's ill. She's in pain. You know those words might not mean everything. But they go in like a nail."
+         }
+        ]
+       },
+       {
+        "t": "Don't ask. Not today.",
+        "fx": {
+         "HEART": 1,
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "eli",
+          "k": "thought",
+          "t": "I didn't ask. I'd changed my whole idea of my future to choose her. I couldn't bear to find out she wasn't choosing me the same way."
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Hold her hand very carefully.",
+        "fx": {
+         "HEART": 1,
+         "viola": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "lane",
+   "mood": "overcast",
+   "goal": "Visit Viola. She's unwell again",
+   "talk": "viola",
+   "place": "Willow Lane",
+   "date": "Autumn",
+   "journal": [
+    {
+     "t": "I love her. I think. Or I'm trying to, which might be the same thing.",
+     "fx": {
+      "HEART": 1
+     }
+    },
+    {
+     "t": "I changed everything for her, and I don't know if she'd do the same.",
+     "fx": {
+      "NERVE": 1
+     }
+    },
+    {
+     "t": "I'm doing it all right and it still feels wrong. Something in me is going quiet again.",
+     "fx": {
+      "DRIFT": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "c13a",
+   "chapter": 13,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "It doesn't happen all at once. It happens the way a river changes course. Grain by grain."
+    },
+    {
+     "k": "narr",
+     "t": "The arguments. The expectations. The not-knowing. Slowly, what he feels for Viola stops being love and starts being something else. Care. Worry. Duty."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I still wanted her to be well. I still worried about her hands, about whether she'd eaten. I didn't want her to suffer. But the romantic part of me was going out like a lamp running dry."
+    },
+    {
+     "s": "eli",
+     "t": "Viola. I need some time. To... recover. I'm worn out. I'm not leaving. I just need room to breathe.",
+     "to": "viola"
+    },
+    {
+     "s": "viola",
+     "t": "Room. From me.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "From everything.",
+     "to": "viola"
+    },
+    {
+     "s": "viola",
+     "t": "Then why can't it be like before? You used to walk me home every night. You used to look at me.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "She wants it back the way it was. You don't know how to give her that.",
+      "opts": [
+       {
+        "t": "\"I'm trying. I promise I'm trying.\"",
+        "fx": {
+         "HEART": 1,
+         "DRIFT": 1,
+         "viola": 1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "Try harder. Please.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"It can't be like before. Not right now. I'm sorry.\"",
+        "fx": {
+         "NERVE": 2,
+         "viola": -1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "Don't say that. Don't you say that to me.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Look at the floor.",
+        "fx": {
+         "STONE": 1,
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "You're doing it again. You're going away behind your eyes.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "office",
+   "mood": "overcast",
+   "goal": "Talk to Viola after your shift",
+   "talk": "viola",
+   "place": "Ironwood Wire Office",
+   "date": "Winter"
+  },
+  {
+   "id": "c13b",
+   "chapter": 13,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "In the spring, the office takes on a new clerk for the ledger desk. Wren Ellery. Quiet hands. Ink on her cuff. She draws small birds in the ledger margins and erases them before Hargrove sees."
+    },
+    {
+     "s": "wren",
+     "t": "Mr. Hargrove says you know where everything is.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "I know where everything was. Hargrove moves things to see if we notice.",
+     "to": "wren"
+    },
+    {
+     "s": "wren",
+     "t": "Ha. So it's a test.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Everything's a test with Hargrove. Even the coffee.",
+     "to": "wren"
+    },
+    {
+     "k": "narr",
+     "t": "He shows her the ledger. It takes an hour, and the hour goes very fast."
+    },
+    {
+     "choice": {
+      "prompt": "She's looking at the margin where she drew a wren, half-erased.",
+      "opts": [
+       {
+        "t": "\"You should leave that one. It's good.\"",
+        "fx": {
+         "HEART": 1,
+         "wren": 2
+        },
+        "say": [
+         {
+          "s": "wren",
+          "t": "It's a self-portrait. Wren. You see? Small and brown and judgmental.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "I see a bird that's paying attention.",
+          "to": "wren"
+         },
+         {
+          "s": "wren",
+          "t": "...That's a nice thing to say. You don't say many things, do you? But they're nice when you do.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Hargrove will see it.\"",
+        "fx": {
+         "NERVE": 1,
+         "wren": 1
+        },
+        "say": [
+         {
+          "s": "wren",
+          "t": "Let him. Maybe he'll learn to appreciate the arts.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Smile at the bird.",
+        "fx": {
+         "wren": 1
+        },
+        "say": [
+         {
+          "s": "wren",
+          "t": "I saw that. Don't worry, I won't tell.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "office",
+   "mood": "day",
+   "goal": "Show the new clerk how the ledger works",
+   "talk": "wren",
+   "place": "Ironwood Wire Office",
+   "date": "That spring"
+  },
+  {
+   "id": "c13c",
+   "chapter": 13,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Their coaches leave from the same corner. They start walking there together. It happens without either of them deciding."
+    },
+    {
+     "s": "wren",
+     "t": "You go somewhere, sometimes. In the middle of a sentence. Like you've stepped out of the room for a minute.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "...People usually don't notice that.",
+     "to": "wren"
+    },
+    {
+     "s": "wren",
+     "t": "I notice things. It's my worst quality.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "With Wren, he doesn't have to explain. He says half a thought and she finishes it. Not with what she wants it to mean. With what it means."
+    },
+    {
+     "choice": {
+      "prompt": "Wren asks: \"Where do you go?\"",
+      "opts": [
+       {
+        "t": "Tell her the truth. \"Somewhere quiet. Somewhere I don't have to be anyone.\"",
+        "fx": {
+         "NERVE": 2,
+         "HEART": 1,
+         "wren": 2
+        },
+        "say": [
+         {
+          "s": "wren",
+          "t": "That sounds lonely.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "It is. But it's quiet.",
+          "to": "wren"
+         },
+         {
+          "s": "wren",
+          "t": "Well. When you come back, I'll be here. Quietly. If that helps.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Nowhere. I'm just tired.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "wren",
+          "t": "Alright. You don't have to tell me. But you can.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Look at the water.",
+        "fx": {
+         "DRIFT": 1,
+         "wren": 1
+        },
+        "say": [
+         {
+          "s": "wren",
+          "t": "...That's alright too.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I felt safe. I don't know a better word. With her, I felt safe. I didn't have to perform being a person. I could just be one."
+    }
+   ],
+   "loc": "bridge",
+   "mood": "golden",
+   "goal": "Walk to the coach with Wren",
+   "talk": "wren",
+   "place": "The creek bridge",
+   "date": "A few weeks later"
+  },
+  {
+   "id": "c13d",
+   "chapter": 13,
+   "lines": [
+    {
+     "s": "viola",
+     "t": "You talk to her. Wren. You talk to her like you used to talk to me.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "We walk to the coach. That's all.",
+     "to": "viola"
+    },
+    {
+     "s": "viola",
+     "t": "You never tell me what you're thinking. Ever. And you tell her. I've seen your face when you talk to her. You don't make that face for me anymore.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "She wasn't completely wrong. And that was the worst part."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "But I wasn't looking for someone to replace her. I was looking for somewhere I could breathe. I'd been trying to tell her, for months, that we weren't working. She never heard it. Now it was all about Wren."
+    },
+    {
+     "s": "viola",
+     "t": "I loved her like a sister, Eli. Like my own sister. And now you—",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Viola is shaking.",
+      "opts": [
+       {
+        "t": "\"This isn't about Wren. It's about us. We haven't been right for a long time.\"",
+        "fx": {
+         "NERVE": 3,
+         "viola": -1,
+         "set": [
+          "named_problem"
+         ]
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "Don't. Don't make it sound sensible. It's not sensible. I'm in pain.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I'm sorry. I'll stop walking with her.\"",
+        "fx": {
+         "HEART": 1,
+         "DRIFT": 1,
+         "wren": -1,
+         "viola": 1
+        },
+        "say": [
+         {
+          "s": "eli",
+          "k": "thought",
+          "t": "I said it, and I felt something in me go dark, like a window being shuttered."
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Let her be angry.",
+        "fx": {
+         "STONE": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "lane",
+   "mood": "dusk",
+   "goal": "Viola wants to talk",
+   "talk": "viola",
+   "place": "Willow Lane",
+   "date": "That week"
+  },
+  {
+   "id": "c13e",
+   "chapter": 13,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Four o'clock. Coffee break. He walks to the Kettle & Lamp, like he does every Thursday."
+    },
+    {
+     "k": "narr",
+     "t": "Wren is there. She's come in from the other direction, from the bank. Neither of them planned it."
+    },
+    {
+     "s": "wren",
+     "t": "Oh! Hello. Fancy that.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Fancy that.",
+     "to": "wren"
+    },
+    {
+     "s": "wren",
+     "t": "Well. I'm not drinking alone if you're standing right there. Sit.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "You sit down. It's just coffee.",
+      "opts": [
+       {
+        "t": "Talk about her birds, her family, anything.",
+        "fx": {
+         "HEART": 1,
+         "wren": 2
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "She tells you about her grandmother, who kept canaries and named them all after presidents. You laugh. Really laugh."
+         }
+        ]
+       },
+       {
+        "t": "Tell her about your week. The real version.",
+        "fx": {
+         "NERVE": 1,
+         "wren": 2
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "She listens the way nobody's listened since Lettie Shaw. Not fixing. Just hearing."
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Drink your coffee and watch the street.",
+        "fx": {
+         "wren": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "She doesn't fill the silence. She just drinks hers too. It's the most restful ten minutes you've had in a year."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "Outside the window, across the street, Viola is walking with Nell from the night desk."
+    },
+    {
+     "k": "narr",
+     "t": "Viola stops. She looks through the window. She sees them."
+    },
+    {
+     "k": "narr",
+     "t": "She doesn't come in. She doesn't wave. She turns around and walks the other way."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "It was a coincidence. We hadn't planned it. We weren't hiding. We weren't trying to make anybody jealous. We were two people who happened to want coffee at four o'clock."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "But I knew, the moment I saw her face, that it wouldn't matter what it was. Only what it looked like."
+    }
+   ],
+   "loc": "teahouse",
+   "mood": "golden",
+   "goal": "Take your coffee break at the Kettle & Lamp",
+   "talk": "wren",
+   "place": "The Kettle & Lamp",
+   "date": "An ordinary Thursday"
+  },
+  {
+   "id": "c13f",
+   "chapter": 13,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Viola goes home and doesn't come back to work. She sends word through Nell: she's very ill. Her joints have flared. She can't get out of bed."
+    },
+    {
+     "k": "narr",
+     "t": "Then a package comes to the office, addressed to him. Inside is a Roentgen plate. An image of her hands, the bones grey and strange, the joints swollen."
+    },
+    {
+     "k": "narr",
+     "t": "Pinned to it is a note, in her handwriting."
+    },
+    {
+     "s": "viola",
+     "t": "Thank you for your gift.",
+     "to": "eli",
+     "k": "letter"
+    },
+    {
+     "k": "narr",
+     "t": "Nell says Viola believes this might be the end. That it's his fault. That she was well until the coffee house."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I didn't know what to say. I couldn't breathe. \"Thank you for your gift.\" Like I'd handed her the illness wrapped in paper."
+    },
+    {
+     "k": "narr",
+     "t": "He goes to Doc Whitlow. It's ten at night. Doc opens the door in his shirtsleeves."
+    },
+    {
+     "s": "doc",
+     "t": "Ashby. You look like you've seen a ghost. Come in. Sit.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Did I do this, Doc? To Viola. Did I make her sick?",
+     "to": "doc"
+    },
+    {
+     "s": "doc",
+     "t": "I can't talk about my patients, son. You know that. But I can talk about illness in general, and I will.",
+     "to": "eli"
+    },
+    {
+     "s": "doc",
+     "t": "Rheumatism of the joints is a disease of the body. It flares and quiets on its own schedule. Grief can make anybody feel worse, and stopping their medicine will certainly make them worse. But no man has ever given a woman that illness by drinking a cup of coffee.",
+     "to": "eli"
+    },
+    {
+     "s": "doc",
+     "t": "You're not her disease. And you're not her cure.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "The words land somewhere you didn't know was waiting for them.",
+      "opts": [
+       {
+        "t": "\"Then why do I feel like I'm both?\"",
+        "fx": {
+         "NERVE": 2,
+         "HEART": 1,
+         "set": [
+          "doc_talk"
+         ]
+        },
+        "say": [
+         {
+          "s": "doc",
+          "t": "Because somebody you care about told you that you were. And you believed her, because you're the kind of man who carries things. That doesn't make it true.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Thank you, Doc.\"",
+        "fx": {
+         "HEART": 1
+        },
+        "say": [
+         {
+          "s": "doc",
+          "t": "Get some sleep. You look worse than she does, and you're the one walking around.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Stare at the plate in your hands.",
+        "fx": {
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "doc",
+          "t": "Put that down, son. It's not yours to carry.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I'm not a doctor. I couldn't cure her. I couldn't promise she'd be well if I stayed. And yet I felt like she believed I was the only one who could make her better."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Every time she said she needed me, I got angry. Not because I wanted her to suffer. Because I felt trapped inside a responsibility nobody could carry."
+    }
+   ],
+   "loc": "doc",
+   "mood": "night",
+   "goal": "Go to Doc Whitlow's. You need to understand",
+   "talk": "doc",
+   "place": "Doc Whitlow's",
+   "date": "Three days later"
+  },
+  {
+   "id": "c13g",
+   "chapter": 13,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "At the office, the story is already written. Everybody knows Viola and Eli were sweet on each other. Everybody saw her get sick. Everybody heard about the coffee house."
+    },
+    {
+     "k": "narr",
+     "t": "The story is simple. Viola loved Eli. Eli was seen with Wren. Viola fell ill. Therefore."
+    },
+    {
+     "s": "nell",
+     "t": "I hope you're proud of yourself.",
+     "to": "eli"
+    },
+    {
+     "s": "hargrove",
+     "t": "Ashby. A word. ...Keep your personal business out of my office. I won't have my operators falling to pieces over you.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Nobody knew my side. Nobody knew how long I'd been struggling before the coffee. How many times I'd said \"I need time.\" The things she'd said that I still couldn't repeat."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "They could all see her pain. Mine was private. I didn't have anybody to tell the whole story to."
+    },
+    {
+     "choice": {
+      "prompt": "Hargrove is waiting.",
+      "opts": [
+       {
+        "t": "\"Yes, sir.\" Say nothing else.",
+        "fx": {
+         "STONE": 1,
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "eli",
+          "k": "thought",
+          "t": "I didn't want to make her a villain to save myself. She had her own fear and her own pain. But I didn't want to live inside a story where only hers counted."
+         }
+        ]
+       },
+       {
+        "t": "\"Sir, there's more to it than what people are saying.\"",
+        "fx": {
+         "NERVE": 2,
+         "set": [
+          "spoke_up"
+         ]
+        },
+        "say": [
+         {
+          "s": "hargrove",
+          "t": "There always is. ...I'll take that under advisement. Get back to your key.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "It's not much. But it's not nothing. He looks at you a little differently, after."
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Go back to your desk.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "Wren passes his desk with the ledger. She doesn't stop. She just leaves a small folded paper by his hand."
+    },
+    {
+     "k": "narr",
+     "t": "Inside: a drawing of a bird, sitting on a wire, in the rain. Underneath: \"Still here. Quietly.\""
+    },
+    {
+     "item": {
+      "id": "bird",
+      "name": "A bird on a wire, in the rain",
+      "desc": "Drawn in pencil. \"Still here. Quietly.\""
+     }
+    }
+   ],
+   "loc": "office",
+   "mood": "overcast",
+   "goal": "Go to work",
+   "talk": "hargrove",
+   "others": [
+    "nell"
+   ],
+   "place": "Ironwood Wire Office",
+   "date": "The following week"
+  },
+  {
+   "id": "c13h",
+   "chapter": 13,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Viola is back on her feet. Thinner. Tired. Her hands wrapped in flannel. She lets him in."
+    },
+    {
+     "k": "narr",
+     "t": "He's tried to say it for months. Gently. Sideways. Hoping she'd hear it. Now he has to say it plainly."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I tried. I changed my mind about marriage for her. I tried to understand what she needed and explain what I couldn't give. I stayed after the feeling changed, because caring doesn't vanish just because things got hard."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "But I can't keep being her partner without losing myself. And I've already lost so much of myself. There isn't much left to lose."
+    },
+    {
+     "s": "viola",
+     "t": "Say it. Whatever it is. I can see it in your face.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "This is the hardest thing you'll ever say. How do you end it?",
+      "opts": [
+       {
+        "t": "\"I care about you. I always will. But I can't be your partner anymore. Not without disappearing. I'm sorry.\"",
+        "fx": {
+         "NERVE": 3,
+         "HEART": 2,
+         "set": [
+          "ended_honest"
+         ]
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "...You said, if we ever parted, I shouldn't worry about you.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "I did. I was wrong about that. But I meant the rest. I hope your hands get better. I hope you take the powders. I hope you find somebody who knows how to love you the way you need.",
+          "to": "viola"
+         },
+         {
+          "s": "viola",
+          "t": "That's... that's a horrible, kind thing to say.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "She cries. You let her. You don't leave until she tells you to. Then you leave."
+         }
+        ]
+       },
+       {
+        "t": "\"I'll stay. I'll stay until you're well.\"",
+        "fx": {
+         "HEART": 1,
+         "DRIFT": 2,
+         "set": [
+          "stayed_guilt"
+         ]
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "You will? You promise?",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "...I promise.",
+          "to": "viola"
+         },
+         {
+          "s": "eli",
+          "k": "thought",
+          "t": "I said it, and something in me lay down and didn't get up."
+         }
+        ]
+       },
+       {
+        "t": "\"We're done, Viola. I'm not your cure. Stop telling people I'm your disease.\"",
+        "fx": {
+         "STONE": 3,
+         "NERVE": 1,
+         "set": [
+          "ended_cold"
+         ]
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "Get out. Get out!",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "It was all true. It was also cruel. Both things walked out the door with you."
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Say nothing. Let it drift.",
+        "fx": {
+         "DRIFT": 2,
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "viola",
+          "t": "Eli? ...Eli, say something.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "You don't. Nothing ends. Nothing gets better. It just goes quiet, the way things do when nobody is brave."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "lane",
+   "mood": "overcast",
+   "goal": "Go to Viola's lodging. It's time to talk",
+   "talk": "viola",
+   "place": "Willow Lane",
+   "date": "A week later",
+   "journal": [
+    {
+     "t": "I can care about someone and still leave when it isn't healthy for me. Both are true.",
+     "fx": {
+      "NERVE": 2,
+      "HEART": 2
+     }
+    },
+    {
+     "t": "I'm her disease and her cure. That's what everyone thinks. Maybe they're right.",
+     "fx": {
+      "DRIFT": 2
+     }
+    },
+    {
+     "t": "I'm done being responsible for everyone's feelings. Starting now.",
+     "fx": {
+      "STONE": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "c14a",
+   "chapter": 14,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He saddles Pilgrim. He opens the gate."
+    },
+    {
+     "ride": {
+      "drift": true,
+      "notices": [
+       "Frost on the fence wire",
+       "A hawk, very high",
+       "Your own breath"
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "He's at the office. Pilgrim is tied at the rail. His coat is on the hook."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I don't remember the ride. I know I took it. I know every turn. But if you asked me to picture it, the bridge, the mill, the depot... there's nothing there. Just a blank where the road should be."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Like somebody else rode my horse and parked me at my desk."
+    },
+    {
+     "k": "narr",
+     "t": "It's happened before. It keeps happening. Home to work. Work to home. Whole hours, folded away somewhere he can't find them."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I'm not drinking. I sleep seven hours, more or less, in pieces. I'm not ill, that I know of. So what is this?"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "What if I'm on the road one day, and I'm not there, and somebody steps out in front of the horse?"
+    },
+    {
+     "choice": {
+      "prompt": "You sit at your key. Your hands are steady, for once. It's the rest of you that's far away.",
+      "opts": [
+       {
+        "t": "Press your palms flat on the desk. Feel the wood. Name five things you can see.",
+        "fx": {
+         "NERVE": 1,
+         "DRIFT": -2,
+         "set": [
+          "grounding"
+         ]
+        },
+        "say": [
+         {
+          "s": "eli",
+          "k": "thought",
+          "t": "The key. The window. The inkwell. Hargrove's hat. Wren's bird in the ledger margin. ...Alright. I'm here. I'm here."
+         }
+        ]
+       },
+       {
+        "t": "Start working. Don't think about it.",
+        "fx": {
+         "DRIFT": 1
+        }
+       },
+       {
+        "silent": true,
+        "t": "Stare at the key.",
+        "fx": {
+         "DRIFT": 2
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "office",
+   "mood": "overcast",
+   "goal": "Ride to work",
+   "place": "Ironwood Wire Office",
+   "date": "Late winter",
+   "onEnter": {
+    "minDrift": 5
+   }
+  },
+  {
+   "id": "c14b",
+   "chapter": 14,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "At night it's two voices. They argue in him like two people in the next room."
+    },
+    {
+     "s": "wanting",
+     "t": "You need someone. Someone to hold onto. Someone to tell you it's going to be alright. Find somebody. Anybody. Just don't be alone with this.",
+     "to": "eli"
+    },
+    {
+     "s": "knowing",
+     "t": "Leaning your whole weight on another person is how you ended up here. It didn't work with Viola. It won't work with anyone. Someone else can't carry you out of this.",
+     "to": "eli"
+    },
+    {
+     "s": "wanting",
+     "t": "Then who will?",
+     "to": "eli"
+    },
+    {
+     "s": "knowing",
+     "t": "...I don't know. You, maybe. Eventually.",
+     "to": "eli"
+    },
+    {
+     "s": "wanting",
+     "t": "I can't even feel my own hands.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Sometimes the disappointment turns into anger. And after the anger, something goes flat and far away, like a painted backdrop."
+    },
+    {
+     "choice": {
+      "prompt": "Both voices are waiting for you to pick a side.",
+      "opts": [
+       {
+        "t": "\"You're both right. I need people. I just can't make one person my whole floor.\"",
+        "fx": {
+         "NERVE": 2,
+         "HEART": 1,
+         "DRIFT": -1
+        },
+        "say": [
+         {
+          "s": "knowing",
+          "t": "...That's actually sensible.",
+          "to": "eli"
+         },
+         {
+          "s": "wanting",
+          "t": "I hate it. But fine.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "Side with the one that wants comfort.",
+        "fx": {
+         "HEART": 1,
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "wanting",
+          "t": "See? We'll find someone. It'll be fine.",
+          "to": "eli"
+         },
+         {
+          "s": "knowing",
+          "t": "That's what you said last time.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "Side with the one that wants to shut everything out.",
+        "fx": {
+         "STONE": 2
+        },
+        "say": [
+         {
+          "s": "knowing",
+          "t": "That's not what I said. I said you'd have to learn to stand. Not that you'd have to stand alone forever.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Let them argue until you fall asleep.",
+        "fx": {
+         "DRIFT": 2
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "home",
+   "mood": "night",
+   "goal": "Go home",
+   "place": "The Ashby cottage",
+   "date": "That night"
+  },
+  {
+   "id": "c14c",
+   "chapter": 14,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He wakes up. Ma's at the stove. Bacon. Coffee. Ordinary."
+    },
+    {
+     "s": "ma",
+     "t": "Morning, sleepyhead. You've got chalk on your face.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Chalk?",
+     "to": "ma"
+    },
+    {
+     "s": "ma",
+     "t": "Wash up. The coach comes at half past eight. Old Amos won't wait.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Old Amos. Old Amos has been dead for six years."
+    },
+    {
+     "k": "narr",
+     "t": "He wakes up."
+    },
+    {
+     "k": "narr",
+     "t": "The room is dark. It's four in the morning. He's in his own bed. There's no bacon."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "A dream. A dream of waking up. That keeps happening too. I wake up and it's not real, and I wake up again and I'm not sure."
+    },
+    {
+     "k": "narr",
+     "t": "He waits for the window to go grey. He gets up. He walks downstairs. Ma is at the stove."
+    },
+    {
+     "s": "ma",
+     "t": "You're up early. Couldn't sleep?",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Is this one real?",
+      "opts": [
+       {
+        "t": "Touch the doorframe. It's solid. Splintery. \"This one's real.\"",
+        "fx": {
+         "NERVE": 1,
+         "DRIFT": -1
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "What's real? Are you alright, son?",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Ma. Is this real?\"",
+        "fx": {
+         "NERVE": 2,
+         "HEART": 1,
+         "ma": 1
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "...Eli. Sit down. Sit down right now and tell me what's going on.",
+          "to": "eli"
+         },
+         {
+          "k": "narr",
+          "t": "For the first time, you tell her. Not everything. But the dreams. The road. The hours you lose. She listens with both hands around her cup, very still."
+         },
+         {
+          "s": "ma",
+          "t": "Then you go see Doc Whitlow. This week. I'll go with you if you want. I'm not asking.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Sit down and eat.",
+        "fx": {
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "k": "narr",
+          "t": "It's real. Probably. You eat without tasting it."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "home",
+   "mood": "day",
+   "goal": "Wake up",
+   "talk": "ma",
+   "place": "The Ashby cottage",
+   "date": "Morning"
+  },
+  {
+   "id": "c14d",
+   "chapter": 14,
+   "lines": [
+    {
+     "s": "rook",
+     "t": "You've been staring at that cup for ten minutes, Ashby. It's not going to tell your fortune.",
+     "to": "eli"
+    },
+    {
+     "s": "ezra",
+     "t": "You're gone again. Where are you?",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Rook knows everything about him. More than anyone. And still not all of it. Nobody knows all of it. That's partly Eli's doing; it's always been easier to say \"fine\" and move on than to explain."
+    },
+    {
+     "s": "rook",
+     "t": "People say you look like you don't care. Like nothing touches you. But you've never been like that. You care so much it fries your wires.",
+     "to": "eli"
+    },
+    {
+     "s": "rook",
+     "t": "Brother from another mother. Tell me what's going on.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Your two oldest friends are waiting.",
+      "opts": [
+       {
+        "t": "Tell them everything. The road. The dreams. The voices.",
+        "fx": {
+         "NERVE": 3,
+         "HEART": 2,
+         "rook": 2,
+         "ezra": 2,
+         "set": [
+          "told_friends"
+         ]
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "...How long has this been happening?",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "Since the engagement. Maybe before. I don't know. I can't tell where it started.",
+          "to": "ezra"
+         },
+         {
+          "s": "rook",
+          "t": "Right. Then we find out. Together. You don't get to do this one quietly.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"It's nothing. Work. I'm tired.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "rook",
+          "t": "Liar. You've been saying that since we were twelve. One day you'll tell me. I'll be here when you do.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"I don't know how to explain it.\"",
+        "fx": {
+         "NERVE": 1,
+         "HEART": 1
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "Then don't explain. Just say a piece of it. We'll put the rest together.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "teahouse",
+   "mood": "golden",
+   "goal": "Meet Rook at the Kettle & Lamp",
+   "talk": "rook",
+   "others": [
+    "ezra"
+   ],
+   "place": "The Kettle & Lamp",
+   "date": "That week"
+  },
+  {
+   "id": "c14e",
+   "chapter": 14,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He goes. Ma comes with him and waits outside, pretending to read a seed catalog."
+    },
+    {
+     "s": "doc",
+     "t": "So. You, this time. Tell me.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Doc Whitlow is listening.",
+      "opts": [
+       {
+        "t": "Tell him all of it. The lost hours, the dreams, the shaking, the voices, the feeling that you aren't real.",
+        "fx": {
+         "NERVE": 3,
+         "HEART": 1,
+         "DRIFT": -2,
+         "set": [
+          "saw_doc"
+         ]
+        },
+        "say": [
+         {
+          "s": "doc",
+          "t": "Alright. Thank you. That can't have been easy.",
+          "to": "eli"
+         },
+         {
+          "s": "doc",
+          "t": "What you're describing, the feeling of being outside yourself, of the world being painted on glass... I've seen it before. In soldiers back from the war. In widows. In people who've carried too much for too long without setting it down.",
+          "to": "eli"
+         },
+         {
+          "s": "doc",
+          "t": "It isn't madness, son. It's a mind that's been running hot for years, trying to protect you by pulling the curtains.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "Will it stop?",
+          "to": "doc"
+         },
+         {
+          "s": "doc",
+          "t": "It can. It often does. But not by itself, and not if you keep pushing through it like a mule through mud. There's a doctor in Port Ellis who works with the nerves. I'll write to him. You'll sleep, eat, walk. You'll talk to someone regularly. And you'll stop riding that horse when you're not all there.",
+          "to": "eli"
+         },
+         {
+          "s": "eli",
+          "t": "...Alright.",
+          "to": "doc"
+         },
+         {
+          "s": "doc",
+          "t": "\"Alright.\" Ha. From you, I'll take that as a contract.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "Tell him only about the sleep.",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "doc",
+          "t": "Sleep powders, then. And come back if it's more than sleep. I suspect it is.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "crack": true,
+        "crackNote": "You open your mouth and the curtain comes down. \"I'm fine, Doc.\"",
+        "t": "Tell him everything."
+       },
+       {
+        "silent": true,
+        "t": "Sit there.",
+        "fx": {
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "doc",
+          "t": "Your mother's outside pretending to read about turnips. Want me to bring her in?",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "k": "narr",
+     "t": "Outside, Ma closes the seed catalog."
+    },
+    {
+     "s": "ma",
+     "t": "Well?",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Ma is holding your arm.",
+      "opts": [
+       {
+        "t": "\"I'm going to be alright, Ma. Not today. But I'm going to be.\"",
+        "fx": {
+         "HEART": 2,
+         "ma": 2,
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "I know you are. You're careful. You get that from me.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"He says it's tiredness.\"",
+        "fx": {
+         "STONE": 1
+        },
+        "say": [
+         {
+          "s": "ma",
+          "t": "Hm. Then we'll get you rested.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "doc",
+   "mood": "day",
+   "goal": "See Doc Whitlow about yourself this time",
+   "talk": "doc",
+   "place": "Doc Whitlow's",
+   "date": "The end of winter",
+   "journal": [
+    {
+     "t": "My feelings, memories and experiences deserve to be taken seriously. Including by me.",
+     "fx": {
+      "NERVE": 2,
+      "HEART": 1,
+      "DRIFT": -1
+     }
+    },
+    {
+     "t": "I'll push through. I always have.",
+     "fx": {
+      "STONE": 1,
+      "DRIFT": 1
+     }
+    },
+    {
+     "t": "I'm afraid this is just who I am now.",
+     "fx": {
+      "DRIFT": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "c15a",
+   "chapter": 15,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Lately, whenever he plans to meet Wren after work, something gets in the way. Her sister visits. Hargrove keeps her late. The coach changes its time."
+    },
+    {
+     "k": "narr",
+     "t": "He starts to wonder. Whether she's pulling away. Whether he's been too much, without noticing."
+    },
+    {
+     "s": "eli",
+     "t": "Would you walk to the coach with me tonight?",
+     "to": "wren"
+    },
+    {
+     "s": "wren",
+     "t": "Oh— not tonight. I'm sorry. My sister's in town again. She's... a lot. Another time?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "\"Another time.\" I've heard that before. From Delphine, on a note. It sounded exactly the same."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "...Or maybe it doesn't. Maybe I'm reading every small change through ten years of bad weather."
+    },
+    {
+     "choice": {
+      "prompt": "Wren is putting on her coat.",
+      "opts": [
+       {
+        "t": "\"Of course. Another time. I hope your sister's visit is kind.\"",
+        "fx": {
+         "HEART": 1,
+         "wren": 1
+        },
+        "say": [
+         {
+          "s": "wren",
+          "t": "Kind? Ha. She'll reorganize my kitchen. ...Thank you, though. Really.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"Have I done something? Be honest.\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "wren",
+          "t": "What? No. No, Eli. Truly. It's just my sister. I promise.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Nod.",
+        "fx": {
+         "DRIFT": 1
+        },
+        "say": [
+         {
+          "s": "wren",
+          "t": "...Eli? I mean it. Another time.",
+          "to": "eli"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "office",
+   "mood": "dusk",
+   "goal": "Ask Wren if she'd like to walk after work",
+   "talk": "wren",
+   "place": "Ironwood Wire Office",
+   "date": "Autumn"
+  },
+  {
+   "id": "c15b",
+   "chapter": 15,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Ezra is fishing off the creek bridge, the way he has since they were nine. He's never caught anything."
+    },
+    {
+     "s": "eli",
+     "t": "If I see her, I want to ask her something. Before I say anything else.",
+     "to": "ezra"
+    },
+    {
+     "s": "ezra",
+     "t": "Ask her what?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Whether she's comfortable. With how close I've been. Whether I'm too much. Expecting too much. I want her to be able to tell me the truth, even if it's bad.",
+     "to": "ezra"
+    },
+    {
+     "s": "ezra",
+     "t": "And then?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "If she says I'm too close, I listen. I step back. I don't make her responsible for how I feel.",
+     "to": "ezra"
+    },
+    {
+     "s": "eli",
+     "t": "If she says she's comfortable... then I'll tell her that I feel safe with her. And ask if there's room for me in her life. Not as a sweetheart. Not with any promise she has to keep. Just... close.",
+     "to": "ezra"
+    },
+    {
+     "k": "narr",
+     "t": "Ezra reels in his empty line."
+    },
+    {
+     "s": "ezra",
+     "t": "Eli. That's the most grown-up thing I've ever heard you say.",
+     "to": "eli"
+    },
+    {
+     "s": "ezra",
+     "t": "In the seventh year you couldn't say four words to a girl on a wall. Look at you.",
+     "to": "eli"
+    },
+    {
+     "choice": {
+      "prompt": "Ezra is smiling.",
+      "opts": [
+       {
+        "t": "\"I'm still terrified.\"",
+        "fx": {
+         "NERVE": 1,
+         "HEART": 1
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "Good. It means it matters. Be terrified and ask anyway.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "t": "\"What if she says no?\"",
+        "fx": {
+         "NERVE": 1
+        },
+        "say": [
+         {
+          "s": "ezra",
+          "t": "Then she says no, and you're still a man who asked properly. That doesn't get taken away.",
+          "to": "eli"
+         }
+        ]
+       },
+       {
+        "silent": true,
+        "t": "Watch his line.",
+        "fx": {
+         "DRIFT": 1
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "loc": "bridge",
+   "mood": "golden",
+   "goal": "Find Ezra at the creek bridge",
+   "talk": "ezra",
+   "place": "The creek bridge",
+   "date": "A Sunday"
+  },
+  {
+   "id": "c15c",
+   "chapter": 15,
+   "lines": [
+    {
+     "k": "narr",
+     "t": "She sends a note on the Friday. \"My sister's gone home. I've always wanted to see the view from that old tower you talk about. Sunday?\""
+    },
+    {
+     "k": "narr",
+     "t": "So here they are. The top of the old water tower in Larkspur, where Rook first pointed out a yellow window on a hill, a lifetime ago."
+    },
+    {
+     "k": "narr",
+     "t": "The window's dark now. The Marlowes moved away years ago."
+    },
+    {
+     "s": "wren",
+     "t": "It's beautiful. You can see the whole valley. Is that your mother's house? With the lamp?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "She lights it every night. Until I'm home.",
+     "to": "wren"
+    },
+    {
+     "s": "wren",
+     "t": "That's the loveliest thing I've ever heard.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "The sun is going down behind the mill. It's now or never. It's always been now or never. He's spent his whole life choosing never."
+    },
+    {
+     "choice": {
+      "prompt": "What do you ask her?",
+      "opts": [
+       {
+        "req": "NERVE >= 12",
+        "lock": "You don't trust yourself to ask it plainly. Not yet.",
+        "t": "\"Before I say anything... can I ask you something? Are you comfortable with how I've been around you? Have I been too close, or expected too much? I want the truth. Even if it hurts.\"",
+        "fx": {
+         "NERVE": 2,
+         "set": [
+          "asked",
+          "asked_kindly"
+         ]
+        }
+       },
+       {
+        "t": "\"Wren, I think I'm falling in love with you.\"",
+        "fx": {
+         "NERVE": 2,
+         "HEART": 1,
+         "set": [
+          "asked"
+         ]
+        }
+       },
+       {
+        "crack": true,
+        "crackNote": "Your heart is going. The sun drops behind the mill.",
+        "t": "Say everything at once."
+       },
+       {
+        "silent": true,
+        "t": "Look at the view. Say nothing.",
+        "fx": {
+         "DRIFT": 2
+        }
+       }
+      ]
+     }
+    },
+    {
+     "s": "wren",
+     "t": "...Eli. Nobody's ever asked me that. Not like that. Not first.",
+     "to": "eli",
+     "if": "flag('asked_kindly') and wren >= 5"
+    },
+    {
+     "s": "wren",
+     "t": "Yes. I'm comfortable. You've never once made me feel like I owe you anything. That's... rarer than you know.",
+     "to": "eli",
+     "if": "flag('asked_kindly') and wren >= 5"
+    },
+    {
+     "s": "eli",
+     "t": "Then can I tell you something? I feel safe with you. That's all. I don't need you to be anything. I just wanted to ask if there's room for me in your life. Close. However close you want.",
+     "to": "wren",
+     "if": "flag('asked_kindly') and wren >= 5"
+    },
+    {
+     "s": "wren",
+     "t": "There's room. There's a whole chair. ...I don't know what we are yet. But I'd like to find out slowly. Is slowly alright?",
+     "to": "eli",
+     "if": "flag('asked_kindly') and wren >= 5"
+    },
+    {
+     "s": "eli",
+     "t": "Slowly is the only speed I know.",
+     "to": "wren",
+     "if": "flag('asked_kindly') and wren >= 5"
+    },
+    {
+     "s": "wren",
+     "t": "...Thank you for asking that first. Really. Most people just say the big thing and leave you holding it.",
+     "to": "eli",
+     "if": "flag('asked_kindly') and wren >= 3 and wren < 5"
+    },
+    {
+     "s": "wren",
+     "t": "Honestly? Sometimes it's been a little much. I care about you. I do. But I've got my own weather, and I need to go slow. Can we stay friends? Real ones. And see?",
+     "to": "eli",
+     "if": "flag('asked_kindly') and wren >= 3 and wren < 5"
+    },
+    {
+     "s": "eli",
+     "t": "Yes. Of course. Thank you for telling me the truth.",
+     "to": "wren",
+     "if": "flag('asked_kindly') and wren >= 3 and wren < 5"
+    },
+    {
+     "s": "wren",
+     "t": "...I'm glad you asked. Because, honestly, yes. It's been too close for me. I don't think I can be what you need, Eli. I need a little space.",
+     "to": "eli",
+     "if": "flag('asked_kindly') and wren < 3"
+    },
+    {
+     "s": "eli",
+     "t": "Then you'll have it. Thank you for telling me. I mean that.",
+     "to": "wren",
+     "if": "flag('asked_kindly') and wren < 3"
+    },
+    {
+     "s": "wren",
+     "t": "Oh. Oh, Eli. ...I don't know what I feel yet. You're so dear to me. But that's a big thing to hand someone on top of a tower.",
+     "to": "eli",
+     "if": "flag('asked') and not flag('asked_kindly') and wren >= 6"
+    },
+    {
+     "s": "wren",
+     "t": "Give me time? Not a no. Just... time.",
+     "to": "eli",
+     "if": "flag('asked') and not flag('asked_kindly') and wren >= 6"
+    },
+    {
+     "s": "wren",
+     "t": "Eli... I'm sorry. I don't feel that way. I care about you. But I don't. I'm so sorry.",
+     "to": "eli",
+     "if": "flag('asked') and not flag('asked_kindly') and wren < 6"
+    },
+    {
+     "k": "narr",
+     "t": "She means it kindly. It's the kindest no you've ever been given. It still lands like a stone.",
+     "if": "flag('asked') and not flag('asked_kindly') and wren < 6"
+    },
+    {
+     "k": "narr",
+     "t": "You look at the view. She looks at the view. The sun goes down. She says it's getting cold. You walk her back to the coach.",
+     "if": "not flag('asked')"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Another time. There's always another time. There's always the next pillar, the next coach, the next Sunday.",
+     "if": "not flag('asked')"
+    },
+    {
+     "k": "narr",
+     "t": "The lamps come on, one by one, across the whole of Larkspur. Ma's is the first."
+    }
+   ],
+   "loc": "tower",
+   "mood": "dusk",
+   "goal": "Meet Wren at the old water tower in Larkspur",
+   "talk": "wren",
+   "place": "The old water tower",
+   "date": "The last Sunday in October",
+   "journal": [
+    {
+     "t": "Whatever she said, I asked. I asked the right way. That's mine to keep.",
+     "fx": {
+      "NERVE": 2,
+      "HEART": 2
+     }
+    },
+    {
+     "t": "I don't need anyone to choose me to be worth something. I'm learning that.",
+     "fx": {
+      "HEART": 1,
+      "DRIFT": -1
+     }
+    },
+    {
+     "t": "It doesn't matter. Nothing ever does.",
+     "fx": {
+      "STONE": 2
+     }
+    }
+   ]
+  }
+ ],
+ "endingRules": [
+  {
+   "if": "DRIFT >= 8",
+   "go": "autopilot"
+  },
+  {
+   "if": "flag('stayed_guilt')",
+   "go": "cure"
+  },
+  {
+   "if": "STONE >= 8 or flag('ended_cold')",
+   "go": "stone"
+  },
+  {
+   "if": "flag('saw_doc') and flag('ended_honest') and DRIFT <= 4 and HEART >= 6 and flag('asked_kindly')",
+   "go": "present"
+  },
+  {
+   "if": "flag('asked') and wren >= 5",
+   "go": "room"
+  },
+  {
+   "if": "flag('asked')",
+   "go": "kindno"
+  },
+  {
+   "go": "unsaid"
+  }
+ ],
+ "endings": {
+  "present": {
+   "title": "Present Again",
+   "sub": "You learned to care without losing yourself.",
+   "loc": "home",
+   "mood": "golden",
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The next October. The lamp in the window. The tin box on the kitchen table instead of under the bed."
+    },
+    {
+     "k": "narr",
+     "t": "Eli sees the nerve doctor in Port Ellis every second Thursday. Some weeks are good. Some weeks the curtain comes down, and he sits, and names five things, and waits for it to lift. It always lifts."
+    },
+    {
+     "k": "narr",
+     "t": "He rides to work and remembers the bridge. The mill. The hawk on the fence post. He's started noticing hawks."
+    },
+    {
+     "k": "narr",
+     "t": "Viola wrote, once, in the spring. Her hands are better. She's taking the powders. She's walking out with a schoolteacher who sends her a note every morning. Eli wrote back: \"I'm so glad.\" He was."
+    },
+    {
+     "k": "narr",
+     "t": "And on Sundays, Wren comes to supper. Ma likes her. Ma pretends not to, which is how you know."
+    },
+    {
+     "s": "ma",
+     "t": "That girl draws birds on my napkins.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "I know, Ma.",
+     "to": "ma"
+    },
+    {
+     "s": "ma",
+     "t": "...Keep her.",
+     "to": "eli"
+    },
+    {
+     "k": "narr",
+     "t": "Into the tin box, on top of everything else, goes a drawing of a bird on a wire. Not in the rain this time. In the sun."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I still care. I just learned how to do it without disappearing."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "And for once, I'm giving myself the same patience I spent my whole life trying to give everyone else."
+    }
+   ],
+   "cast": "ma"
+  },
+  "room": {
+   "title": "Room at the Table",
+   "sub": "There was room for you after all.",
+   "loc": "home",
+   "mood": "golden",
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The next October. Wren comes to supper on Sundays, and they walk to the coach on Thursdays, and they take things slowly, the way he promised."
+    },
+    {
+     "k": "narr",
+     "t": "He still loses the road some mornings. He hasn't told anyone how often. One day he'll see someone about it. One day."
+    },
+    {
+     "k": "narr",
+     "t": "But there's a chair at the table with a bird drawn on the napkin beside it. And Ma's lamp is lit. And for now, that's a great deal."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I asked. She answered. I'm still here. For a long time I didn't think all three of those could be true at once."
+    }
+   ],
+   "cast": "ma"
+  },
+  "kindno": {
+   "title": "Alone, Not Lonely",
+   "sub": "She gave you the truth. You gave it back with grace.",
+   "loc": "bridge",
+   "mood": "golden",
+   "lines": [
+    {
+     "k": "narr",
+     "t": "The next October. He and Wren still eat lunch together on Thursdays. Friends. Real ones. It's not what he hoped. It's something he didn't know he needed."
+    },
+    {
+     "k": "narr",
+     "t": "He fishes off the creek bridge with Ezra on Sundays. They never catch anything."
+    },
+    {
+     "s": "ezra",
+     "t": "You alright?",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "t": "Yeah. I am, actually. Not happy, exactly. But here.",
+     "to": "ezra"
+    },
+    {
+     "s": "ezra",
+     "t": "Here's good. Here's a start.",
+     "to": "eli"
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Maybe moving on doesn't mean finding someone new. Maybe it just means being alone for a while, not as a punishment, but as a place to rest."
+    }
+   ],
+   "cast": "ezra"
+  },
+  "cure": {
+   "title": "The Cure",
+   "sub": "You stayed, and slowly stopped being anyone at all.",
+   "loc": "lane",
+   "mood": "overcast",
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He stays. Of course he stays. He brings the powders. He asks every morning if she's eaten. He walks her home every night."
+    },
+    {
+     "k": "narr",
+     "t": "Viola gets a little better, and then a little worse, and every time she's worse, he hears \"thank you for your gift,\" even when she doesn't say it."
+    },
+    {
+     "k": "narr",
+     "t": "Years go by. He's very good at the wire. He's very good at being needed. He's no good at all at being himself; he's forgotten who that was."
+    },
+    {
+     "k": "narr",
+     "t": "Wren left the office the following spring. He never asked her anything."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I wanted to be someone's cure. I became someone's furniture."
+    }
+   ],
+   "cast": "viola",
+   "retry": "c13h",
+   "retryLabel": "Go back to Willow Lane",
+   "retryFx": {
+    "eq": {
+     "DRIFT": 5
+    }
+   }
+  },
+  "stone": {
+   "title": "Stone",
+   "sub": "Nothing gets in now. Nothing gets out.",
+   "loc": "home",
+   "mood": "night",
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He shuts every door. Viola. Wren. Rook, eventually, who keeps knocking for a year and then stops."
+    },
+    {
+     "k": "narr",
+     "t": "He goes to work. He comes home. Ma's lamp is lit. He turns it down himself now, so she won't wait up."
+    },
+    {
+     "k": "narr",
+     "t": "Nothing hurts. That was the idea. He just didn't know that nothing would also mean nothing."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I made myself into stone so no one could break me. It worked. It worked perfectly."
+    }
+   ],
+   "retry": "c13a",
+   "retryLabel": "Go back to the winter at the office",
+   "retryFx": {
+    "eq": {
+     "STONE": 4
+    }
+   }
+  },
+  "autopilot": {
+   "title": "Autopilot",
+   "sub": "The road keeps going. You just aren't on it.",
+   "loc": "home",
+   "mood": "night",
+   "lines": [
+    {
+     "k": "narr",
+     "t": "He rides to work. He rides home. He doesn't remember either. Pilgrim knows the way; Pilgrim has always known the way."
+    },
+    {
+     "k": "narr",
+     "t": "The tin box stays under the bed. He means to open it again someday. He doesn't remember to."
+    },
+    {
+     "k": "narr",
+     "t": "Ma's lamp is lit in the window every night. Some nights he sits in the yard and looks at it for an hour, and can't feel why it matters, only that it does."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "I'm here. I think I'm here. If someone finds this, please. Ask me how I am. Ask me twice."
+    }
+   ],
+   "retry": "c14a",
+   "retryLabel": "Go back to the morning ride",
+   "retryFx": {
+    "eq": {
+     "DRIFT": 5
+    }
+   }
+  },
+  "unsaid": {
+   "title": "The Unsaid",
+   "sub": "Another time. There's always another time.",
+   "loc": "tower",
+   "mood": "night",
+   "lines": [
+    {
+     "k": "narr",
+     "t": "Wren moves to Port Ellis in the spring. A better position, she writes. \"Thank you for the tower. I'll never forget the view.\""
+    },
+    {
+     "k": "narr",
+     "t": "He keeps the bird drawing in the tin box, on top of the autograph page, on top of the letters, on top of the splinter of yellow wood."
+    },
+    {
+     "k": "narr",
+     "t": "A box full of things he never said."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "Next time. Next time I'll ask."
+    },
+    {
+     "s": "eli",
+     "k": "thought",
+     "t": "...I've been saying that since the seventh year."
+    }
+   ],
+   "retry": "c15c",
+   "retryLabel": "Climb the tower again"
+  }
+ },
+ "names": {
+  "abel": "Abel",
+  "adam": "Adam",
+  "amos": "Old Amos",
+  "bram": "Bram",
+  "bright": "Miss Bright",
+  "clerk": "Mr. Odell",
+  "danny": "Danny Marlowe",
+  "delphine": "Delphine",
+  "doc": "Doc Whitlow",
+  "eli": "Eli",
+  "ezra": "Ezra",
+  "gideon": "Gideon",
+  "girl": "A girl by the creek",
+  "hargrove": "Mr. Hargrove",
+  "hattie": "Hattie",
+  "iris": "Iris Lane",
+  "june": "June",
+  "knowing": "The part that knows",
+  "larkin": "Mrs. Larkin",
+  "lettie": "Lettie Shaw",
+  "lou": "Lou",
+  "ma": "Ma",
+  "master": "Mr. Cutter",
+  "nate": "Nate",
+  "nell": "Nell",
+  "nico": "Nico",
+  "nobody": "no one",
+  "penelope": "Penelope",
+  "percy": "Percy",
+  "rhoda": "Aunt Rhoda",
+  "rook": "Rook",
+  "rosie": "Rosie",
+  "sam": "Sam",
+  "thorne": "Miss Thorne",
+  "toby": "Toby",
+  "viola": "Viola",
+  "wanting": "The part that wants",
+  "wren": "Wren"
+ }
+};

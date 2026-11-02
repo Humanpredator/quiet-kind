@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#0d0f1c">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>The Quiet Kind</title>
+<link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+<div id="game">
+  <div id="stage"></div>
+  <div id="bars"><div class="bar top"></div><div class="bar bottom"></div></div>
+  <div id="fade"></div>
+
+  <div id="hud">
+    <div id="mini"><canvas width="150" height="150"></canvas><div class="mini-n">N</div></div>
+    <div id="quest" class="hidden">
+      <div class="q-head"><span class="q-icon"></span><span class="q-title"></span></div>
+      <div class="q-goal"></div>
+      <div class="q-dist"></div>
+    </div>
+    <div id="topbar">
+      <button class="ib" id="b-log" title="Quests (J)"><span>📜</span><i>J</i></button>
+      <button class="ib" id="b-map" title="Map (M)"><span>🗺</span><i>M</i></button>
+      <button class="ib" id="b-bag" title="Keepsakes (B)"><span>🎒</span><i>B</i></button>
+      <button class="ib" id="b-menu" title="Menu (Esc)"><span>☰</span><i>Esc</i></button>
+    </div>
+    <div id="clock"></div>
+    <div id="prompts"></div>
+    <div id="areaname"><div class="an-line"></div><div class="an-name"></div><div class="an-sub"></div><div class="an-line"></div></div>
+  </div>
+  <div id="wmarks"></div>
+
+  <div id="touch">
+    <div id="stick"><div class="knob"></div></div>
+    <button id="t-act">F</button>
+    <button id="t-run">Run</button>
+  </div>
+
+  <div id="dlg" class="hidden">
+    <div class="d-ctrl"><button id="d-auto">▶ Auto</button><button id="d-skip">⏭ Skip</button><button id="d-log">☰ Log</button></div>
+    <div class="d-box">
+      <div class="d-name"><span class="d-who"></span><span class="d-to"></span></div>
+      <div class="d-text"></div>
+      <div class="d-next">▼</div>
+    </div>
+  </div>
+  <div id="opts" class="hidden"></div>
+  <div id="paper" class="hidden"><div class="p-inner"><div class="p-head"></div><div class="p-text"></div><div class="p-foot">tap to continue</div></div></div>
+  <div id="notices"></div>
+  <div id="ridebar" class="hidden"><div class="r-hint"></div><div class="r-track"><span></span></div></div>
+
+  <div id="banner"></div>
+  <div id="toast"></div>
+  <div id="overlay"></div>
+  <div id="loading"><div class="l-title">The Quiet Kind</div><div class="l-bar"><span></span></div></div>
+</div>
+<script src="assets/sunnyside/world.js"></script>
+<script src="assets/cast3/cast.js"></script>
+<script src="data/story-data.js"></script>
+<script src="js/world.js"></script>
+<script src="js/quest.js"></script>
+</body>
+</html>
