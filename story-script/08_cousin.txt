@@ -1,0 +1,84 @@
+@chapter 8 | The Cousin's Handwriting | The Territorial Academy, North Ridge | She came back as a friend. With a story he couldn't believe and couldn't argue with.
+
+@scene c8a | loc=academy | mood=day | goal=Find Toby after class | talk=toby | place=Territorial Academy | date=Second year at the Academy
+N: She doesn't write to Eli. But she writes to Toby. And to Percy. Long, chatty letters. She's training to be an X-ray nurse in Port Ellis, working the new machines that can see through skin to the bone.
+TOBY>ELI: She asked about you again. Kind of. She asked "how everyone is," then she asked about you, then she said "never mind."
+N: Sometimes, when Toby writes back, Eli takes the pen and adds a paragraph at the end. She answers those paragraphs. She never says she knows they're his.
+TOBY>ELI: Percy heard an older student at her school asked her out. And she liked him, Percy said. Then it just... ended. Nobody knows why.
+~: Another story I'd only ever know the outline of.
+? Toby slides his letter paper across the table.
+* Add a paragraph. Something light. {HEART:1}
+  N: You write about Pilgrim getting into the Academy apple orchard. She writes back: "Tell Eli his horse is a criminal." It's the best thing you've read all year.
+* "No. I'm done writing to her through you." {STONE:1}
+  TOBY>ELI: Okay. ...You know I don't mind, though.
+* [silent] Look out the window. {DRIFT:1}
+
+@scene c8b | loc=lodging | mood=golden | goal=Read the letter waiting at your room | place=Academy lodging | date=Third year
+N: He decides not to let her go completely. He writes to her himself. Just a friendly note.
+N: She writes back. And again. They write every week. Sometimes she sends a telegram for no reason, just "HI STOP BORED STOP." He's happy again. Really happy.
+N: Then one letter, out of nowhere, near the bottom:
+LETTER ROSIE>ELI: I need to tell you something. That letter back in school, the one that said "what would you say if I said I love you"? That wasn't me. My cousin Mabel was staying with me, and she wrote that part. I didn't even know. I only just found out.
+LETTER ROSIE>ELI: Sorry if it confused you.
+~: Confused me.
+~: The shaking hand. The chapel. The nuns. "I love you. My hand is shaking." Was that Mabel too? For three weeks, every letter?
+~: I knew she was lying. I knew it the way you know your own handwriting. But I wanted to keep talking to her more than I wanted to be right.
+? How do you answer?
+* Don't fight it. "Okay. Thanks for telling me." {HEART:1, DRIFT:1, rosie:1, set:swallowed}
+  N: You write it in your neatest handwriting so it doesn't look like it cost you anything.
+* "That's not true, Rosie. We both know it's not." {N:3, rosie:-2, set:called_lie}
+  N: Her reply takes six weeks. It says: "Believe whatever you want." Then the week after, a letter about her exams, like nothing happened.
+* [silent] Don't answer for a month. {STONE:1}
+  N: She writes first. That's never happened before. "Are you mad?" You write back: "No." It's not true, and it's not false.
+
+@scene c8c | loc=tower | mood=night | goal=Climb the water tower with Ezra | talk=ezra | place=The old water tower | date=That summer, home from school
+EZRA>ELI: So you believe it? The cousin thing?
+ELI>EZRA: No.
+EZRA>ELI: Then why are you still writing to her?
+ELI>EZRA: Because if I believed the truth, I'd have to stop. And I'm not ready.
+N: Larkspur is spread out below them. The yellow window on the hill is still there. Her parents' house. She's not in it.
+EZRA>ELI: What do you actually want, Eli? Not from her. In general. What do you want?
+? Ezra has never asked you that before.
+* "I want to know what happened. Just the truth. That's all." {N:2}
+  EZRA>ELI: And if she never tells you?
+  ELI>EZRA: Then I guess I'll want it forever.
+* "I want to stop wanting her." {N:1, HEART:1}
+  EZRA>ELI: That's the first honest thing you've said all summer.
+* "I don't know. I don't think I want anything anymore." {DRIFT:2, STONE:1}
+  EZRA>ELI: ...That scares me more than anything else you could've said.
+
+@scene c8d | loc=well | mood=dusk | goal=Write your confession at the wishing well | place=The wishing well | date=Fall of third year
+N: More news, second-hand. A boy in her class asked her out. She said no. But the girls in her dorm were pushing her to say yes, Percy says. Wouldn't leave her alone about it.
+N: He can't carry it anymore. Not knowing. He decides to end it the only way he knows how: by saying the true thing, plainly, one time. So that whatever happens, it's done.
+N: He walks up to the old wishing well on North Ridge, where students go to make wishes, and writes it on his knee.
+? What do you write?
+* "I've loved you since seventh year. I still do. You don't have to answer to be kind. I just needed you to hear it from me. Not from a cousin, or a card, or Percy." {N:3, HEART:2, set:confessed_rosie}
+* "I think I still have feelings for you. Do you have any for me?" {N:2, set:confessed_rosie}
+* [crack:You write three pages and tear them all up.] Write everything. {}
+N: He drops a coin in the well before he mails it. Then a second one, in case the first one didn't count.
+N: Her answer comes ten days later.
+LETTER ROSIE>ELI: I don't like you that way, Eli. I think we should just be friends. I hope that's okay.
+~: She didn't block me. She didn't send it back. She just... put me in a room called "friend" and closed the door gently.
+~: Somehow that was worse. At least you can be angry at a slammed door.
+? You read it at the well.
+* "It's okay. Friends, then." {HEART:1, N:1}
+* "Friends. Sure." {STONE:1}
+* [silent] Drop the letter down the well. {DRIFT:1, STONE:1}
+  N: It floats for a second on the dark water. Then it's gone.
+
+@scene c8e | loc=home | mood=winter | goal=Go home for winter break | talk=ma | place=The Ashby cottage | date=The years after
+N: The letters thin out. Every week. Then every month. Then once a season. Then a card at Christmas and nothing in between.
+MA>ELI: You've got a letter. From Port Ellis.
+ELI>MA: It's just a Christmas card.
+MA>ELI: You read a Christmas card like it's a will, Eli.
+~: Even after all that, the questions kept me up at night. If she never liked me, why did she look at me every day on that porch? Why did she shut me out the one time I said "I love you"? Why did she tell Hattie she "got a confession," like it just happened to her, when she was the one who started it?
+~: Only she knows. And she'll never say. And if she did, I wouldn't believe her. That's how it ends: with no ending at all.
+? Ma puts a cup of coffee in front of you.
+* "Ma... how did you know, with Pa?" {HEART:1, ma:1}
+  MA>ELI: I didn't. I just picked him, and then I kept picking him. Some days that's all love is. Picking someone again.
+  MA>ELI: But they have to pick you back, son. Or it's just you standing in a field, picking.
+* "Thanks, Ma." {ma:1}
+* [silent] Drink the coffee. {DRIFT:1}
+@journal
+- I'm going to stop waiting for her to explain. I'm allowed to move on without an answer. {N:2, HEART:1}
+- Some people don't deserve the truth. I guess I'm one of them. {STONE:2}
+- I'll keep the questions. They're all I have left of her. {DRIFT:1}

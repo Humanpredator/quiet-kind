@@ -1,0 +1,15 @@
+{
+  "name": "quiet-kind",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "wrangler dev",
+    "db:local": "wrangler d1 migrations apply quiet-kind-db --local",
+    "db:remote": "wrangler d1 migrations apply quiet-kind-db --remote",
+    "deploy": "wrangler deploy",
+    "story": "python story-script/compile.py"
+  },
+  "devDependencies": {
+    "wrangler": "^4.40.0"
+  }
+}

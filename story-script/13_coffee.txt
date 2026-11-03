@@ -1,0 +1,152 @@
+@chapter 13 | Coffee at the Kettle & Lamp | Ironwood Junction | A new clerk who got him without needing it explained. A coffee nobody planned. And a story everyone told without him.
+
+@scene c13a | loc=office | mood=overcast | goal=Talk to Viola after your shift | talk=viola | place=Ironwood Wire Office | date=Winter
+N: It doesn't happen all at once. It happens the way a river changes direction. A little bit at a time.
+N: The fights. The expectations. The not-knowing. Slowly, what he feels for Viola stops being love and turns into something else. Care. Worry. Duty.
+~: I still wanted her to be okay. I still worried about her hands, about whether she'd eaten. I didn't want her to suffer. But the romantic part of me was going out, like a lamp running out of oil.
+ELI>VIOLA: Viola. I need some time. To... recover. I'm worn out. I'm not leaving. I just need some room to breathe.
+VIOLA>ELI: Room. From me.
+ELI>VIOLA: From everything.
+VIOLA>ELI: Then why can't it be like before? You used to walk me home every night. You used to look at me.
+? She wants it back the way it was. You don't know how to give her that.
+* "I'm trying. I promise I'm trying." {HEART:1, DRIFT:1, viola:1}
+  VIOLA>ELI: Then try harder. Please.
+* "It can't be like before. Not right now. I'm sorry." {N:2, viola:-1}
+  VIOLA>ELI: Don't say that. Don't you dare say that to me.
+* [silent] Look at the floor. {STONE:1, DRIFT:1}
+  VIOLA>ELI: You're doing it again. You're going somewhere behind your eyes.
+
+@scene c13b | loc=office | mood=day | goal=Show the new clerk how the ledger works | talk=wren | place=Ironwood Wire Office | date=That spring
+N: In the spring, the office hires a new clerk for the ledger desk. Wren Ellery. Quiet hands. Ink on her sleeve. She draws little birds in the margins of the ledger and erases them before Hargrove sees.
+WREN>ELI: Mr. Hargrove says you know where everything is.
+ELI>WREN: I know where everything was. Hargrove moves stuff around to see if we notice.
+WREN>ELI: Ha. So it's a test.
+ELI>WREN: Everything's a test with Hargrove. Even the coffee.
+N: He shows her the ledger. It takes an hour. The hour goes by really fast.
+? She's looking at the margin where she drew a little brown bird, half erased.
+* "You should keep that one. It's good." {HEART:1, wren:2}
+  WREN>ELI: It's a self-portrait. A wren. See? Small, brown, and judgy.
+  ELI>WREN: I see a bird that's paying attention.
+  WREN>ELI: ...That's a nice thing to say. You don't say a lot, do you? But it's nice when you do.
+* "Hargrove's gonna see it." {N:1, wren:1}
+  WREN>ELI: Let him. Maybe he'll learn to appreciate art.
+* [silent] Smile at the bird. {wren:1}
+  WREN>ELI: I saw that. Don't worry, I won't tell.
+
+@scene c13c | loc=bridge | mood=golden | goal=Walk to the coach with Wren | talk=wren | place=The creek bridge | date=A few weeks later
+N: Their coaches leave from the same corner. They start walking there together. Neither of them really decides to.
+WREN>ELI: Sometimes you go somewhere. In the middle of a sentence. Like you stepped out of the room for a minute.
+ELI>WREN: ...People don't usually notice that.
+WREN>ELI: I notice things. It's my worst quality.
+N: With Wren, he doesn't have to explain. He says half a thought, and she finishes it. Not with what she wants it to mean. With what it actually means.
+? Wren asks: "Where do you go?"
+* Tell her the truth. "Somewhere quiet. Somewhere I don't have to be anyone." {N:2, HEART:1, wren:2}
+  WREN>ELI: That sounds lonely.
+  ELI>WREN: It is. But it's quiet.
+  WREN>ELI: Well. When you come back, I'll be here. Quietly. If that helps.
+* "Nowhere. I'm just tired." {STONE:1}
+  WREN>ELI: Okay. You don't have to tell me. But you can.
+* [silent] Look at the water. {DRIFT:1, wren:1}
+  WREN>ELI: ...That's okay too.
+~: I felt safe. I don't have a better word for it. With her, I felt safe. I didn't have to act like a person. I could just be one.
+
+@scene c13d | loc=lane | mood=dusk | goal=Viola wants to talk | talk=viola | place=Willow Lane | date=That week
+VIOLA>ELI: You talk to her. Wren. You talk to her the way you used to talk to me.
+ELI>VIOLA: We walk to the coach. That's it.
+VIOLA>ELI: You never tell me what you're thinking. Ever. But you tell her. I've seen your face when you talk to her. You don't make that face for me anymore.
+~: She wasn't totally wrong. That was the worst part.
+~: But I wasn't looking for someone to replace her. I was looking for somewhere I could breathe. I'd been trying to tell her for months that we weren't working. She never heard it. Now it was all about Wren.
+VIOLA>ELI: I loved her like a sister, Eli. Like my own sister. And now you—
+? Viola is shaking.
+* "This isn't about Wren. It's about us. We haven't been okay for a long time." {N:3, viola:-1, set:named_problem}
+  VIOLA>ELI: Don't. Don't make it sound reasonable. It's not reasonable. I'm hurting.
+* "I'm sorry. I'll stop walking with her." {HEART:1, DRIFT:1, wren:-1, viola:1}
+  ~: I said it, and I felt something inside me go dark, like someone closing a window.
+* [silent] Let her be angry. {STONE:1}
+
+@scene c13e | loc=teahouse | mood=golden | goal=Take your coffee break at the Kettle & Lamp | talk=wren | place=The Kettle & Lamp | date=A normal Thursday
+N: Four o'clock. Coffee break. He walks to the Kettle & Lamp, like every Thursday.
+N: Wren is there. She came in from the other direction, from the bank. Neither of them planned it.
+WREN>ELI: Oh! Hey. What are the odds.
+ELI>WREN: What are the odds.
+WREN>ELI: Well, I'm not drinking alone if you're standing right there. Sit.
+? You sit down. It's just coffee.
+* Talk about her birds, her family, anything. {HEART:1, wren:2}
+  N: She tells you about her grandma, who kept canaries and named them all after presidents. You laugh. Really laugh.
+* Tell her about your week. The real version. {N:1, wren:2}
+  N: She listens like nobody has since Lettie Shaw. Not trying to fix it. Just hearing it.
+* [silent] Drink your coffee and watch the street. {wren:1}
+  N: She doesn't fill the silence. She just drinks hers too. It's the most relaxing ten minutes you've had all year.
+N: Outside the window, across the street, Viola is walking with Nell from the night shift.
+N: Viola stops. She looks through the window. She sees them.
+N: She doesn't come in. She doesn't wave. She turns around and walks the other way.
+~: It was a coincidence. We didn't plan it. We weren't hiding. We weren't trying to make anyone jealous. We were just two people who wanted coffee at four o'clock.
+~: But I knew, the second I saw her face, that it wouldn't matter what it was. Only what it looked like.
+
+@scene c13f | loc=doc | mood=night | goal=Go to Doc Whitlow's. You need to understand | talk=doc | place=Doc Whitlow's | date=Three days later
+N: Viola goes home and doesn't come back to work. She sends a message through Nell: she's really sick. Her joints have flared up. She can't get out of bed.
+N: Then a package comes to the office for him. Inside is an X-ray plate. A picture of her hands, the bones grey and strange, the joints swollen.
+N: There's a note pinned to it, in her handwriting.
+LETTER VIOLA>ELI: Thank you for your gift.
+N: Nell says Viola thinks this might be the end. That it's his fault. That she was fine until the coffee shop.
+~: I didn't know what to say. I couldn't breathe. "Thank you for your gift." Like I'd wrapped up the illness and handed it to her.
+N: He goes to Doc Whitlow. It's ten at night. Doc answers the door in his shirtsleeves.
+DOC>ELI: Ashby. You look like you've seen a ghost. Come in. Sit.
+ELI>DOC: Did I do this, Doc? To Viola. Did I make her sick?
+DOC>ELI: I can't talk about my patients, son. You know that. But I can talk about the illness in general, and I will.
+DOC>ELI: Rheumatism in the joints is a disease of the body. It flares up and calms down on its own schedule. Stress can make anyone feel worse, and skipping medicine will definitely make it worse. But no man ever gave a woman that disease by drinking a cup of coffee.
+DOC>ELI: You're not her illness. And you're not her cure.
+? The words land somewhere you didn't know was waiting for them.
+* "Then why do I feel like I'm both?" {N:2, HEART:1, set:doc_talk}
+  DOC>ELI: Because someone you care about told you that you were. And you believed her, because you're the kind of guy who carries things. That doesn't make it true.
+* "Thanks, Doc." {HEART:1}
+  DOC>ELI: Get some sleep. You look worse than she does, and you're the one walking around.
+* [silent] Stare at the X-ray in your hands. {DRIFT:1}
+  DOC>ELI: Put that down, son. It's not yours to carry.
+~: I'm not a doctor. I couldn't cure her. I couldn't promise she'd be okay if I stayed. And still I felt like she thought I was the only one who could make her better.
+~: Every time she said she needed me, I got angry. Not because I wanted her to suffer. Because I felt trapped in a responsibility nobody could carry.
+
+@scene c13g | loc=office | mood=overcast | goal=Go to work | talk=hargrove | others=nell | place=Ironwood Wire Office | date=The next week
+N: At the office, the story has already been decided. Everyone knows Viola and Eli were together. Everyone saw her get sick. Everyone heard about the coffee shop.
+N: The story is simple. Viola loved Eli. Eli was seen with Wren. Viola got sick. So.
+NELL>ELI: Hope you're proud of yourself.
+HARGROVE>ELI: Ashby. A word. ...Keep your personal life out of my office. I won't have my operators falling apart over you.
+~: Nobody knew my side. Nobody knew how long I'd been struggling before that coffee. How many times I'd said "I need time." The things she said that I still can't repeat.
+~: They could all see her pain. Mine was private. I didn't have anyone to tell the whole story to.
+? Hargrove is waiting.
+* "Yes, sir." Say nothing else. {STONE:1, DRIFT:1}
+  ~: I didn't want to make her the bad guy just to save myself. She had her own fears and her own pain. But I didn't want to live in a story where only hers counted.
+* "Sir, there's more to it than what people are saying." {N:2, set:spoke_up}
+  HARGROVE>ELI: There always is. ...I'll keep that in mind. Get back to your key.
+  N: It's not much. But it's not nothing. He looks at you a little differently after that.
+* [silent] Go back to your desk. {DRIFT:1}
+N: Wren walks past his desk with the ledger. She doesn't stop. She just leaves a small folded piece of paper by his hand.
+N: Inside: a drawing of a bird sitting on a wire, in the rain. Underneath: "Still here. Quietly."
+@item bird | A bird on a wire, in the rain | Drawn in pencil. "Still here. Quietly."
+
+@scene c13h | loc=lane | mood=overcast | goal=Go to Viola's place. It's time to talk | talk=viola | place=Willow Lane | date=A week later
+N: Viola is back on her feet. Thinner. Tired. Her hands wrapped in flannel. She lets him in.
+N: He's been trying to say it for months. Gently. Indirectly. Hoping she'd hear it. Now he has to say it plainly.
+~: I tried. I changed my mind about getting married for her. I tried to understand what she needed and explain what I couldn't give. I stayed after the feelings changed, because caring doesn't just disappear when things get hard.
+~: But I can't keep being her partner without losing myself. And I've already lost so much of myself. There's not much left.
+VIOLA>ELI: Say it. Whatever it is. I can see it on your face.
+? This is the hardest thing you'll ever say. How do you end it?
+* "I care about you. I always will. But I can't be your partner anymore. Not without disappearing. I'm sorry." {N:3, HEART:2, set:ended_honest}
+  VIOLA>ELI: ...You said if we ever broke up, I shouldn't worry about you.
+  ELI>VIOLA: I did. I was wrong about that. But I meant the rest. I hope your hands get better. I hope you take your medicine. I hope you find someone who knows how to love you the way you need.
+  VIOLA>ELI: That's... that's a horrible, kind thing to say.
+  N: She cries. You let her. You don't leave until she asks you to. Then you leave.
+* "I'll stay. I'll stay until you're better." {HEART:1, DRIFT:2, set:stayed_guilt}
+  VIOLA>ELI: You will? You promise?
+  ELI>VIOLA: ...I promise.
+  ~: I said it, and something in me lay down and didn't get back up.
+* "We're done, Viola. I'm not your cure. Stop telling people I'm your illness." {STONE:3, N:1, set:ended_cold}
+  VIOLA>ELI: Get out. Get out!
+  N: Everything you said was true. It was also cruel. Both of those things walked out the door with you.
+* [silent] Say nothing. Let it fade. {DRIFT:2, STONE:1}
+  VIOLA>ELI: Eli? ...Eli, say something.
+  N: You don't. Nothing ends. Nothing gets better. It just goes quiet, the way things do when nobody's brave.
+@journal
+- I can care about someone and still leave when it's not healthy for me. Both are true. {N:2, HEART:2}
+- I'm her illness and her cure. That's what everyone thinks. Maybe they're right. {DRIFT:2}
+- I'm done being responsible for everyone's feelings. Starting now. {STONE:2}

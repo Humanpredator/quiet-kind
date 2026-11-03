@@ -1,0 +1,114 @@
+@chapter 4 | Across the Yard | Larkspur, eighth to tenth year | Three years. One girl. A lot of looks, and not one real conversation.
+
+@scene c4a | loc=school | mood=day | goal=Talk to Ezra after class | talk=ezra | place=Larkspur Schoolhouse | date=Ninth year
+N: Eighth year goes by in separate rooms. In ninth year, somehow, they put everyone back together. Rosie sits two rows ahead of him, one seat to the left.
+N: Their teacher, Mr. Avery, is young and friendly and lets them talk. It should be easy now.
+N: It isn't. If a boy even borrows a girl's pencil, the others tease him for days. And Eli has no idea how to start a conversation with someone he's been thinking about for two years.
+EZRA>ELI: You're staring at the back of her head again.
+ELI>EZRA: No I'm not.
+EZRA>ELI: Yes you are. Your ears go red. It's like a signal fire.
+N: Eli has never told anyone. Not Toby. Not even Rook, though Rook guessed. He's always been scared of being judged for wanting something.
+? Ezra is the one person you trust. Tell him?
+* "I like her, Ezra. I've liked her since seventh year." {N:2, HEART:1, ezra:2, set:told_ezra}
+  EZRA>ELI: I know.
+  ELI>EZRA: You know?
+  EZRA>ELI: Everyone's got a face, Eli. Yours just takes longer to read. I won't tell anyone. Ever.
+  N: He never does.
+* "Don't be stupid." {STONE:1}
+  EZRA>ELI: Okay. I'll be stupid quietly then.
+* [silent] Shrug. {DRIFT:1}
+  EZRA>ELI: Your secret's safe. Whatever it is.
+
+@scene c4b | loc=school | mood=overcast | goal=See what everyone is laughing at by the notice board | talk=bram | others=sam,adam | place=The schoolhouse notice board | date=Winter of ninth year
+N: Eli did something stupid. At night, by the lamp, it had seemed clever.
+N: He wrote a little card in his best cursive, like the fancy ones in the newspaper: "Mr. E. Ashby and Miss R. Marlowe invite you..." and pinned it to the board without a name.
+~: I thought people would read it and think someone else had noticed us. That it would just... put the idea out there. Without me having to say anything.
+N: It took them less than a day to recognize his handwriting. Nobody else in Larkspur writes a capital M like that.
+BRAM>ELI: "Invite you!" Ashby, you sly dog. Invite us to what?
+SAM>ELI: Does Marlowe know? Someone go ask Marlowe!
+? The laughing is getting louder. Rosie is across the room. She's seen it.
+* Rip the card down. "It's a joke. It's just a joke." {STONE:1, rosie:-1}
+  N: Rosie looks at you for a long second. Then she looks away.
+* "Yeah. I wrote it. So what?" {N:2, rosie:1}
+  N: The laughing stops for a second. Nobody knows what to do with a quiet kid who doesn't deny it. Rosie bites her lip. She might be smiling. You'll never know.
+* [silent] Walk out of the room. {DRIFT:1, STONE:1}
+  N: You sit behind the woodshed until the bell rings. Ezra brings your coat.
+~: After that, everyone knew. I'd been so careful to never tell anyone, and then I told everyone at once, in the worst way possible.
+
+@scene c4c | loc=school | mood=golden | goal=Take your study spot on the schoolhouse porch | place=The study porch | date=Tenth year
+N: Tenth year. Big exams. They split the boys and girls again, but in the afternoons everyone studies outside, each kid at their own post along the long porch, so nobody can chat.
+N: Rosie picks the post you can see from Eli's window. Out of all of them. That one.
+N: He looks up from his book. She's looking at him.
+N: She doesn't look away.
+? She's still looking.
+* Look back at her. {N:1, rosie:1}
+  N: Three seconds. Four. She tilts her head a little, then goes back to her book.
+* Look down at your book, fast. {STONE:1}
+  N: When you look up again, she's smiling at her page.
+* Smile. Just a little. {HEART:1, rosie:2}
+  N: She smiles back. It's the smallest thing in the world. It's enough to live on for a month.
+~: It happened every day. If she didn't like it, she could have complained. Moved. Turned around. She didn't. She looked at me every day, and I could never be sure why.
+N: And sometimes, on the porch, when she thinks no one's watching, she cries. Quietly, into her sleeve. Eli doesn't know why.
+? She's crying again. You could go to her.
+* [crack:What if you say the wrong thing and she moves away for good?] Go over and ask if she's okay. {}
+* Leave your handkerchief on her post when she's not looking. {HEART:2, rosie:1, set:handkerchief}
+  N: The next day it's folded neatly on your windowsill. Nobody saw who put it there.
+* [silent] Stay where you are. {STONE:1, DRIFT:1}
+~: I was always too scared to ask. I told myself I was being respectful. I wasn't. I was just scared.
+
+@scene c4d | loc=school | mood=golden | goal=Get Rosie to sign your autograph book | talk=rosie | others=hattie,lou | place=The schoolyard | date=Last day of tenth year
+N: Last day of school. Everyone has an autograph book, and they pass them around. Favorite color. Favorite song. Best memory. What do you think of the owner?
+N: Eli has decided. Today he'll tell her. If not today, there might not be another chance.
+N: But Rosie is never alone. Hattie and Lou are stuck to her like glue.
+ROSIE>ELI: Eli! Give me your book. I'll sign it.
+N: She writes for a long time. He watches her hand move and tries to guess the words.
+ROSIE>ELI: There. Don't read it until you get home.
+? She hands it back. Hattie is already pulling her away.
+* "Rosie, wait. Can I tell you something?" {N:2, set:almost}
+  ROSIE>ELI: Can it wait? Lou's mom is taking our picture at the photographer's. Write to me! My address is in the book.
+  N: And she's gone.
+* "Thanks." {HEART:1}
+  ROSIE>ELI: Don't be a stranger, Ashby.
+* [silent] Take the book. {DRIFT:1}
+N: At home, he opens it. Under "Address," in her round handwriting: 14 Hill Road, Larkspur.
+N: Under "What do you think of the owner?" there's nothing. Instead, she wrote a quote about time.
+CARD The autograph book | "Time is a river. It doesn't wait for anyone." — R.M.
+@item page | A page from the autograph book | Her address, and a line about time. Nothing about you. You read it a thousand times anyway.
+~: I should have understood. A girl who liked me would have written something about me. But I was fifteen, and I read it a thousand ways, and every way had me in it somewhere.
+
+@scene c4e | loc=yard | mood=dusk | goal=Ask Abel to tell Rosie for you | talk=abel | place=The old churchyard | date=That evening
+N: Eli finds Abel sitting on the churchyard wall.
+ELI>ABEL: Will you tell her? That I like her? Just tell her. You talk to everyone.
+N: Abel is quiet for a long time.
+ABEL>ELI: No.
+ELI>ABEL: Abel—
+ABEL>ELI: It's not right, Eli. It's not mine to say. If you like her, she deserves to hear it from you. Not from me, not from a card on a board. From you.
+? He's right, and you hate that he's right.
+* "You're right." {N:1, abel:1}
+  ABEL>ELI: I know. It's the worst. Being right is the worst.
+* "Some friend you are." {STONE:1, abel:-1}
+  ABEL>ELI: I'm the friend who won't let you hide behind me. That's the good kind, even if it doesn't feel like it.
+* [silent] Look at the graves. {DRIFT:1}
+  ABEL>ELI: ...You can still write to her. She gave you her address. That's not nothing.
+
+@scene c4f | loc=statue | mood=golden | goal=Meet Bram at Founder's Rock to go find her house | talk=bram | place=Founder's Rock | date=A week later
+BRAM>ELI: I know where she lives. Well, kind of. Somewhere past the hill road.
+ELI>BRAM: The book says Hill Road.
+BRAM>ELI: There are three hill roads, Ashby. Get on the horse.
+N: They borrow Pilgrim and Bram's dad's horse. It's a warm evening. The kind where anything could happen.
+@ride notices=A bird on a fence post;The smell of fresh hay;Bram singing badly
+N: They take the hill road. It curves through the trees, goes up, around, back down...
+N: ...and brings them out right where they started. Founder's Rock. Same stone. Same tree.
+BRAM>ELI: That's... that's not possible.
+N: They try the second hill road. Same thing. The road loops back on itself like a snake eating its tail.
+BRAM>ELI: Sorry, Eli. I really thought I knew.
+? The sun is going down.
+* "It's fine. It was fun anyway." {HEART:1, set:loop_ok}
+  BRAM>ELI: Yeah. It kind of was.
+* "Of course. Of course it loops." {STONE:1}
+* [silent] Look back down the road. {DRIFT:1}
+~: Years later, that road became the shape of everything. I'd take a road toward her and end up right back where I started. Again and again. Same rock. Same tree.
+@journal
+- I'll write to her. She gave me the address for a reason. {N:1, HEART:1}
+- I'm the kind of person who almost gets there. Every time. {STONE:1, DRIFT:1}
+- Maybe it wasn't the road. Maybe it was me. {DRIFT:1}

@@ -1,0 +1,99 @@
+@chapter 9 | The Long Quarantine | Larkspur and North Ridge | Two years stuck inside. Time to heal. Time to try again, and to learn what "okay" can really mean.
+
+@scene c9a | loc=home | mood=overcast | goal=Help Ma with the morning chores | talk=ma | others=june | place=The Ashby cottage | date=The year of the fever
+N: The fever comes up the river in March. By April, the whole territory is shut down. The Academy closes. The coaches stop. Everyone stays home and waits.
+N: It lasts two years.
+MA>ELI: Eggs. Water. Wood. Then you can go back to staring at the wall.
+ELI>MA: I don't stare at the wall.
+JUNE>ELI: You stare at it like it owes you money.
+N: Strangely, those two years are the gentlest he's had in a long time. Nobody expects anything from him except eggs, water and wood. Nobody's writing. Nobody's leaving.
+? Ma hands you the egg basket.
+* "Thanks, Ma. For everything." {HEART:2, ma:2, DRIFT:-1}
+  MA>ELI: For eggs? Good grief. Go on. The hens won't wait.
+* Make a joke. "Me and the hens understand each other." {HEART:1, ma:1}
+  JUNE>ELI: Because you both sit around all day making weird noises?
+* [silent] Take the basket. {DRIFT:-1}
+N: Slowly, really slowly, the grey starts to lift. He starts noticing things again. The light on the creek. Pilgrim's bad manners. June's laugh.
+~: The quarantine was what finally let me breathe. Everything stopped, so I could stop too. Nobody could leave, so nobody could leave me.
+
+@scene c9b | loc=academy | mood=day | goal=Ask Percy about Delphine Moreau | talk=percy | place=Territorial Academy | date=Final year, after the fever
+N: When the Academy opens again, there's a girl in his year he's known since the first week. Delphine Moreau. Sharp eyes, sharp tongue. He never really noticed her before. He was too busy being heartbroken.
+N: Now he notices.
+N: But he's learned one thing, at least. This time, he wants to know first if she's seeing someone.
+ELI>PERCY: Is Delphine seeing anyone?
+PERCY>ELI: Moreau? Ha! No. Totally single. But... people say she's got an attitude. She'll bite your head off.
+ELI>PERCY: I like that she says what she thinks.
+PERCY>ELI: Ha! Of course you do. She takes the north coach, same as Toby.
+? You could switch coaches.
+* Switch to the north coach. {N:1, set:switched_coach}
+  PERCY>ELI: Ha! Look at you. Making a plan.
+* "I'll just say hi in the hallway." {N:1}
+  PERCY>ELI: You? Say hi? In a hallway? Ha!
+* [silent] Think about it for a week. {DRIFT:1}
+  N: You switch coaches anyway, a week later.
+
+@scene c9c | loc=depot | mood=golden | goal=Catch the north coach home | talk=toby | place=The stage depot | date=Fall
+N: The north coach. Delphine sits by the window. Eli sits two rows back, next to Toby.
+TOBY>ELI: You should know something. There's this blacksmith's apprentice. Jack Kettle. Big shoulders. He's always hanging around the depot when this coach comes in.
+TOBY>ELI: People say she went riding with him. On her birthday.
+ELI>TOBY: Percy said she was single.
+TOBY>ELI: Maybe she is. Maybe Percy's an idiot. Could be both.
+@ride notices=Delphine laughing at something;Sun through the coach window;Toby asleep on your shoulder
+~: Every time I heard Jack Kettle's name, my chest got tight. Same feeling. Same spot. Like an old injury that can tell when it's going to rain.
+~: But I wanted her to know. Even if it was hopeless. Just once, I wanted to say it before someone else decided for me.
+
+@scene c9d | loc=academy | mood=golden | goal=Tell Delphine how you feel | talk=delphine | place=Territorial Academy | date=That week
+N: He finds her on the Academy steps, alone for once.
+ELI>DELPHINE: Delphine. Can I tell you something?
+DELPHINE>ELI: You're Eli. From the north coach. You always look like you're about to say something and then you don't.
+? This time you say it.
+* "I like you. I've liked you since spring. I don't need anything back. I just wanted you to know." {N:3, HEART:1, set:told_delphine}
+* "Would you ever want to go out with me?" {N:2, set:told_delphine}
+DELPHINE>ELI: ...Oh.
+DELPHINE>ELI: That's really nice. But I'm not interested. I don't really know anything about love. Can we just be friends?
+? She's waiting.
+* "Friends. Okay. Thanks for being honest." {HEART:2, N:1, delphine:1}
+  DELPHINE>ELI: You're weird, Eli Ashby. Most guys sulk.
+  ELI>DELPHINE: At least I said it. That's something.
+* "Sure." {STONE:1}
+* [silent] Nod and leave. {DRIFT:1}
+~: It hurt. But at least I said it. That was new. That was mine.
+N: Three weeks later, she and Jack Kettle are dating. Openly. Everyone knows.
+~: "I don't know anything about love." But she knew enough for Jack. Why couldn't she just tell me she was already seeing someone? I would have backed off without a word.
+
+@scene c9e | loc=lodging | mood=dusk | goal=Write to Delphine | place=Academy lodging | date=The next spring
+N: A few weeks later, she and Jack break up. Loudly, from what people say.
+TOBY>ELI: Start over. Be friends first, for real. Talk to her. Then later, ask again.
+N: So he does. He writes her notes. He thinks of things to talk about all day. Books. Classes. The Academy cat. The weather, even.
+LETTER ELI>DELPHINE: Did you finish the Henley essay? I thought the second half made no sense.
+LETTER DELPHINE>ELI: Yes.
+LETTER ELI>DELPHINE: Did you hear Professor Gault fell in the pond?
+LETTER DELPHINE>ELI: Mm.
+LETTER ELI>DELPHINE: Are you going to the spring dance?
+LETTER DELPHINE>ELI: Okay.
+~: "Okay." "Mm." "Yes." Like answering questions on a test. I was the only one keeping it going, blowing on a fire that didn't want to burn.
+? You read "Okay." for the fourth time.
+* Keep trying. One more note. {HEART:1, DRIFT:1}
+  LETTER ELI>DELPHINE: Want to go for a walk sometime? Just to talk, face to face.
+  LETTER DELPHINE>ELI: Maybe some other time.
+* Stop writing. {N:2, STONE:1, set:let_delphine_go}
+* [silent] Stare at "Okay." until it stops looking like a word. {DRIFT:2}
+~: I'm not a stranger. I'm not asking for a dance or a ring. Just a walk. And she couldn't even give me that.
+~: But it's not worth anything when the other person doesn't want it. So I stopped. Quietly. No big speech. I just stopped, and she never noticed.
+
+@scene c9f | loc=office | mood=day | goal=Show up for your first day at the wire office | talk=hargrove | place=Ironwood Wire Office | date=After graduation
+N: He graduates. He's good at the wire. The best in his year. Of course he is. It's the one thing he was always going to be good at.
+N: Mr. Hargrove, the head operator at Ironwood, looks him up and down.
+HARGROVE>ELI: Ashby. They say you can do sixty words a minute and never miss a letter.
+ELI>HARGROVE: Sixty-four, sir.
+HARGROVE>ELI: Ha. And humble, too. Desk by the window. Your shift's two to ten. Don't fall for the girls on the Port Ellis line. They're all engaged.
+~: Desk by the window. Just like Miss Bright's class. Some things find you again.
+? Mr. Hargrove is waiting.
+* "Thank you, sir. I won't let you down." {HEART:1, N:1}
+  HARGROVE>ELI: They all say that. Prove it.
+* "Two to ten. Got it." {STONE:1}
+* [silent] Sit down at the key. {DRIFT:1}
+@journal
+- I said it out loud to Delphine. I didn't hide. That counts. {N:2, HEART:1}
+- I keep choosing people who don't choose me back. {STONE:1}
+- Work is good. Work is quiet. Work doesn't leave. {DRIFT:1}

@@ -1,0 +1,145 @@
+@chapter 2 | Paper Outlaws | Larkspur, the middle years | Friends, a fight over drawings, and the night the money was gone.
+
+@scene c2a | loc=school | mood=day | goal=Eat lunch with Nate and Nico | talk=nate | others=nico | place=Behind the schoolhouse | date=Fourth year
+N: In fourth year, Eli eats lunch with two boys from June's class, Nate and Nico. They're older, and they let him sit with them anyway.
+NATE>ELI: Look what Nico snuck in. His uncle's picture viewer.
+NICO>ELI: You put the card in and look, and it's like you're standing in Paris. Or on the moon. Go on.
+N: Eli looks. Two flat pictures turn into one deep one. A city he'll never see pops right off the card.
+? What do you say?
+* "How does it do that?" {N:1}
+  NICO>ELI: Nobody knows. My uncle says it's your two eyes lying to your brain at the same time.
+* "Can I look again?" {HEART:1}
+  NATE>ELI: Look as long as you want. Just don't let Miss Thorne see.
+N: He doesn't remember much else about that year. Lunches. Laughing. Two older boys being nice to a younger one for no reason.
+~: Nate still writes to me sometimes. Nico, I don't know. People just... go somewhere. Nobody sends you a letter saying where.
+
+@scene c2b | loc=school | mood=golden | goal=Meet the new kid everyone is talking about | talk=rook | others=toby | place=The schoolyard | date=Sixth year
+N: Sixth year. A new kid shows up with a name so long the teacher gives up halfway through reading it.
+ROOK>ELI: Reginald Oswin Okafor-Kincaid. Don't even try. Everyone calls me Rook. Because of the R. And because I steal stuff.
+ELI>ROOK: ...You do?
+ROOK>ELI: Only shiny stuff, and only from people who deserve it. Want a cookie? I took it from the teacher's tin.
+TOBY>ELI: He's crazy. I like him.
+N: Rook is everything Eli isn't. Loud. Not scared of anything. He climbs the bell rope at recess. He talks to girls like they're just people, which they are.
+? Rook holds out the stolen cookie.
+* Take it and grin. {HEART:1, rook:2}
+  ROOK>ELI: See? I knew you had it in you. Quiet ones always do.
+* "We'll get in trouble." {N:1, rook:1}
+  ROOK>ELI: Trouble is just what grown-ups call fun they didn't think of first.
+* [silent] Look at the cookie, then at him. {rook:1}
+  ROOK>ELI: Fine, I'll eat it. But I'm saving you the next one. Partners.
+~: Rook. "Brother from another mother," he'd say, years later. He never worried about anything. He did all the crazy stuff I only wished I could do.
+
+@scene c2c | loc=statue | mood=day | goal=Trade outlaw cards at Founder's Rock | talk=gideon | others=abel,rook | place=Founder's Rock | date=That spring
+N: That spring, every boy in Larkspur is drawing outlaws on squares of cardboard. The Ghost of Dry Gulch. Six-Gun Sal. The Iron Train Gang.
+N: Eli's drawings are the best. Everyone says so. He makes up his own outlaws, and the faces look like they're actually thinking.
+GIDEON>ELI: That's a good one. The Lantern Kid. You made him up?
+ELI>GIDEON: Yeah. He only robs trains at night, so nobody can see he's scared.
+N: Gideon Hale is a strange, stubborn kid. If you give him something and then you fight, he'll make you take it back. Fair is fair.
+GIDEON>ELI: Don't give me anything. I don't take stuff. If you take stuff, people own a piece of you.
+~: I remember that. I took it home and kept it. For years I didn't take anything from anyone, so nobody could ever ask for it back.
+ABEL>ELI: Gideon's just being Gideon. Here, Eli, trade me the Lantern Kid. I'll give you two Sals.
+? Abel wants to trade.
+* Trade with Abel. {HEART:1, set:traded}
+  ABEL>ELI: Nice doing business with you.
+* "I don't trade them. I just draw them." {STONE:1}
+  ABEL>ELI: Okay, artist.
+* Just give Abel the card. {HEART:1, abel:1}
+  GIDEON>ELI: You'll regret that.
+  ABEL>GIDEON: No he won't. Mind your own cards.
+
+@scene c2d | loc=school | mood=overcast | goal=Find out why Gideon is mad at you | talk=gideon | others=toby | place=The schoolyard | date=A week later
+GIDEON>ELI: Those are mine.
+ELI>GIDEON: What?
+GIDEON>ELI: The Lantern Kid. The Coyote Twins. You copied them from my cards. Everyone can see it.
+N: It's not true. Eli drew every line himself, at night, by the lamp. But Gideon says it loudly, in the yard, and a circle of kids is forming.
+TOBY>GIDEON: That's a lie and you know it.
+GIDEON>TOBY: Is it? Let him prove it.
+N: Eli can't prove it. Nobody ever believes the quiet kid.
+? Everyone is watching. What do you do?
+* "I drew them. You know I drew them." {N:2, set:stood_up}
+  GIDEON>ELI: Then draw one right now. Go on. In front of everybody.
+  N: His hand won't stop shaking. The line comes out crooked. Someone laughs.
+* Rip the cards up. All of them. {STONE:2, set:tore_cards}
+  N: He tears them in half, then in half again. The Lantern Kid splits right down the middle of his scared little face.
+  TOBY>ELI: Eli, no! Those were yours!
+* [silent] Walk away. {DRIFT:1, STONE:1}
+  N: He walks away. That night he burns the whole stack in Ma's stove, one card at a time.
+~: After that, Gideon didn't talk to me for months. A war nobody else could see. Two kids walking past each other in silence, every single day.
+@item card | The Lantern Kid | One outlaw card that survived. He only robs trains at night so nobody sees he's scared.
+
+@scene c2e | loc=chapel | mood=golden | goal=Find Abel behind the chapel | talk=abel | place=Behind St. Agnes' Chapel | date=The silent war
+N: Only one person knows about the silent war. Abel Finch. He finds Eli behind the chapel, where nobody ever goes.
+ABEL>ELI: You didn't copy them. I watched you draw the Coyote Twins in class. You drew the second one upside down to check if it looked right.
+ELI>ABEL: Nobody else thinks so.
+ABEL>ELI: Nobody else was watching. I was.
+N: Abel thinks the same way Eli does, but he says it out loud. Last month he knocked over the glass jars in the science cupboard. The snake in a jar. The two-headed frog. The room stank for a week.
+ABEL>ELI: You know Dahlia Reyes? Third row? She asked me if you were okay. She said you looked sad.
+~: Dahlia. I liked her. I never told her. I never told anyone anything back then.
+? Abel waits.
+* "Tell her I'm fine. ...And thank her." {HEART:1, abel:1}
+  ABEL>ELI: Tell her yourself. She won't bite. Probably.
+* "Why would she care?" {STONE:1}
+  ABEL>ELI: People care, Eli. You just don't let them see that you notice.
+* "Thanks for being on my side, Abel." {HEART:2, abel:2}
+  ABEL>ELI: There's no sides. There's just you, the truth, and Gideon being an idiot.
+
+@scene c2f | loc=post | mood=day | goal=Take the telegraph test at the post office | talk=clerk | place=Post & Coach Office | date=End of sixth year
+N: A notice goes up at school. The telegraph company will teach one smart student how to use the wire, for free, at the post office in town.
+N: Eli takes the test. He finishes first. He gets every answer right.
+CLERK>ELI: Eli Ashby. Top score in the whole area. You start Tuesday. Four to six.
+N: The telegraph key sits on the counter like a strange brass animal. When the clerk taps it, a needle answers from a hundred miles away.
+~: It was like something from another planet. I didn't get it. I didn't know I'd end up spending my whole life next to one of these.
+? The clerk lets you try the key.
+* Tap out your name, slowly. {N:1, set:wire_name}
+  CLERK>ELI: Not bad. A little heavy on the dots.
+* Ask how far the wire goes. {HEART:1}
+  CLERK>ELI: All the way to the ocean, kid. And under it, they say.
+  ~: All the way to the ocean. And I'd never even seen a lake.
+
+@scene c2g | loc=post | mood=dusk | goal=Catch the evening coach home from the post office | talk=amos | place=The coach stop | date=A Tuesday evening
+N: After his lesson, Eli goes to catch the coach home. He reaches into his pocket for the fare.
+N: It's empty.
+~: No. No, no. It was right there. Ma gave it to me this morning. Two coins. It was right there.
+N: He checks his other pocket. His boots. The post office floor. Nothing.
+AMOS>ELI: Fare, kid?
+ELI>AMOS: ...I'll take the next one.
+N: He sits on the bench under the coach sign. People from Larkspur come and go. Mr. Pruett. Mrs. Bell. A man from church. Any of them would lend a kid a coin.
+? Mrs. Bell is walking by. You could ask her.
+* [crack:Your throat closes up. She's already gone.] "Mrs. Bell, could I... borrow..." {}
+* [crack:You open your mouth. Nothing comes out.] Ask the man from church. {}
+* [silent] Stay on the bench. {DRIFT:1}
+N: An hour goes by. Then two. The lamps come on. The last coach of the day goes by without him.
+~: I've never been able to explain why I couldn't ask. It wasn't pride. It was like the words were stuck behind glass.
+N: Then a horse comes up the road way too fast, and it's Ma, still in her apron, her hair coming loose.
+MA>ELI: Eli! Oh thank God, thank God.
+N: She rode all the way to the junction looking for him. She asked at every house on the way.
+MA>ELI: Why didn't you ask someone? Anyone? You know half this town!
+? Ma is hugging you so tight it hurts.
+* "I lost the money. I'm sorry. I'm sorry, Ma." {HEART:2, ma:2}
+  MA>ELI: Shh. Money's just money. You're you. Don't you ever sit in the dark over two coins again.
+* "I couldn't." {N:1, ma:1}
+  MA>ELI: ...I know, baby. I know you couldn't. I don't understand it, but I know.
+* [silent] Hold on to her. {ma:1, DRIFT:-1}
+  N: Neither of you says anything the whole way home. She keeps one hand behind her, holding your wrist, the entire ride.
+
+@scene c2h | loc=ridge | mood=dusk | goal=Meet the boys at the Coyote Ridge campfire | talk=rook | others=gideon,abel,toby | place=Coyote Ridge | date=End of sixth year
+N: The silent war ends the way those things usually end. Nobody says sorry. One day Gideon just sits down next to him and says, "Pass the salt," and that's it.
+ROOK>ELI: To the Paper Outlaws. Wanted in six towns. Mostly for being ugly.
+GIDEON>ELI: ...I know you drew them. I always knew.
+ELI>GIDEON: Then why?
+GIDEON>ELI: I don't know. I was jealous. I get stuck on something and I can't get unstuck. I'm sorry.
+? Gideon is waiting.
+* "It's okay. Pass the salt." {HEART:2, gideon:2}
+  GIDEON>ELI: Ha. Fair is fair.
+* "You made me burn them all." {N:1, gideon:1}
+  GIDEON>ELI: I know. I'll owe you for that forever. I don't take stuff, but I'll owe you.
+* [silent] Nod and look at the fire. {gideon:1}
+~: Gideon taught me something without meaning to. That it's okay to take things from people. That he could be mad at me and still never take back what he gave.
+ABEL>ELI: Eli. You're smiling.
+ELI>ABEL: Am I?
+ABEL>ELI: First time all year.
+~: That year, I loved being alive. I'm writing that down too. Everything was going well. I was happy, and I knew I was happy while it was happening. That almost never happens.
+@journal
+- I was happy. It still counts, even if it didn't last. {HEART:2}
+- I should have learned to ask for help that night at the coach stop. I didn't. {N:1}
+- Nothing good lasts. I learned that too. {STONE:1}

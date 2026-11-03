@@ -1,0 +1,128 @@
+@chapter 6 | What Would You Say | Larkspur, twelfth year | The happiest letter he ever got. And the silence after it.
+
+@scene c6a | loc=ridge | mood=dusk | goal=Meet the boys at Coyote Ridge | talk=rook | others=toby,ezra,gideon | place=Coyote Ridge | date=Spring of twelfth year
+N: The letters come every week or two. Little things. Her awful roommate. The nuns' terrible soup. A cat that sneaks into chapel. He writes back about Larkspur, about Pilgrim, about nothing.
+N: Sometimes his letters are a little cringey. He doesn't care. He keeps finding things to talk about, like keeping a fire going in the rain.
+ROOK>ELI: So? What did she say this week? Read it out loud.
+ELI>ROOK: I'm not reading it out loud.
+TOBY>ELI: He tells us anyway. Every time. Give him a minute.
+N: He tells them. He always does. They helped get the address, so it feels fair.
+GIDEON>ELI: She asked if you were telling the whole school about her letters. Percy told her you were.
+ELI>GIDEON: I told her the truth. Only one friend knows. The one who got me the address. And he's not mad.
+GIDEON>ELI: I'm not. I'm the least mad person on this hill.
+? Ezra is looking at you.
+* "I'm going to wait. After final exams, I'll tell her properly." {HEART:1, N:1, set:patient}
+  EZRA>ELI: That's... actually really decent of you.
+  ELI>EZRA: I don't want to mess up her studies. She works hard.
+* "What if she's just bored at school? What if it's nothing?" {STONE:1}
+  ROOK>ELI: Then it's nothing and you had fun. Stop overthinking everything.
+* [silent] Watch the fire. {DRIFT:1}
+
+@scene c6b | loc=home | mood=golden | goal=June has a letter for you | talk=june | place=The Ashby cottage | date=A normal Tuesday
+JUNE>ELI: Miss Ellie Ash. Another one. This one's thick.
+N: He takes it upstairs. It starts like a normal letter. The soup. The cat. Exams. Then at the bottom, in handwriting that looks a little different, a little rushed:
+LETTER ROSIE>ELI: What would you say if I said I love you?
+N: He reads it eleven times.
+~: Every year since seventh. Every look on that porch. Every Sunday behind that pillar. All of it was in that one line.
+? You pick up your pen.
+* "Yes. You know, this is what I've wanted to tell you for so long. I love you too." {HEART:3, N:2, rosie:3, set:said_love}
+  N: And because he's Eli, he adds: "But let's not worry about it now. We'll talk properly after exams. I'll wait. I always have."
+  N: And because he's seventeen, he adds: "But say it to me. Just once. For real."
+* "Are you sure? Don't joke about this." {N:1, rosie:1, set:said_love}
+  N: He crosses it out and writes the first thing instead. Of course he does.
+N: Two weeks. Three. Then the reply comes.
+LETTER ROSIE>ELI: I love you.
+LETTER ROSIE>ELI: My hand is shaking. I'm writing this in the chapel so the nuns can't see. My hand is shaking so much I can barely hold the pen.
+~: It was the best moment of my life. I've had years to find a better one, and I haven't.
+~: I felt like I finally had a reason. To work hard, to become someone. To deserve that shaking hand.
+@item loveletter | "My hand is shaking." | The letter. You keep it at the bottom of the stack, so it's the last one you read.
+
+@scene c6c | loc=store | mood=day | goal=Tell Toby the news | talk=toby | others=rook | place=Pruett's General Store | date=The next day
+N: He doesn't have to tell Toby. His face says it all.
+TOBY>ELI: She said it. She said it! Rook! ROOK! She said it!
+ROOK>ELI: I'm right here, you don't have to scream. ...Come here, Ashby. Come here.
+N: Rook hugs him so hard his ribs creak. Mr. Pruett gives them each a peppermint and doesn't ask why.
+? What do you do now that she's said it?
+* Keep it simple. A little heart at the end of each letter. Nothing that puts pressure on her. {HEART:1, N:1, set:light}
+  TOBY>ELI: Look at you. Respectful. Patient. Who even are you?
+  ELI>TOBY: If you keep pushing someone, they start to hate it. I never want her to hate it.
+* "I'm riding to St. Ursula's this weekend." {N:1, rosie:-1}
+  ROOK>ELI: To a girls' school run by nuns? You'll get chased off with a broom.
+  N: You don't go. You write instead. It's probably for the best.
+* [silent] Grin until your face hurts. {HEART:1}
+N: She writes about her classes. He writes about seeing her at chapel on Sundays, from behind his pillar. She writes back that she knew he was there. She always knew.
+~: That summer, her dream and my dream were the same dream. I really believe that. For a little while, we were both alive in the same direction.
+
+@scene c6d | loc=home | mood=overcast | goal=June has another letter | talk=june | place=The Ashby cottage | date=August 24th
+N: August 24th. He writes like always. Just "Hi, how was your week?"
+N: The reply isn't in her handwriting.
+LETTER DANNY>ELI: My sister went out. She's not available. — D. Marlowe
+JUNE>ELI: Who's D. Marlowe?
+ELI>JUNE: Her brother. Danny. He's in eighth year with Percy's brother.
+N: After that, the letters still come, but they're different. Short. Late. Polite, like a letter to an uncle.
+LETTER ROSIE>ELI: I've been moved to the boarding house for the rest of the year. I won't be able to write much.
+~: She never mentioned it. Not once. All those letters about soup and the cat, and not one word about moving.
+? June is watching your face.
+* "Something's wrong. Something happened." {N:1}
+  JUNE>ELI: Maybe she's just busy. It's her last year.
+* "She's just busy. It's fine." {DRIFT:1}
+  JUNE>ELI: ...Sure.
+* "June, did Ma read one of the letters?" {N:1}
+  JUNE>ELI: No! Never. I swear, Eli.
+
+@scene c6e | loc=post | mood=overcast | goal=Ask Percy to write to her for you | talk=percy | place=Post & Coach Office | date=September
+ELI>PERCY: Write to her. Just ask where she is. How she is. Please.
+PERCY>ELI: Ha. Okay. Okay! Since you look like a ghost.
+N: Percy writes. The reply comes back fast. Percy reads it out at the post office counter.
+PERCY>ELI: "She's at the boarding house until the end of the term. — D." That's her brother again. Huh. Weird. She usually writes back herself.
+~: It looked wrong. It felt wrong. Her brother answering her letters, twice, like he was guarding the door.
+~: But I didn't want it to mean anything. So I didn't let it.
+? Percy shrugs.
+* "Thanks, Percy. Really." {HEART:1, percy:1}
+  PERCY>ELI: Ha. Don't. Now I feel bad. Why do I feel bad?
+* "Something's wrong, Percy. You can see it too." {N:1}
+  PERCY>ELI: I see a nosy brother. That's all brothers are for.
+* [silent] Walk out. {DRIFT:1}
+
+@scene c6f | loc=post | mood=night | goal=Check the mailbox one more time | place=The coach office, after hours | date=Fall, every day
+N: Then the letters stop coming at all. Instead, his own letters come back. Unopened. Stamped in red: RETURN TO SENDER.
+N: He writes under June's name. Returned. Under Toby's name. She opens that one and answers it, nicely, until he signs it "Eli." Then that one comes back too.
+~: Every time I said my name, the door closed.
+~: I couldn't send a telegram. She'd kept my letters under a girl's name. If her family saw a telegram from a boy... I told myself her parents had found out. That was the only thing that made sense.
+~: But it wasn't that. I know now it wasn't that.
+N: He walks to the post office every day for three months. Every day, the box is either empty or full of his own handwriting coming back to him.
+? The clerk is closing up. There's one letter. It's yours. Returned.
+* Put it in the tin with the others. {DRIFT:1}
+* Tear it up on the steps. {STONE:2}
+  N: The pieces blow down Main Street. You don't chase them.
+* Write another one tonight. {N:1, HEART:1}
+  N: You write it. It comes back on Thursday.
+~: What happened? What did I do? I asked myself that every day. I still ask. Some questions never wear out.
+
+@scene c6g | loc=post | mood=dusk | goal=Answer the telegram that came for you | talk=clerk | place=Post & Coach Office | date=Winter
+N: One evening, the clerk waves him over. A telegram came in for "E. Ashby, Larkspur." From Red Bluff.
+N: Red Bluff is near Fort Calder. His heart does something painful.
+WIRE LETTIE>ELI: WHO IS THIS STOP YOU SENT A LETTER TO MY BOARDING HOUSE STOP
+N: He'd written to every boarding house near St. Ursula's. Half crazy. Hoping one of them was hers.
+? You wire back. Ten cents a word.
+* "WHY WONT YOU TALK TO ME STOP PLEASE STOP" {N:1, DRIFT:1}
+  WIRE LETTIE>ELI: IM SORRY STOP I DONT KNOW YOU STOP WRONG PERSON STOP
+* "IS THAT YOU STOP PLEASE JUST TELL ME" {N:1}
+  WIRE LETTIE>ELI: NO STOP SORRY STOP WRONG PERSON STOP
+N: It isn't her. Of course it isn't. He'd heard something that sounded a little like her in the clicking of a wire, and reached for it.
+WIRE ELI>LETTIE: SORRY STOP I THOUGHT YOU WERE MY GIRL STOP
+N: He thinks that's the end of it. But a week later, a letter comes from Red Bluff.
+LETTER LETTIE>ELI: My name is Lettie Shaw. I'm not your girl, but it sounds like you need someone to talk to. So talk. What happened?
+? A stranger is asking.
+* Tell her everything. {HEART:2, N:1, set:told_lettie}
+  N: You write eleven pages. She writes back four. She doesn't tell you what to do. She just says: "That sounds like it really hurt. I'm sorry."
+  N: Nobody else had said that. Not like that.
+* Write back: "Thanks. I'm okay." {STONE:1}
+  N: She writes one more time anyway. "You don't sound okay. The offer's still there."
+N: Lettie Shaw writes to him on and off for a year. Then one spring, she sends him an invitation on cream-colored card. She's getting married.
+@item invitation | A wedding invitation from Red Bluff | From a stranger who listened. You didn't go. You wrote to say congratulations, and you meant it.
+~: It's strange, what life sends you. I lost the girl I loved, and a stranger I'd never met was kinder to me than anyone.
+@journal
+- I'll find out what happened. One day she'll tell me. {N:1}
+- I don't want to know anymore. Knowing would be worse. {STONE:1}
+- It's like it happened to someone else. I'm watching from far away. {DRIFT:2}

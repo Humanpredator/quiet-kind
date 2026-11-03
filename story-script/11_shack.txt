@@ -1,0 +1,127 @@
+@chapter 11 | The Relay Shack | The beach outside Ironwood Junction | Alone at a relay station by the sea, with a wire that never stops talking. And one piece of news it never should have carried.
+
+@scene c11a | loc=shack | mood=day | goal=Start your new post at the relay shack | place=The relay shack | date=Two years later
+N: The company sends him out to the relay shack on the beach. One man, one key, one stove, and the ocean. He passes messages between the Port Ellis line and the main office.
+N: Nobody visits. That's fine with him.
+N: But the wire is never quiet. Every afternoon, the main office taps him. It's Viola Sutton, the operator on the Port Ellis desk. She's from down south, and she taps faster than most people talk.
+WIRE VIOLA>ELI: ASHBY STOP YOU ALIVE OUT THERE STOP
+WIRE VIOLA>ELI: HARGROVE SPILLED COFFEE ON THE LEDGER AGAIN STOP NEW GIRL ON NIGHT SHIFT LIKES THE COAL GUY STOP TELL ME SOMETHING STOP
+N: She tells him everything. Who's fighting, who's dating, what everyone had for lunch. He doesn't care about most of it. He listens anyway. It's company.
+? Viola is waiting for an answer.
+* "ALIVE STOP TELL ME ABOUT THE COAL GUY STOP" {HEART:1, viola:1}
+  WIRE VIOLA>ELI: HA STOP KNEW YOU LOVED GOSSIP STOP
+* "BUSY STOP" {STONE:1}
+  WIRE VIOLA>ELI: LIAR STOP NOBODY IS BUSY AT A RELAY SHACK STOP
+* [silent] Tap back a single dot. Got it. {DRIFT:1}
+  WIRE VIOLA>ELI: A DOT STOP YOU ARE IMPOSSIBLE STOP
+~: I didn't talk much. I never have. But she didn't seem to mind. She talked enough for both of us.
+
+@scene c11b | loc=shack | mood=golden | goal=Toby has ridden all the way out to see you | talk=toby | place=The relay shack | date=Fall
+N: Toby rides all the way out to the shack, which nobody ever does. He's got his serious face on.
+TOBY>ELI: It's Rosie. Her boyfriend, the guy from the photo, they're done. It was bad, Eli. She called me in the middle of the night. She was... in a really dark place. She said some stuff that scared me.
+ELI>TOBY: Is she okay?
+TOBY>ELI: She is now. She's got people around her. Her sister's with her. I just thought you'd want to know.
+N: Something awful and something hopeful happen in Eli's chest at the same time.
+~: I hated that I felt it. She was hurting, and some small, selfish part of me thought: Now she won't love anyone else. Now maybe...
+? Toby is watching you.
+* "I hope she's okay. Really. That's what matters." {HEART:2, N:1}
+  TOBY>ELI: Yeah. It is.
+* "Do you think she'd want to hear from me?" {N:1}
+  TOBY>ELI: I don't know. Give it time. Her birthday's in a month. Wish her a happy birthday. Just that.
+* [silent] Look at the ocean. {DRIFT:1}
+N: A month later, on her birthday, he sends a short, careful telegram. HAPPY BIRTHDAY STOP HOPE THIS YEAR IS GOOD TO YOU STOP. She wires back: THANK YOU STOP.
+N: Two words. He reads them all night.
+
+@scene c11c | loc=shack | mood=dusk | goal=Answer the message from Port Ellis | place=The relay shack | date=That winter
+N: Then, out of nowhere, a message on the Port Ellis line for the relay shack. For him.
+WIRE ROSIE>ELI: ELI STOP NEED HELP WITH A PAPER ON X-RAY WIRING STOP YOU KNOW WIRES STOP ARE YOU BUSY STOP
+N: He's never busy. He helps. They wire back and forth for two weeks. Coils and currents, then jokes about her teacher, then how her mom is, and how his is.
+WIRE ROSIE>ELI: YOU WERE ALWAYS SMART STOP I REMEMBER THE WINDOW SEAT STOP
+? It feels like being friends. Real friends, finally.
+* Enjoy it. Don't ask for anything more. {HEART:2, rosie:1}
+  ~: For two weeks it was like being fifteen on that porch again. Except this time we were actually talking.
+* Bring up the past. Just a little. {N:1, rosie:-1}
+  WIRE ELI>ROSIE: DO YOU REMEMBER THE PORCH STOP
+  N: A long pause on the line. Then: PAPER IS DUE FRIDAY STOP. You don't bring it up again.
+* [silent] Help with the paper and nothing else. {STONE:1}
+
+@scene c11d | loc=depot | mood=golden | goal=Meet Ezra at the depot for your trip north | talk=ezra | place=Ironwood stage depot | date=The next September
+N: September. Her birthday again. He sends good wishes and asks how the paper turned out.
+N: The telegraph company sends back a slip: DELIVERED. READ. No reply.
+N: Then he and Ezra plan a trip up north, to the Dakota hills. She's working at a hospital near there now. He wires to ask if she knows a good place to stay in that town.
+N: DELIVERED. READ. No reply.
+EZRA>ELI: She saw it. She just didn't answer.
+ELI>EZRA: Maybe she's busy.
+EZRA>ELI: Eli.
+ELI>EZRA: ...I know.
+~: Left on "read." There's a special kind of quiet in that word.
+@ride notices=Ezra pointing at an eagle;The Dakota hills, blue in the morning;A town you'll never see again
+? On the trip, Ezra asks if you're okay.
+* "No. But I'm glad you're here." {HEART:2, ezra:2, N:1}
+  EZRA>ELI: Me too. Even though you snore.
+* "I'm fine." {STONE:1}
+  EZRA>ELI: You've been saying that since seventh year. It's never been true once.
+* [silent] Watch the hills. {DRIFT:1}
+
+@scene c11e | loc=post | mood=overcast | goal=Pick up replies to your ad in the Lonely Hearts column | talk=clerk | place=Post & Coach Office | date=That fall
+N: He tries the Lonely Hearts column in the Ironwood paper. Once. Rook dares him, and he's too tired to argue.
+CLERK>ELI: Two replies for box 14, Mr. Ashby.
+N: The first one is from a teacher up north. They write five letters. She's funny and careful. Then her letters just stop, mid-conversation, like a door left open to an empty room. He writes twice more and gives up.
+N: The second one is from a woman in Red Bluff who, by her third letter, mentions her husband.
+~: Why do married women answer the Lonely Hearts? Why does anybody write to anybody and then disappear? I'm so tired of always being the one left holding the pen.
+? The clerk is waiting.
+* Laugh about it. "Well, at least I tried." {HEART:1, N:1}
+  CLERK>ELI: That's the spirit, Mr. Ashby.
+* "Cancel the ad." {STONE:1}
+* [silent] Put the letters in your pocket. {DRIFT:1}
+
+@scene c11f | loc=teahouse | mood=winter | goal=Meet Rook at the Kettle & Lamp | talk=rook | place=The Kettle & Lamp | date=January
+N: Since New Year's, he's had a feeling. A cold, heavy feeling, like a storm coming. Something bad is on its way. He couldn't say what.
+ROOK>ELI: Sit down. Did you hear?
+ELI>ROOK: Hear what?
+ROOK>ELI: I didn't want you to read it in the paper. There's a rumor. About Rosie. That she's getting married.
+N: Eli laughs. He actually laughs.
+ELI>ROOK: That's not true. She'd— no. That's not true.
+ROOK>ELI: I hope it's not. I'm just telling you what I heard.
+? Rook has his hand on your arm.
+* "Thanks for telling me, Rook. Really." {HEART:1, rook:2}
+  ROOK>ELI: Brother from another mother. Who else was going to?
+* "It's a rumor. Percy-level nonsense." {DRIFT:1}
+* [silent] Pull your arm away. {STONE:1}
+
+@scene c11g | loc=post | mood=winter | goal=Read the Port Ellis paper at the post office | place=Post & Coach Office | date=January 18th
+N: January 18th. It's in the Port Ellis Herald. The engagement announcement.
+CARD The Port Ellis Herald | Dr. and Mrs. H. Marlowe are pleased to announce the engagement of their daughter, Miss Rosalind Marlowe, to Dr. A. Pemberton of the Royal Infirmary, Liverpool. The couple will live overseas.
+N: Not the guy from the photo. Not anyone she loved. An arranged match, people say. A doctor her parents picked, older than her, same church, a job overseas.
+~: I would have done anything. Switched churches. Crossed an ocean. Become a doctor, if that's what it took. I'm not stupid. I could have done it. I just never thought I'd have to.
+~: And she didn't even marry someone she loved. She married someone she was handed.
+N: He walks to the key in the back of the office. The clerk is at lunch. He puts his hand on the brass and taps.
+WIRE ELI>NOBODY: WHY STOP WHY STOP WHY WOULD YOU STOP EVERYONE CHANGES THEIR MIND STOP STUPID STOP STUPID PEOPLE STOP I COULD HAVE STOP I COULD HAVE STOP
+WIRE ELI>NOBODY: XXXXXX EEEEE TTTTTTTTTTTTT 9999 STOP STOP STOP STOP
+N: The line isn't connected to anything. It goes nowhere. He taps until his fingers hurt.
+? The clerk comes back. You take your hand off the key.
+* Say sorry. Go home. {N:1}
+  CLERK>ELI: You okay, Mr. Ashby?
+  ELI>CLERK: No. But I will be. I think.
+* Walk out without a word. {STONE:1, DRIFT:1}
+* Sit down on the floor behind the counter. {DRIFT:2}
+  N: The clerk doesn't say anything. He puts a cup of water next to you and goes back to sorting mail.
+~: It felt like watching someone I loved die right in front of me. And I couldn't do anything. And I wasn't even allowed to grieve, because she was never mine to lose.
+
+@scene c11h | loc=home | mood=night | goal=Go home and try to sleep | talk=ma | place=The Ashby cottage | date=February
+N: She starts showing up in his dreams. Every night. Sometimes she's fifteen, on the porch. Sometimes she's a stranger in a wedding dress who doesn't know who he is.
+N: He wakes up with his heart racing and his hands shaking. It happens during the day too. At the key. On the coach. His hands just... shake.
+N: Then a telegram from Mr. Hargrove: the relay shack is closing. Everyone back at the main office by mid-February. Two to ten, every day.
+MA>ELI: You're not sleeping.
+ELI>MA: I'm sleeping.
+MA>ELI: I hear you walking. Every night. Back and forth. Like your Pa used to before a long ride.
+? Ma is standing in the doorway.
+* "Something's wrong with me, Ma. I don't know what." {N:2, HEART:1, ma:2, set:told_ma_shaking}
+  MA>ELI: Then we'll find out what. That's all. You don't have to know yet. You just have to stop hiding it.
+* "It's just work." {STONE:1}
+  MA>ELI: It's not work. But I'll wait until you're ready.
+* [silent] Pretend you're asleep. {DRIFT:1}
+@journal
+- If she'd loved me, I would've fought the whole world. But there was nothing to fight for. That's the hard part. {N:1, HEART:1}
+- I'm done. I don't care who stays. If you want to leave, leave. {STONE:2}
+- My hands keep shaking. My head is too loud. Maybe it's not just heartbreak. {N:1, set:noticed_symptoms}

@@ -1,0 +1,128 @@
+@chapter 5 | The Road That Loops | Larkspur and Ironwood, eleventh year | The one time he asked for something. And what it cost.
+
+@scene c5a | loc=depot | mood=golden | goal=Take the coach to your new school in Ironwood | talk=ma | place=Ironwood stage depot | date=Early summer
+N: Uncle Wendell says the school in Ironwood is better. Better teachers, better future. Ma and Pa listen to Uncle Wendell, because Uncle Wendell has money.
+N: So it's decided, and nobody asks Eli. He finds out the way he finds out most things: someone tells him.
+MA>ELI: It's a good school, Eli. Your Pa wrote. He says it's the best thing for you.
+ELI>MA: Pa hasn't been home in two years.
+MA>ELI: Eli.
+ELI>MA: ...Sorry.
+N: The Ironwood school is all red brick and strangers. The boys have pressed collars and already know each other. Nobody here has seen him draw the Lantern Kid or stare at the back of anyone's head.
+~: It should have felt like a fresh start. It felt like being erased.
+~: And under all that was the real reason, the one I couldn't say out loud: What if she goes back to Larkspur for the upper years? What if I'm here and she's there?
+? Ma is watching you look at the building.
+* "I'll try, Ma." {ma:1}
+  MA>ELI: That's all I'm asking.
+* "I don't belong here." {N:1}
+  MA>ELI: Give it a week.
+* [silent] Pick up your bag. {DRIFT:1}
+
+@scene c5b | loc=home | mood=dusk | goal=Tell Ma you want to go back | talk=ma | place=The Ashby cottage | date=One week later
+N: He gives it a week. On the seventh day, he comes home, puts his bag on the kitchen table, and doesn't take it upstairs.
+N: The school fees haven't been paid yet. There's still time. Just enough.
+MA>ELI: What's this?
+? You've never asked her for anything. Not once. Not a toy, not a coin, not a day off.
+* "I want to go back to Larkspur. Please. I've never asked you for anything." {N:3, HEART:1, ma:2, set:asked_ma}
+  N: Ma sits down slowly.
+  MA>ELI: No. You haven't. Not since you were little. Not even when you should have.
+  MA>ELI: ...Okay. I'll write to your father. I'll deal with Wendell. You go back.
+  ELI>MA: Really?
+  MA>ELI: If my boy finally wants something badly enough to say it out loud, I'm not going to be the one who teaches him not to.
+* "I'm not going back to Ironwood." {N:2, STONE:1, ma:1, set:asked_ma}
+  MA>ELI: Oh really?
+  ELI>MA: Please, Ma.
+  N: It's the "please" that does it. She's never heard him say it like that.
+  MA>ELI: ...Okay. Okay. Larkspur it is.
+~: It was the only time in my life I went against them. And the last time I ever asked them for anything. I've regretted a lot of things. Never that.
+~: ...Even though, of course, it was because of her. Of course it was.
+
+@scene c5c | loc=school | mood=day | goal=Find your friends on your first day back | talk=toby | others=rook,ezra | place=Larkspur Schoolhouse | date=Eleventh year
+N: Back in Larkspur. Toby yells so loud Mr. Avery drops his chalk. Rook picks him up off the ground. Ezra just nods, like he knew all along.
+ROOK>ELI: He's back! I'd throw a party, but all I've got is a sausage in my lunch tin.
+N: Eli looks around the room. At every desk. At the door, every time it opens.
+TOBY>ELI: She's not coming, Eli.
+ELI>TOBY: Who?
+TOBY>ELI: Don't. The Marlowes sent her to St. Ursula's. The girls' school out past Fort Calder. She lives there now.
+N: The room tilts a little.
+~: I'd fought my parents for the first and only time. I'd come all the way back. And she'd gone somewhere else.
+~: It felt like I'd lost her for good. And I never even had her.
+? Toby has a hand on your shoulder.
+* "I'm glad I'm back anyway. I missed you idiots." {HEART:2, toby:1, rook:1}
+  ROOK>ELI: Idiots! We're idiots now! He's been back thirty seconds and he's insulting us. I love it.
+* "It doesn't matter." {STONE:1}
+  TOBY>ELI: It does. And it's okay that it does.
+* [silent] Sit down at your old desk. {DRIFT:1}
+  N: Ezra sits down next to you without saying anything. He doesn't move for the rest of the day.
+~: If it weren't for them, I think I would've just drifted away right then. They kept me in the room.
+
+@scene c5d | loc=chapel | mood=day | goal=Go to Sunday service at St. Agnes' | place=St. Agnes' Chapel | date=A Sunday in the fall
+N: Then one Sunday, Eli hears from Hattie's little sister that the Marlowes come down to St. Agnes' every Sunday when Rosie is home from school.
+N: Every Sunday.
+N: Eli hasn't gone to church on his own since he was nine. Suddenly he has a reason every week. Ma needs an arm to hold. June needs someone to walk with. He's gotten very religious, very fast.
+N: She sits four rows from the front, in a grey dress. He sits in the back, behind a pillar, where he can see her and she can't see him.
+~: I didn't pray. I watched. I'm not proud of it. But it was the only window I had left.
+? The service is ending. She's turning toward the aisle.
+* Lean out from behind the pillar. Let her see you. {N:1, rosie:1}
+  N: Her eyes find you. A flicker of surprise, and something else. Then her mom takes her arm.
+* Duck behind the pillar. {STONE:1}
+* [silent] Keep watching. Just watch. {DRIFT:1}
+N: Every Sunday after that, he's there. He watches her from far away, week after week, and tells himself that's close.
+@item ribbon | A grey ribbon | It fell from her hair onto the chapel step. You meant to give it back. You never did.
+
+@scene c5e | loc=store | mood=day | goal=Ask Percy Dunn for Rosie's address at St. Ursula's | talk=percy | place=Pruett's General Store | date=Winter of eleventh year
+N: There's a boy in Eli's class named Percy Dunn. Jumpy, smart, talks way too fast, laughs at his own jokes before he's done telling them.
+N: Percy's cousin Sadie went to St. Ursula's with Rosie, before she left. And Percy writes to Rosie sometimes. He has her address at the girls' school.
+ELI>PERCY: Percy. Please. I just want to write to her.
+PERCY>ELI: Ha! No. No way. That's private mail. It's a matter of honor, Ashby. Ha!
+? Percy is enjoying this.
+* "I'll do your math homework for a month." {N:1}
+  PERCY>ELI: Tempting! No.
+* "Please. I'll beg if you want. I'll get on my knees right here." {N:2, HEART:-1, set:begged}
+  PERCY>ELI: Whoa, whoa. Get up. People are looking. ...Still no, though.
+* "Forget it." {STONE:1}
+  PERCY>ELI: Ha! Forgotten.
+~: I was ready to get on my knees in front of that kid for one line of ink. I've never felt so humiliated by something that felt so necessary.
+
+@scene c5f | loc=statue | mood=golden | goal=Find Gideon at Founder's Rock | talk=gideon | place=Founder's Rock | date=A few days later
+N: There's one person in Larkspur that Percy Dunn is scared of, and it's Gideon Hale.
+GIDEON>ELI: I heard about Percy.
+ELI>GIDEON: Everyone heard about Percy.
+GIDEON>ELI: Here.
+N: He holds out a scrap of paper. An address in Percy's messy handwriting. Miss R. Marlowe, St. Ursula's School for Girls, Fort Calder Road.
+ELI>GIDEON: How did you—
+GIDEON>ELI: I asked him. Nicely. In a certain tone of voice. ...I told you I'd owe you forever. For the drawings. Now I don't. Fair is fair.
+? Gideon is already turning to leave.
+* "Gideon. Thank you. Seriously." {HEART:2, gideon:2}
+  GIDEON>ELI: Don't thank me. Write her a good letter. Don't make it weird.
+* "You didn't have to do that." {N:1, gideon:1}
+  GIDEON>ELI: I know. That's what makes it count.
+* [silent] Hold the paper like it's made of glass. {}
+@item address | An address in Percy's handwriting | St. Ursula's School for Girls. Fort Calder Road.
+
+@scene c5g | loc=home | mood=night | goal=Write your first letter to Rosie | talk=june | place=The Ashby cottage | date=That night
+N: There's a problem. The house has one mailbox, and Ma reads everything that comes through it.
+JUNE>ELI: So have it sent to me. Under a girl's name. "Ellie Ash." Ma never opens my letters. She says they're full of nonsense.
+ELI>JUNE: You'd do that?
+JUNE>ELI: I'd do anything that annoys Uncle Wendell. And this would, if he knew. Go write your letter, lovesick.
+N: He writes it. Crosses it out. Writes it again. In the end, he sends one word.
+LETTER ELI>ROSIE: Hi.
+N: Two weeks later, June slides an envelope under his door, addressed to Miss Ellie Ash.
+LETTER ROSIE>ELI: Who is this?
+LETTER ELI>ROSIE: Take a guess.
+LETTER ROSIE>ELI: Sadie? Is it Sadie? Sadie, if this is you, I'm going to kill you.
+LETTER ELI>ROSIE: It's not Sadie.
+LETTER ROSIE>ELI: Then tell me your name, or I'm burning the next one without reading it.
+? This is it. What do you write?
+* "If I tell you my name, will you still write back?" {N:2, rosie:1, set:asked_first}
+  LETTER ROSIE>ELI: Yes. Probably. Tell me.
+  LETTER ELI>ROSIE: It's Eli. Eli Ashby. The kid by the window.
+* "It's Eli. From the coach stop. Your witness." {N:2, HEART:1, rosie:2}
+  N: You hold your breath for two weeks.
+N: The reply comes on a Thursday.
+LETTER ROSIE>ELI: Eli! The quiet witness! Why didn't you just say so? You're so weird. Write back, I'm bored to death here.
+~: She wrote back. She actually wrote back. I read it standing up in June's room, and June pretended not to watch me, and I didn't care.
+@item letters | A stack of letters | Addressed to Miss Ellie Ash. Every one of them is from Fort Calder.
+@journal
+- I'll write to her every week. Small stuff. I won't push. {HEART:1, N:1}
+- I'll wait. We'll talk properly after exams. I don't want to mess up her studies. {HEART:1, set:patient}
+- What if she stops? She'll stop. Everyone does. {STONE:1, DRIFT:1}

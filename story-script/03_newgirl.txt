@@ -1,0 +1,131 @@
+@chapter 3 | The New Girl | Larkspur, seventh year | October 14th. He was home sick. Everything started without him.
+
+@scene c3a | loc=school | mood=day | goal=Find your new classmates in seventh year | talk=ezra | others=adam,bram | place=Larkspur Schoolhouse | date=Seventh year, fall
+N: In seventh year, the school splits the class in two. Rook and Abel go upstairs to Miss Bright's room. Eli stays downstairs with Mr. Cutter.
+N: He makes three new friends. Adam, who's very serious. Bram, who's very tall. And Ezra Cole, who listens like it actually matters.
+EZRA>ELI: You miss them. Rook and Abel.
+ELI>EZRA: They're only upstairs.
+EZRA>ELI: Upstairs is pretty far when you're twelve.
+N: Something weird has happened in the downstairs room. The girls have stopped talking to the boys. If a boy talks to a girl, the other boys make fun of him for a week.
+ADAM>ELI: Upstairs, Miss Bright told them it's fine for boys and girls to be friends. They all talk to each other up there. It's like a different country.
+BRAM>ELI: I'd switch rooms if they let me.
+? Ezra looks at you.
+* "Me too. I'd switch tomorrow." {N:1}
+  EZRA>ELI: You'd have to ask. You never ask for anything.
+* "Doesn't matter. I don't talk to anyone anyway." {STONE:1}
+  EZRA>ELI: You talk to me.
+  ELI>EZRA: ...You don't count. You're Ezra.
+  EZRA>ELI: I'll take that as a compliment.
+* "I think it's sad. Everyone being scared of each other." {HEART:1, ezra:1}
+  EZRA>ELI: Yeah. It is.
+
+@scene c3b | loc=home | mood=overcast | goal=You're home sick. Listen to June's news | talk=june | place=The Ashby cottage | date=October 14th
+N: On October 14th, Eli wakes up with a fever and Ma keeps him home. He sleeps most of the day.
+N: In the afternoon, June comes home from school full of news.
+JUNE>ELI: There's a new girl. Rosalind Marlowe. From Fort Calder. Her dad's the new surveyor.
+ELI>JUNE: So?
+JUNE>ELI: So she's in the upstairs room, and she talks to the boys. Just walks right up and talks to them. Like it's normal. Half the girls already hate her.
+JUNE>ELI: Rook challenged her to a race and she beat him. In a skirt.
+N: Eli lies in bed and listens to June describe a girl he's never met. He builds a picture of her out of words.
+~: Years later I'd think: I missed her first day. I wasn't there. Everyone else met her first. Maybe that set the pattern for everything.
+? You ask June...
+* "What does she look like?" {HEART:1}
+  JUNE>ELI: Ooh. Why do you want to know?
+  ELI>JUNE: I don't. Forget it.
+* "Is she nice?" {N:1}
+  JUNE>ELI: She's loud. But yeah. I think she's nice.
+* [silent] Roll over and face the wall. {DRIFT:1}
+  JUNE>ELI: ...You're no fun when you're sick.
+
+@scene c3c | loc=school | mood=day | goal=Go back to school and see the new girl | place=The schoolyard | date=A few days later
+N: She's easy to find. She's in the middle of a group of upstairs boys, playing kick-the-can and screaming with laughter.
+N: Rosalind Marlowe. Rosie. Dark hair falling out of its braid. A scab on one knee. She kicks the can so hard it hits the bell.
+~: I'd never seen a girl talk to boys without being scared. She hung out with all of them like it was nothing. Like it was the most normal thing in the world.
+~: And I felt something I didn't have a name for yet. It wasn't love. It was jealousy. Of every one of those boys.
+~: I wanted to be her friend. That's all. I really wanted to be her friend.
+? You watch from across the yard.
+* Move a little closer. {N:1}
+  N: You get as far as the water pump. Then the bell rings, and she runs inside without seeing you.
+* Keep watching. {DRIFT:1}
+* Look away before anyone notices. {STONE:1}
+
+@scene c3d | loc=post | mood=golden | goal=Wait for the coach after school | talk=rosie | others=rook | place=The coach stop | date=Late October
+N: After school, kids wait for their coaches at the stop by the post office. Rosie and Rook are arguing, which is how they say hi.
+ROOK>ROSIE: You cheated. Nobody beats me fair.
+ROSIE>ROOK: I beat you fair and square, you sore loser.
+ROOK>ROSIE: Go jump in the creek, Marlowe.
+N: Rosie turns around. And for the first time, she looks right at Eli.
+ROSIE>ELI: Did you hear that? He told me to go jump in the creek. You're my witness.
+N: She's talking to him. She's actually talking to him.
+? Rosie is waiting for you to say something.
+* "He says that to everyone. It means he likes you." {N:2, HEART:1, rosie:2, set:first_words}
+  ROSIE>ELI: Ha! Really? Rook, is that true?
+  ROOK>ELI: Traitor.
+  ROSIE>ELI: I like you. What's your name?
+  ELI>ROSIE: Eli.
+  ROSIE>ELI: I like you, Eli. You're on my side now.
+* "...Yeah, I heard." {N:1, rosie:1}
+  ROSIE>ELI: Good. If I drown, tell them it was Rook.
+  N: She laughs. The coach comes. She waves at him from the step. At him.
+* [crack:Your face goes hot. Nothing comes out.] Say something clever. {}
+* [silent] Nod. {rosie:0, DRIFT:1}
+  ROSIE>ELI: ...Okay, quiet witness. I'll take a nod.
+~: That was the first time. I've replayed it so many times it's worn thin, like an old ticket you keep in your pocket.
+
+@scene c3e | loc=yard | mood=golden | goal=Ask Rosie to be your friend | talk=rosie | others=ezra | place=The old churchyard | date=All that year
+N: The plan is simple. At recess, he'll walk up to her by the churchyard wall where she likes to sit, and say: "Do you want to be friends?"
+N: Six words. He practices them every night.
+EZRA>ELI: Today?
+ELI>EZRA: Today.
+N: Rosie is sitting on the wall, braiding grass.
+? You walk up to her...
+* [crack:Halfway there, someone calls her name. She jumps down and runs off.] "Rosie, do you want to be—" {}
+* [crack:She looks up and smiles. You say "Nice day," and keep walking.] "Do you want to be friends?" {}
+* [crack:The bell rings.] Just say it. {}
+* Turn around. Try tomorrow. {DRIFT:1}
+N: Tomorrow turns into next week. Next week turns into spring. Spring turns into the last week of school.
+EZRA>ELI: You never asked her.
+ELI>EZRA: There's still time.
+EZRA>ELI: Is there?
+~: Every day of seventh year, I meant to ask. I've never been so sure about something I didn't do.
+
+@scene c3f | loc=school | mood=day | goal=Pack up your things on the last day of school | talk=sam | others=master | place=The downstairs room | date=Last day of seventh year
+N: Last day. Sam Whitley has a brass telegraph token he's not supposed to have, and he asks Eli to hide it in his bag.
+SAM>ELI: Just until the bell. Cutter checks my desk.
+N: When the bell rings, Sam asks for it back. Eli tosses it to him across the room.
+N: Sam misses. The token flies right past him, out the open window, and gets stuck behind the shutter.
+N: Sam doesn't see where it went. He starts yelling. Eli starts yelling. Then Mr. Cutter walks in, furious about the noise.
+MASTER>SAM: What is all this noise? And whose shoe is that on the windowsill?
+N: In the front row, Henry Pike leans over to peek at the muddy shoe, like a chicken looking at a worm.
+N: It's so ridiculous that Eli laughs out loud.
+N: Mr. Cutter turns around. He doesn't ask a single question. He slaps Eli across the face.
+N: The sound is really loud in the quiet room. The mark of four fingers stays on his cheek all the way home.
+? Ma sees your face when you get home. What do you tell her?
+* The truth. All of it. {N:1, ma:1}
+  MA>ELI: He did what? Without even asking you? I'm going down there tomorrow.
+  ELI>MA: Don't, Ma. It's the last day. It's over.
+* "I fell." {STONE:1}
+  N: She looks at the shape of a hand on your cheek and doesn't believe you. But she doesn't push.
+* [silent] Go straight upstairs. {STONE:1, DRIFT:1}
+~: The grown-ups at that school always decided what happened before anyone told them.
+
+@scene c3g | loc=tower | mood=night | goal=Climb the old water tower with Rook | talk=rook | place=The old water tower | date=That summer
+N: Summer. Rook knows a way up the old water tower that nobody's supposed to know about. From the top, you can see all of Larkspur, every light.
+ROOK>ELI: That one's the Marlowe house. On the hill. See the yellow window?
+ELI>ROOK: Why would I care which one's the Marlowe house?
+ROOK>ELI: No reason. No reason at all.
+N: Something changed over the summer, in the quiet part of Eli where he keeps things.
+~: At first I just wanted to be her friend. Now I caught myself thinking: what if she was always around? Not just at school. Always. What if she was always with me?
+~: I was thirteen. I didn't know anything. I just knew the yellow window on the hill was the brightest one.
+ROOK>ELI: Next year we'll all be in the same room again. Upstairs. Her too.
+? Rook is trying to help.
+* "Next year I'll talk to her. I swear." {N:2, HEART:1, set:swore}
+  ROOK>ELI: That's my guy. I'll hold you to it. I'll push you down the stairs at her if I have to.
+* "Don't tell anyone, Rook." {rook:1}
+  ROOK>ELI: Tell them what? I don't know anything. I'm just a kid on a water tower.
+* [silent] Watch the yellow window until it goes dark. {DRIFT:1}
+@card Next year | The school board decided that eighth-year boys and girls would be taught in separate rooms. Eli read the notice twice. Then a third time, in case it changed.
+@journal
+- I'll talk to her the next chance I get. {N:1, HEART:1}
+- Of course. Of course they split us up. {STONE:1}
+- It's just a window. It's just a girl. {DRIFT:1}

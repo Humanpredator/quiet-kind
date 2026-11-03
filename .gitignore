@@ -1,9 +1,6 @@
-# OS / editor
-.DS_Store
-Thumbs.db
-desktop.ini
-.vscode/
+node_modules/
+.wrangler/
+.dev.vars
+*.log
 __pycache__/
-*.zip
-*.exe
-reference/*
+reference/

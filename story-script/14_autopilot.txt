@@ -1,0 +1,102 @@
+@chapter 14 | Autopilot | Ironwood and Larkspur | The road gets him to work every day. He just isn't really on it.
+
+@scene c14a | loc=office | mood=overcast | goal=Ride to work | place=Ironwood Wire Office | date=Late winter
+@enter minDrift=5
+N: He saddles Pilgrim. He opens the gate.
+@ride drift notices=Frost on the fence wire;A hawk, way up high;Your own breath
+N: He's at the office. Pilgrim is tied up outside. His coat is on the hook.
+~: I don't remember the ride. I know I did it. I know every turn. But if you asked me to picture it, the bridge, the mill, the depot... there's nothing. Just a blank where the road should be.
+~: Like someone else rode my horse and dropped me off at my desk.
+N: It's happened before. It keeps happening. Home to work. Work to home. Whole hours, folded up and put somewhere he can't find.
+~: I'm not drinking. I sleep about seven hours, just in pieces. I'm not sick, as far as I know. So what is this?
+~: What if one day I'm on the road and I'm not really there, and somebody steps out in front of the horse?
+? You sit at your key. Your hands are steady for once. It's the rest of you that's far away.
+* Press your hands flat on the desk. Feel the wood. Name five things you can see. {N:1, DRIFT:-2, set:grounding}
+  ~: The key. The window. The ink. Hargrove's hat. Wren's bird in the ledger. ...Okay. I'm here. I'm here.
+* Start working. Don't think about it. {DRIFT:1}
+* [silent] Stare at the key. {DRIFT:2}
+
+@scene c14b | loc=home | mood=night | goal=Go home | place=The Ashby cottage | date=That night
+N: At night, it's two voices. They argue inside him like two people in the next room.
+WANTING>ELI: You need someone. Someone to hold onto. Someone to tell you it's going to be okay. Find someone. Anyone. Just don't be alone with this.
+KNOWING>ELI: Leaning your whole weight on another person is how you ended up here. It didn't work with Viola. It won't work with anyone. Nobody else can carry you out of this.
+WANTING>ELI: Then who will?
+KNOWING>ELI: ...I don't know. You, maybe. Eventually.
+WANTING>ELI: I can't even feel my own hands.
+N: Sometimes the disappointment turns into anger. And after the anger, everything goes flat and far away, like a painted background.
+? Both voices are waiting for you to pick a side.
+* "You're both right. I need people. I just can't make one person my whole world." {N:2, HEART:1, DRIFT:-1}
+  KNOWING>ELI: ...That actually makes sense.
+  WANTING>ELI: I hate it. But fine.
+* Side with the one that wants comfort. {HEART:1, DRIFT:1}
+  WANTING>ELI: See? We'll find someone. It'll be fine.
+  KNOWING>ELI: That's what you said last time.
+* Side with the one that wants to shut everything out. {STONE:2}
+  KNOWING>ELI: That's not what I said. I said you'd have to learn to stand. Not that you'd have to stand alone forever.
+* [silent] Let them argue until you fall asleep. {DRIFT:2}
+
+@scene c14c | loc=home | mood=day | goal=Wake up | talk=ma | place=The Ashby cottage | date=Morning
+N: He wakes up. Ma's at the stove. Bacon. Coffee. Normal.
+MA>ELI: Morning, sleepyhead. You've got chalk on your face.
+ELI>MA: Chalk?
+MA>ELI: Go wash up. The coach comes at 8:30. Old Amos won't wait.
+N: Old Amos. Old Amos died six years ago.
+N: He wakes up.
+N: The room is dark. It's four in the morning. He's in his own bed. There's no bacon.
+~: A dream. A dream about waking up. That keeps happening too. I wake up and it's not real, and then I wake up again and I'm not sure.
+N: He waits for the window to turn grey. He gets up. He goes downstairs. Ma's at the stove.
+MA>ELI: You're up early. Couldn't sleep?
+? Is this one real?
+* Touch the door frame. It's solid. Rough. "This one's real." {N:1, DRIFT:-1}
+  MA>ELI: What's real? Are you okay, son?
+* "Ma. Is this real?" {N:2, HEART:1, ma:1}
+  MA>ELI: ...Eli. Sit down. Sit down right now and tell me what's going on.
+  N: For the first time, you tell her. Not everything. But the dreams. The road. The hours you lose. She listens with both hands around her cup, very still.
+  MA>ELI: Then you're going to see Doc Whitlow. This week. I'll come with you if you want. That's not a question.
+* [silent] Sit down and eat. {DRIFT:1}
+  N: It's real. Probably. You eat without tasting anything.
+
+@scene c14d | loc=teahouse | mood=golden | goal=Meet Rook at the Kettle & Lamp | talk=rook | others=ezra | place=The Kettle & Lamp | date=That week
+ROOK>ELI: You've been staring at that cup for ten minutes, Ashby. It's not going to tell your fortune.
+EZRA>ELI: You're gone again. Where are you?
+N: Rook knows him better than anyone. But even Rook doesn't know all of it. Nobody does. That's partly Eli's fault. It's always been easier to say "fine" and move on than to explain.
+ROOK>ELI: People say you look like you don't care. Like nothing gets to you. But you've never been like that. You care so much it fries your brain.
+ROOK>ELI: Brother from another mother. Tell me what's going on.
+? Your two oldest friends are waiting.
+* Tell them everything. The road. The dreams. The voices. {N:3, HEART:2, rook:2, ezra:2, set:told_friends}
+  EZRA>ELI: ...How long has this been going on?
+  ELI>EZRA: Since the engagement. Maybe before. I don't know. I can't tell where it started.
+  ROOK>ELI: Okay. Then we figure it out. Together. You don't get to do this one quietly.
+* "It's nothing. Work. I'm tired." {STONE:1}
+  ROOK>ELI: Liar. You've been saying that since we were twelve. One day you'll tell me. I'll be here when you do.
+* "I don't know how to explain it." {N:1, HEART:1}
+  EZRA>ELI: Then don't explain. Just tell us one piece. We'll figure out the rest.
+
+@scene c14e | loc=doc | mood=day | goal=See Doc Whitlow about yourself this time | talk=doc | place=Doc Whitlow's | date=End of winter
+N: He goes. Ma comes with him and waits outside, pretending to read a seed catalog.
+DOC>ELI: So. You this time. Tell me.
+? Doc Whitlow is listening.
+* Tell him all of it. The lost hours, the dreams, the shaking, the voices, the feeling that you're not real. {N:3, HEART:1, DRIFT:-2, set:saw_doc}
+  DOC>ELI: Okay. Thank you. That can't have been easy.
+  DOC>ELI: What you're describing, feeling like you're outside yourself, like the world is painted on glass... I've seen it before. In soldiers back from war. In widows. In people who've carried too much for too long without putting it down.
+  DOC>ELI: You're not crazy, son. It's a mind that's been running hot for years, trying to protect you by closing the curtains.
+  ELI>DOC: Will it stop?
+  DOC>ELI: It can. It often does. But not by itself, and not if you keep pushing through it like a mule through mud. There's a doctor in Port Ellis who works with nerves. I'll write to him. You're going to sleep, eat, and walk. You're going to talk to someone regularly. And you're going to stop riding that horse when you're not all there.
+  ELI>DOC: ...Okay.
+  DOC>ELI: "Okay." Ha. Coming from you, I'll take that as a promise.
+* Only tell him about the sleep. {N:1}
+  DOC>ELI: Sleeping powders, then. And come back if it's more than sleep. I have a feeling it is.
+* [crack:You open your mouth and the curtain comes down. "I'm fine, Doc."] Tell him everything. {}
+* [silent] Just sit there. {DRIFT:1}
+  DOC>ELI: Your mom's outside pretending to read about turnips. Want me to bring her in?
+N: Outside, Ma closes the seed catalog.
+MA>ELI: Well?
+? Ma is holding your arm.
+* "I'm going to be okay, Ma. Not today. But I'm going to be." {HEART:2, ma:2, N:1}
+  MA>ELI: I know you are. You're careful. You get that from me.
+* "He says I'm just tired." {STONE:1}
+  MA>ELI: Hm. Then we'll get you some rest.
+@journal
+- My feelings, memories and experiences deserve to be taken seriously. Even by me. {N:2, HEART:1, DRIFT:-1}
+- I'll push through. I always have. {STONE:1, DRIFT:1}
+- I'm scared this is just who I am now. {DRIFT:1}

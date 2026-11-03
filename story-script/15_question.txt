@@ -1,0 +1,136 @@
+@chapter 15 | The Question | Larkspur, October again | One honest question. Asked the right way, for once.
+
+@scene c15a | loc=office | mood=dusk | goal=Ask Wren if she wants to walk after work | talk=wren | place=Ironwood Wire Office | date=Fall
+N: Lately, whenever he plans to meet Wren after work, something gets in the way. Her sister visits. Hargrove keeps her late. The coach changes its schedule.
+N: He starts to wonder. If she's pulling away. If he's been too much without noticing.
+ELI>WREN: Want to walk to the coach with me tonight?
+WREN>ELI: Oh— not tonight. Sorry. My sister's in town again. She's... a lot. Another time?
+~: "Another time." I've heard that before. From Delphine, in a note. It sounded exactly the same.
+~: ...Or maybe it doesn't. Maybe I'm just reading every little change through ten years of bad weather.
+? Wren is putting on her coat.
+* "Of course. Another time. Hope your sister's visit goes okay." {HEART:1, wren:1}
+  WREN>ELI: Okay? Ha. She'll reorganize my whole kitchen. ...Thanks, though. Really.
+* "Did I do something? Be honest." {N:1}
+  WREN>ELI: What? No. No, Eli. Really. It's just my sister. I promise.
+* [silent] Nod. {DRIFT:1}
+  WREN>ELI: ...Eli? I mean it. Another time.
+
+@scene c15b | loc=bridge | mood=golden | goal=Find Ezra at the creek bridge | talk=ezra | place=The creek bridge | date=A Sunday
+N: Ezra is fishing off the creek bridge, like he has since they were nine. He's never caught anything.
+ELI>EZRA: If I see her, I want to ask her something. Before I say anything else.
+EZRA>ELI: Ask her what?
+ELI>EZRA: If she's comfortable. With how close I've gotten. If I'm too much. Expecting too much. I want her to be able to tell me the truth, even if it's bad.
+EZRA>ELI: And then?
+ELI>EZRA: If she says I'm too close, I listen. I back off. I don't make her responsible for how I feel.
+ELI>EZRA: If she says she's comfortable... then I'll tell her I feel safe with her. And ask if there's room for me in her life. Not as a boyfriend. Not with some promise she has to keep. Just... close.
+N: Ezra reels in his empty line.
+EZRA>ELI: Eli. That's the most grown-up thing I've ever heard you say.
+EZRA>ELI: In seventh year you couldn't say six words to a girl sitting on a wall. Look at you now.
+? Ezra is smiling.
+* "I'm still terrified." {N:1, HEART:1}
+  EZRA>ELI: Good. That means it matters. Be terrified and ask anyway.
+* "What if she says no?" {N:1}
+  EZRA>ELI: Then she says no, and you're still a guy who asked the right way. Nobody can take that from you.
+* [silent] Watch his fishing line. {DRIFT:1}
+
+@scene c15c | loc=tower | mood=dusk | goal=Meet Wren at the old water tower in Larkspur | talk=wren | place=The old water tower | date=Last Sunday in October
+N: She sends a note on Friday. "My sister went home. I've always wanted to see the view from that old tower you talk about. Sunday?"
+N: So here they are. On top of the old water tower in Larkspur, where Rook pointed out a yellow window on a hill a lifetime ago.
+N: That window is dark now. The Marlowes moved away years ago.
+WREN>ELI: It's beautiful. You can see the whole valley. Is that your mom's house? With the lamp?
+ELI>WREN: She lights it every night. Until I get home.
+WREN>ELI: That's the sweetest thing I've ever heard.
+N: The sun is going down behind the mill. It's now or never. It's always been now or never. He's spent his whole life picking never.
+? What do you ask her?
+* [req:N >= 12|You don't trust yourself to ask it clearly. Not yet.] "Before I say anything... can I ask you something? Are you comfortable with how I've been around you? Have I been too close, or expected too much? I want the truth. Even if it hurts." {N:2, set:asked, set:asked_kindly}
+* "Wren, I think I'm falling for you." {N:2, HEART:1, set:asked}
+* [crack:Your heart is pounding. The sun drops behind the mill.] Say everything at once. {}
+* [silent] Look at the view. Say nothing. {DRIFT:2}
+@post
+[if flag('asked_kindly') and wren >= 5] WREN>ELI: ...Eli. Nobody's ever asked me that. Not like that. Not first.
+[if flag('asked_kindly') and wren >= 5] WREN>ELI: Yes. I'm comfortable. You've never once made me feel like I owe you something. That's... rarer than you think.
+[if flag('asked_kindly') and wren >= 5] ELI>WREN: Then can I tell you something? I feel safe with you. That's all. I don't need you to be anything. I just wanted to ask if there's room for me in your life. Close. However close you want.
+[if flag('asked_kindly') and wren >= 5] WREN>ELI: There's room. There's a whole chair. ...I don't know what we are yet. But I'd like to figure it out slowly. Is slow okay?
+[if flag('asked_kindly') and wren >= 5] ELI>WREN: Slow is the only speed I've got.
+[if flag('asked_kindly') and wren >= 3 and wren < 5] WREN>ELI: ...Thanks for asking that first. Really. Most people just say the big thing and leave you holding it.
+[if flag('asked_kindly') and wren >= 3 and wren < 5] WREN>ELI: Honestly? Sometimes it's been a little much. I care about you. I do. But I've got my own stuff going on, and I need to go slow. Can we stay friends? Real ones. And see what happens?
+[if flag('asked_kindly') and wren >= 3 and wren < 5] ELI>WREN: Yes. Of course. Thanks for telling me the truth.
+[if flag('asked_kindly') and wren < 3] WREN>ELI: ...I'm glad you asked. Because honestly, yes. It's been too close for me. I don't think I can be what you need, Eli. I need some space.
+[if flag('asked_kindly') and wren < 3] ELI>WREN: Then you'll have it. Thank you for telling me. I mean it.
+[if flag('asked') and not flag('asked_kindly') and wren >= 6] WREN>ELI: Oh. Oh, Eli. ...I don't know what I feel yet. You mean a lot to me. But that's a big thing to hand someone on top of a tower.
+[if flag('asked') and not flag('asked_kindly') and wren >= 6] WREN>ELI: Can you give me time? It's not a no. Just... time.
+[if flag('asked') and not flag('asked_kindly') and wren < 6] WREN>ELI: Eli... I'm sorry. I don't feel that way. I care about you. But I don't. I'm really sorry.
+[if flag('asked') and not flag('asked_kindly') and wren < 6] N: She means it kindly. It's the kindest no you've ever gotten. It still lands like a rock.
+[if not flag('asked')] N: You look at the view. She looks at the view. The sun goes down. She says it's getting cold. You walk her back to the coach.
+[if not flag('asked')] ~: Another time. There's always another time. There's always another porch, another coach, another Sunday.
+N: The lamps come on, one by one, all across Larkspur. Ma's is the first.
+@journal
+- Whatever she said, I asked. I asked the right way. That's mine to keep. {N:2, HEART:2}
+- I don't need someone to choose me to be worth something. I'm learning that. {HEART:1, DRIFT:-1}
+- It doesn't matter. Nothing ever does. {STONE:2}
+
+@endrules
+DRIFT >= 8 -> autopilot
+flag('stayed_guilt') -> cure
+STONE >= 8 or flag('ended_cold') -> stone
+flag('saw_doc') and flag('ended_honest') and DRIFT <= 4 and HEART >= 6 and flag('asked_kindly') -> present
+flag('asked') and wren >= 5 -> room
+flag('asked') -> kindno
+-> unsaid
+
+@ending present | Present Again | You learned to care without losing yourself. | home | golden | ma
+N: The next October. The lamp in the window. The tin box on the kitchen table now, not under the bed.
+N: Eli sees the nerve doctor in Port Ellis every other Thursday. Some weeks are good. Some weeks the curtain comes down, and he sits, and names five things he can see, and waits for it to lift. It always lifts.
+N: He rides to work and remembers the bridge. The mill. The hawk on the fence post. He's started noticing hawks.
+N: Viola wrote once, in the spring. Her hands are better. She's taking her medicine. She's seeing a schoolteacher who leaves her a note every morning. Eli wrote back: "I'm really glad." He meant it.
+N: And on Sundays, Wren comes over for dinner. Ma likes her. Ma pretends she doesn't, which is how you know.
+MA>ELI: That girl draws birds on my napkins.
+ELI>MA: I know, Ma.
+MA>ELI: ...Keep her.
+N: Into the tin box, on top of everything else, goes a drawing of a bird on a wire. Not in the rain this time. In the sun.
+~: I still care. I just learned how to do it without disappearing.
+~: And for once, I'm giving myself the same patience I spent my whole life giving everyone else.
+
+@ending room | Room at the Table | There was room for you after all. | home | golden | ma
+N: The next October. Wren comes over for dinner on Sundays, and they walk to the coach on Thursdays, and they're taking it slow, like he promised.
+N: Some mornings he still loses the road. He hasn't told anyone how often. One day he'll see someone about it. One day.
+N: But there's a chair at the table with a bird drawn on the napkin next to it. And Ma's lamp is on. And for now, that's a lot.
+~: I asked. She answered. I'm still here. For a long time I didn't think all three of those could be true at once.
+
+@ending kindno | Alone, Not Lonely | She told you the truth. You took it well. | bridge | golden | ezra
+N: The next October. He and Wren still eat lunch together on Thursdays. Friends. Real ones. It's not what he hoped for. It's something he didn't know he needed.
+N: On Sundays, he fishes off the creek bridge with Ezra. They never catch anything.
+EZRA>ELI: You okay?
+ELI>EZRA: Yeah. I actually am. Not happy, exactly. But here.
+EZRA>ELI: Here's good. Here's a start.
+~: Maybe moving on doesn't mean finding someone new. Maybe it just means being alone for a while. Not as a punishment. Just as a place to rest.
+
+@ending cure | The Cure | You stayed, and slowly stopped being anyone at all. | lane | overcast | viola
+N: He stays. Of course he stays. He brings her medicine. He asks every morning if she's eaten. He walks her home every night.
+N: Viola gets a little better, then a little worse, and every time she's worse he hears "thank you for your gift," even when she doesn't say it.
+N: Years go by. He's really good at the wire. He's really good at being needed. He's not good at all at being himself. He's forgotten who that was.
+N: Wren left the office the next spring. He never asked her anything.
+~: I wanted to be someone's cure. I ended up being someone's furniture.
+@retry c13h | Go back to Willow Lane | DRIFT=5
+
+@ending stone | Stone | Nothing gets in anymore. Nothing gets out. | home | night |
+N: He shuts every door. Viola. Wren. Even Rook, eventually, who keeps knocking for a year and then stops.
+N: He goes to work. He comes home. Ma's lamp is on. He turns it off himself now, so she won't wait up.
+N: Nothing hurts. That was the plan. He just didn't know that nothing would also mean nothing.
+~: I turned myself into stone so nobody could break me. It worked. It worked perfectly.
+@retry c13a | Go back to that winter at the office | STONE=4
+
+@ending autopilot | Autopilot | The road keeps going. You just aren't on it. | home | night |
+N: He rides to work. He rides home. He doesn't remember either one. Pilgrim knows the way. Pilgrim always has.
+N: The tin box stays under the bed. He means to open it again someday. He doesn't remember to.
+N: Ma's lamp is on in the window every night. Some nights he sits in the yard and looks at it for an hour, and can't feel why it matters, only that it does.
+~: I'm here. I think I'm here. If someone finds this, please. Ask me how I'm doing. Ask me twice.
+@retry c14a | Go back to the morning ride | DRIFT=5
+
+@ending unsaid | The Unsaid | Another time. There's always another time. | tower | night |
+N: Wren moves to Port Ellis in the spring. A better job, she writes. "Thanks for the tower. I'll never forget that view."
+N: He keeps her bird drawing in the tin box, on top of the autograph page, on top of the letters, on top of the splinter of yellow wood.
+N: A box full of things he never said.
+~: Next time. Next time I'll ask.
+~: ...I've been saying that since seventh year.
+@retry c15c | Climb the tower again |

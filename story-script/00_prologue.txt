@@ -1,0 +1,51 @@
+@chapter 0 | A Lamp in October | Ironwood Junction, today | The wire office is quiet for the night. Eli Ashby isn't.
+
+@scene p1 | loc=office | mood=night | goal=Finish the last message of your shift | place=Ironwood Wire Office | date=October, today
+N: The last telegram of the night comes in at 10:15. Cattle prices from some town far away.
+N: Eli writes it down in his neat handwriting. Good handwriting is one of the few things he's always been sure about.
+~: 10:15. Nine hours of other people's messages. Not one of them was for me.
+N: He takes off the headset. The key goes quiet. The silence is louder than the clicking ever was.
+~: Go home. Sleep. Do it all again tomorrow.
+~: ...When did tomorrow start feeling like homework?
+
+@scene p2 | loc=home | mood=night | goal=Ride home to the Ashby cottage | place=The Ashby cottage | date=Later that night
+N: He doesn't remember riding home. He knows he did. Pilgrim is in the stall. The gate is shut.
+~: How did I get here? I know the road. I just can't picture it. It's like someone else rode it for me.
+N: Ma's lamp is still on in the window. She leaves it on until he gets home. She always has.
+MA>ELI: Eli? Is that you?
+ELI>MA: It's me, Ma. Go to sleep.
+MA>ELI: There's bread under the cloth. I know you didn't eat at that office.
+ELI>MA: I ate.
+N: He didn't.
+MA>ELI: ...Goodnight, son.
+? What do you say back?
+* "Goodnight, Ma. Thanks for leaving the lamp on." {HEART:1, ma:1}
+  MA>ELI: It's just a lamp.
+  N: It isn't. They both know it isn't.
+* "Goodnight." {}
+  N: A moment later the lamp goes out.
+* [silent] Go upstairs without a word. {STONE:1, DRIFT:1}
+  N: You hear her wait a little longer before she turns it off.
+
+@scene p3 | loc=home | mood=night | goal=Open the tin box under your bed | place=Upstairs | date=After midnight
+N: Under the bed there's an old cookie tin with a ship on the lid. The paint is worn off where his thumbs have held it.
+N: He hasn't opened it in a long time. But tonight he can't sleep, and this box is the only thing in the room that really knows him.
+@item tin | The tin box | An old cookie tin with a ship on the lid. Everything you never threw away is inside.
+N: Inside: a splinter of yellow wood. A drawing of an outlaw on a card. A page from an autograph book. A stack of letters tied with string. A newspaper clipping folded up small.
+~: If anyone ever finds this, it won't be by accident. I'd have to hand it to them myself.
+~: And if they're reading it... I wasn't doing okay. I want that written down somewhere.
+N: He picks up the splinter first. It's the oldest thing in the box.
+~: Where do I even start?
+? Where do you start?
+* "At the beginning. The schoolhouse." {HEART:1}
+  ~: The beginning, then. Before any of it hurt.
+* "It doesn't matter. None of it does." {STONE:1}
+  ~: ...But my hands are already untying the string.
+* "Wherever it stops hurting." {DRIFT:1}
+  ~: It doesn't stop hurting anywhere. That's the problem. Start anyway.
+N: The lamp flickers. The splinter is warm in his hand.
+N: And Larkspur comes back to him the way it used to be. Small, loud, and full of chalk dust.
+@journal
+- I'm going to remember it properly this time. All of it. {HEART:1}
+- Remembering is just another way of not sleeping. Fine. {DRIFT:1}
+- I keep this stuff because nobody else would. {STONE:1}

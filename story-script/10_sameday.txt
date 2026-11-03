@@ -1,0 +1,106 @@
+@chapter 10 | Same Sky, Same Birthday | Ironwood Junction, the first working years | A stranger kept showing up right when he wished for her. Then the wishing stopped working.
+
+@scene c10a | loc=depot | mood=dusk | goal=Wait for your evening coach at the depot | others=iris | place=Ironwood stage depot | date=Second spring at the wire office
+N: There's a woman who takes the evening coach from the hat shop, one stop past the wire office. Brown coat. A book always open, never read.
+N: Her coach and his coach cross at the Ironwood depot every evening. Most nights he doesn't need her coach. Some nights he takes it anyway, gets off at her stop, and catches another one home.
+N: Her name, he finds out from the depot ledger, is Iris Lane.
+N: And her birthday, from the same ledger, is the same as his. Same day. Same month.
+~: Every time I wanted to see her, there she was. Like wanting was a kind of telegraph, and somewhere a needle twitched.
+~: I see a hundred people from that hat shop every week. None of them have my birthday. None of them keep showing up like that.
+? Iris is getting on her coach. She glances up.
+* Tip your hat. {N:1, iris:1}
+  N: She smiles, a little confused, the way you smile at someone you've seen before but can't place.
+* Look at your boots. {STONE:1}
+* [silent] Watch the coach leave. {DRIFT:1}
+
+@scene c10b | loc=teahouse | mood=golden | goal=Meet Rook at the Kettle & Lamp | talk=rook | place=The Kettle & Lamp | date=That week
+N: Rook works at the Ironwood freight yard now. He still laughs like he's twelve.
+ROOK>ELI: Iris Lane? I know her! Well, I know who she is. I thought she was from the Academy. I've been saying hi to her for a year.
+ELI>ROOK: You've been— for a year?
+ROOK>ELI: I say hi to everyone, Ashby. That's the trick. That's the whole trick. You should try it.
+N: Eli tells him about the coaches. The birthday. All the coincidences.
+ROOK>ELI: So say something. "Happy almost-birthday, I think we share it." It's practically a poem.
+? Rook is grinning.
+* "Maybe she's the one, Rook. Could she be?" {HEART:1, rook:1}
+  ROOK>ELI: Could be. Could also be she's a lady who likes hats. Only one way to find out.
+* "I'll get nervous. I always get nervous." {N:1}
+  ROOK>ELI: Then be nervous out loud. Nervous out loud still counts as out loud.
+* [silent] Stir your coffee. {DRIFT:1}
+
+@scene c10c | loc=office | mood=night | goal=Catch a coach home after your shift | others=iris | place=Ironwood Wire Office | date=A tired Thursday
+N: Ten o'clock. He's so tired he gets on the wrong coach. It's halfway back to the office before he notices.
+N: He gets off. Waits in the cold. Catches the next coach toward the hat shop to loop back around.
+N: And there she is. Iris Lane. Alone, by the window, at ten at night, with her unread book.
+~: No way. There's just no way. Out of every coach in this town, at this hour—
+? There's an empty seat across from her.
+* [crack:You sit two rows behind instead. You don't know why.] Take the seat across from her. {}
+* Sit two rows behind. Close enough to see her reflection in the window. {DRIFT:1}
+* [silent] Stand by the door. {STONE:1}
+N: She gets off at her stop. She doesn't look back. Why would she?
+
+@scene c10d | loc=depot | mood=dusk | goal=Wait for Iris at the depot, like you promised yourself | others=iris | place=Ironwood stage depot | date=The next week
+N: He makes himself a promise. If he sees her this week, any day this week, he'll talk to her. Introduce himself. Ask her name like he doesn't already know it.
+N: Monday. Nothing. Tuesday. Wednesday. Thursday.
+N: Friday, he's given up, he's turning to go home, and a guy from the hat shop rides up and drops her off at the depot on the back of his horse.
+N: She laughs at something he says. She waves him off. Then she stands there, alone, ten feet away.
+? Ten feet.
+* [crack:Your heart is pounding so hard you can feel it in your teeth.] Walk up and say hi. {}
+* [crack:The words are right there. They won't come out.] "Excuse me, miss—" {}
+* Get on your coach. {DRIFT:1, STONE:1}
+N: He gets on his coach. Through the window, he watches her open her book.
+N: After that week, he never sees her again. Not once. He takes her coach every night for a month. She's just gone.
+~: Was she seeing someone? I don't know. Older? Younger? Did she ever even notice me? I'll never know. I missed every chance, and they were handed to me.
+
+@scene c10e | loc=pier | mood=night | goal=Walk out to the end of the east pier | place=The east pier | date=Three weeks later
+N: The end of the east pier. Black water. Someone's lantern on a boat, far away.
+~: Three weeks. No coincidences. No luck. Whatever was connecting us just snapped and blew away.
+~: My whole life, whenever I needed something, I'd get close. So close I could almost touch it. And then I wouldn't get it. Ever since I was a kid.
+~: I just want someone to hold my hand and say: Don't worry. It's going to be okay.
+~: That's all. That's such a small thing to want.
+? The water is very dark.
+* Think about Ma's lamp in the window. {HEART:1, ma:1, DRIFT:-1}
+  ~: She'll have it on. She always does. Go home, Eli.
+* Think about nothing at all. {DRIFT:2}
+* Throw a stone as far as you can. {STONE:1}
+  N: You don't hear it land.
+N: He stays until the lantern on the boat goes out. Then he walks back down the pier, one board at a time, and goes home.
+
+@scene c10f | loc=post | mood=overcast | goal=It's your birthday. Check the mail | talk=clerk | place=Post & Coach Office | date=Your birthday
+N: His birthday. Iris Lane's birthday too, somewhere out there.
+N: If things had gone differently, he'd planned to spend it with her. Even just as friends. Even just one coffee.
+CLERK>ELI: Nothing for you today, Mr. Ashby. Sorry.
+N: Nobody remembers. Not the office. Not the guys, who have their own problems now. Ma is away visiting Aunt Rhoda. Her card will come late.
+N: He's short on money this month. He already owes Ma thirty dollars he hasn't paid back. He's too ashamed to ask for more.
+~: Sometimes I feel like I don't exist. Like I'm walking around inside the world, but nobody can see in.
+~: My friends do care. I know they do. But friends can't hold you up forever. They've got their own stuff to carry.
+N: There's a new telephone at the post office. Five cents a minute to Port Ellis. He's been thinking about it for a year.
+N: He puts in the coins. He asks for the nursing school. He waits while they go get her.
+ROSIE>ELI: ...Eli? Is something wrong?
+? This is the third time you've tried to call. The first two times, you hung up before they found her.
+* "Rosie. I still love you. I wanted you to hear me say it. Just once." {N:3, set:called_rosie}
+* "Nothing's wrong. I just... wanted to tell you something." {N:2, set:called_rosie}
+N: And then she says something.
+N: He's never repeated it. Not to Rook, not to Ezra, not to Ma. Not even in the diary he keeps under the floorboard. He doesn't have words for it.
+N: It wasn't "I'm not interested." It wasn't "I'm not ready." It was something else. Something meant to make sure he never called again.
+N: It works.
+~: I hung up. I stood there holding the earpiece until the operator asked if I needed help.
+@journal
+- I don't have to repeat what she said. But I did call. I did say it. {N:2}
+- That's it. No more. I'm done reaching out to people. {STONE:2}
+- I don't remember walking home. {DRIFT:2}
+
+@scene c10g | loc=teahouse | mood=overcast | goal=See what Percy is waving at you | talk=percy | place=The Kettle & Lamp | date=That spring
+PERCY>ELI: Ha. Did you see? The photographer in Port Ellis put her picture in his window. Rosie Marlowe. With some guy in a nice suit. Arm in arm. Ha. ...Sorry. Was that the wrong thing to say?
+N: It's in the society page too. "Miss R. Marlowe, often seen with Mr. —." He doesn't read the name.
+~: Even after she said no. Even after the phone call. Somewhere inside I'd kept a little bit of hope. That one day she'd turn around.
+~: Now it's never going to happen. Never. I said that word out loud in my room and it didn't even echo.
+? Percy is fidgeting.
+* "It's okay, Percy. Thanks for telling me straight." {HEART:1, N:1, percy:1}
+  PERCY>ELI: Ha. Yeah. You're... taking this well? You're taking this weirdly well.
+* "I don't care anymore." {STONE:2}
+  PERCY>ELI: Ha. Right. Sure. Me neither.
+* [silent] Fold the newspaper up really small. {DRIFT:1}
+  N: You put it in your shirt pocket. Later, it goes in the tin.
+@item clipping | A newspaper clipping | The society page. You never read the name.
+~: That spring, I decided to quit. Quit reaching out. Quit writing. Quit everyone I knew, quietly, one by one, until there was nobody left to let me down.
+~: I didn't quite manage it. Rook wouldn't let me. But I tried.

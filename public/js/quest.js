@@ -18,6 +18,49 @@
   World.audio.vol = sets.music; World.audio.sfx = sets.sfx;
   const wait = (ms) => new Promise((r) => setTimeout(r, ms / SPEED));
 
+  // ---------------- account & cloud saves (Cloudflare Worker + D1) ----------------
+  const cloud = (() => {
+    let user = null, online = false; const timers = {};
+    async function api(path, method = 'GET', body) {
+      const r = await fetch('/api' + path, { method, credentials: 'same-origin', headers: body ? { 'content-type': 'application/json' } : {}, body: body ? JSON.stringify(body) : undefined });
+      let j = {}; try { j = await r.json(); } catch (e) { }
+      if (!r.ok) { const e = new Error(j.error || 'Could not reach the server. Check your connection.'); e.status = r.status; throw e; }
+      return j;
+    }
+    const pushAllLocal = async () => {
+      const p = store.get(SAVE, null), e = store.get(ENDS, null);
+      await Promise.all([p && api('/save', 'PUT', { slot: 'progress', data: p }), e && api('/save', 'PUT', { slot: 'endings', data: e }), api('/save', 'PUT', { slot: 'settings', data: sets })].filter(Boolean)).catch(() => {});
+    };
+    return {
+      get user() { return user; }, get online() { return online; },
+      async check() {
+        if (location.protocol === 'file:' || AUTO) return null;
+        try { const j = await api('/me'); user = j.email || null; online = true; } catch (e) { user = null; online = false; }
+        return user;
+      },
+      // a brand-new account keeps whatever was played on this device as a guest
+      async signup(email, password) { const j = await api('/signup', 'POST', { email, password }); user = j.email; online = true; await pushAllLocal(); return user; },
+      async login(email, password) { const j = await api('/login', 'POST', { email, password }); user = j.email; online = true; await this.pull(); return user; },
+      async logout() { try { await api('/logout', 'POST'); } catch (e) { } user = null; store.del(SAVE); store.del(ENDS); },
+      changePassword(current, next) { return api('/password', 'POST', { current, next }); },
+      async pull() {
+        const j = await api('/save');
+        store.del(SAVE); store.del(ENDS);
+        if (j.progress) store.set(SAVE, j.progress);
+        if (j.endings) store.set(ENDS, j.endings);
+        if (j.settings) { Object.assign(sets, j.settings); store.set(SETS, sets); World.audio.vol = sets.music; World.audio.sfx = sets.sfx; }
+      },
+      push(slot, data) {
+        if (!user) return; clearTimeout(timers[slot]);
+        timers[slot] = setTimeout(() => api('/save', 'PUT', { slot, data }).then(() => (online = true)).catch((e) => { if (e.status === 401) user = null; }), slot === 'progress' ? 1200 : 300);
+      },
+      pushNow(slot, data) { if (!user) return Promise.resolve(); clearTimeout(timers[slot]); return api('/save', 'PUT', { slot, data }).catch(() => {}); },
+      wipeProgress() { if (user) return api('/save', 'DELETE').catch(() => {}); return Promise.resolve(); },
+    };
+  })();
+  const saveSets = () => { store.set(SETS, sets); cloud.push('settings', sets); };
+  addEventListener('pagehide', () => { if (cloud.user && st.scene) navigator.sendBeacon && fetch('/api/save', { method: 'PUT', keepalive: true, credentials: 'same-origin', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ slot: 'progress', data: st }) }).catch(() => {}); });
+
   // ---------------- expressions & effects ----------------
   const cache = {};
   function test(expr) {
@@ -35,7 +78,7 @@
     }
     G.classList.toggle('drift', st.DRIFT >= 6 && st.DRIFT < 8); G.classList.toggle('drift-heavy', st.DRIFT >= 8);
   }
-  const save = () => { if (!AUTO) store.set(SAVE, st); };
+  const save = () => { if (!AUTO) { store.set(SAVE, st); cloud.push('progress', st); } };
 
   // ---------------- small UI helpers ----------------
   let tT; function toast(m) { toastEl.textContent = m; toastEl.classList.add('show'); clearTimeout(tT); tT = setTimeout(() => toastEl.classList.remove('show'), 2600 / Math.min(SPEED, 3)); }
@@ -50,6 +93,7 @@
   let advance = null; const handlers = [];
   addEventListener('keydown', (e) => {
     const k = e.key;
+    if (e.target && /^(INPUT|TEXTAREA)$/.test(e.target.tagName)) return;
     if (overlay.classList.contains('show')) {
       const kind = overlay.dataset.kind;
       if (k === 'Escape' && ['menu', 'log', 'bag', 'map', 'settings', 'history'].includes(kind)) { if (kind === 'history') $('#hc').click(); else closeOv(); return; }
@@ -207,9 +251,10 @@
     World.exitCine();
     show(`<div class="scr chap"><div class="c-num">${chName(ch.n)}</div><div class="c-title">${ch.title}</div><div class="c-line"></div><div class="c-sub">${ch.sub}</div><div class="c-intro">${ch.intro}</div><div class="c-go">${World.TOUCH ? 'Tap' : 'Click or press Space'} to begin</div></div>`, 'card');
     await new Promise((res) => {
-      const go = () => { overlay.removeEventListener('click', go); const i = handlers.indexOf(h); if (i >= 0) handlers.splice(i, 1); closeOv(); res(); };
+      let done = false;
+      const go = () => { if (done) return; done = true; overlay.removeEventListener('click', go); const i = handlers.indexOf(h); if (i >= 0) handlers.splice(i, 1); closeOv(); res(); };
       const h = (e) => { if (e.key === ' ' || e.key === 'Enter') { go(); return true; } return false; }; handlers.push(h);
-      setTimeout(() => overlay.addEventListener('click', go), 500 / SPEED);
+      setTimeout(() => { if (!done) overlay.addEventListener('click', go); }, 500 / SPEED);
       if (AUTO) setTimeout(go, 600 / SPEED);
     });
     banner('Chapter begun', ch.title, chName(ch.n));
@@ -256,7 +301,7 @@
   async function ending() {
     let key = 'unsaid'; for (const r of D.endingRules) if (!r.if || test(r.if)) { key = r.go; break; }
     const E = D.endings[key]; st.flags['ending_' + key] = true; save();
-    const found = store.get(ENDS, {}); found[key] = true; if (!AUTO) store.set(ENDS, found);
+    const found = store.get(ENDS, {}); found[key] = true; if (!AUTO) { store.set(ENDS, found); cloud.push('endings', found); }
     if (AUTO) return bot.end(key);
     questEl.classList.add('hidden');
     World.setMood(E.mood);
@@ -270,7 +315,7 @@
       <div class="fine" style="margin:-14px 0 24px">${Object.keys(found).length} of ${all.length} endings found</div>
       <div class="btns">${E.retry ? `<button class="btn gold" id="er">${E.retryLabel}</button>` : ''}<button class="btn ghost" id="et">Return to title</button></div></div>`, 'ending');
     if (E.retry) $('#er').onclick = () => { closeOv(); if (E.retryFx) apply(E.retryFx); st.chapter = BY[E.retry].chapter; World.exitCine(); run(E.retry); };
-    $('#et').onclick = () => { store.del(SAVE); location.reload(); };
+    $('#et').onclick = async () => { store.del(SAVE); await cloud.pushNow('endings', found); await cloud.wipeProgress(); location.reload(); };
   }
 
   // ---------------- overlays ----------------
@@ -280,9 +325,10 @@
   function openMenu() {
     if (!canOpen()) return;
     show(`<div class="scr"><div class="logo" style="font-size:clamp(30px,4.5vw,54px)">Paused</div><div class="logo-sub">${chName(st.chapter)} · ${(D.chapters.find((c) => c.n === st.chapter) || {}).title || ''}</div>
-      <div class="btns"><button class="btn" id="m1">Resume</button><button class="btn ghost" id="m2">Quests</button><button class="btn ghost" id="m3">Keepsakes</button><button class="btn ghost" id="m4">Map</button><button class="btn ghost" id="m5">Settings</button><button class="btn ghost" id="m6">Save &amp; return to title</button></div>
+      <div class="btns"><button class="btn" id="m1">Resume</button><button class="btn ghost" id="m2">Quests</button><button class="btn ghost" id="m3">Keepsakes</button><button class="btn ghost" id="m4">Map</button><button class="btn ghost" id="m5">Settings</button>${cloud.user ? '<button class="btn ghost" id="m7">Account</button>' : ''}<button class="btn ghost" id="m6">Save &amp; return to title</button></div>
       <div class="fine">${World.TOUCH ? 'Joystick to walk · F to interact · tap the quest to walk there' : 'WASD to walk · Shift to run · F to interact · scroll to choose · click the quest to walk there<br>J quests · M map · B keepsakes · Esc menu'}</div></div>`, 'menu');
-    $('#m1').onclick = closeOv; $('#m2').onclick = () => openLog(); $('#m3').onclick = () => openBag(); $('#m4').onclick = () => openMap(); $('#m5').onclick = () => openSettings(openMenu); $('#m6').onclick = () => { save(); location.reload(); };
+    $('#m1').onclick = closeOv; $('#m2').onclick = () => openLog(); $('#m3').onclick = () => openBag(); $('#m4').onclick = () => openMap(); $('#m5').onclick = () => openSettings(openMenu); $('#m6').onclick = async () => { save(); await cloud.pushNow('progress', st); location.reload(); };
+    if ($('#m7')) $('#m7').onclick = () => openAccount(openMenu);
   }
   function openSettings(back) {
     const sp = [['Slow', 26], ['Normal', 48], ['Fast', 90], ['Instant', 999]];
@@ -291,9 +337,9 @@
       <div class="set"><span>Music</span><input type="range" id="s-mu" min="0" max="1" step=".05" value="${sets.music}"></div>
       <div class="set"><span>Sound effects</span><div class="seg" id="s-fx"><button data-v="1" class="${sets.sfx ? 'on' : ''}">On</button><button data-v="0" class="${sets.sfx ? '' : 'on'}">Off</button></div></div>
       <div style="margin-top:20px"><button class="btn" id="s-back">Back</button></div></div></div></div>`, 'settings');
-    overlay.querySelectorAll('#s-sp button').forEach((b) => (b.onclick = () => { sets.cps = +b.dataset.v; store.set(SETS, sets); openSettings(back); }));
-    overlay.querySelectorAll('#s-fx button').forEach((b) => (b.onclick = () => { sets.sfx = b.dataset.v === '1'; World.audio.sfx = sets.sfx; store.set(SETS, sets); openSettings(back); }));
-    $('#s-mu').oninput = (e) => { sets.music = +e.target.value; World.audio.vol = sets.music; store.set(SETS, sets); };
+    overlay.querySelectorAll('#s-sp button').forEach((b) => (b.onclick = () => { sets.cps = +b.dataset.v; saveSets(); openSettings(back); }));
+    overlay.querySelectorAll('#s-fx button').forEach((b) => (b.onclick = () => { sets.sfx = b.dataset.v === '1'; World.audio.sfx = sets.sfx; saveSets(); openSettings(back); }));
+    $('#s-mu').oninput = (e) => { sets.music = +e.target.value; World.audio.vol = sets.music; saveSets(); };
     $('#s-back').onclick = () => (back ? back() : closeOv());
   }
   function openLog(sel) {
@@ -341,15 +387,71 @@
     $('#hc').onclick = () => { closeOv(); advance = prev; };
   }
 
+  // ---------------- login / sign up / account ----------------
+  const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+  function authScreen(mode, msg) {
+    World.setMode('title');
+    const signup = mode === 'signup';
+    show(`<div class="scr clear"><div class="logo">The Quiet Kind</div><div class="logo-sub">${signup ? 'Create your account' : 'Welcome back'}</div>
+      <form class="auth" id="af" autocomplete="on" novalidate>
+        <div class="tabs"><button type="button" class="${signup ? '' : 'on'}" id="a-in">Log in</button><button type="button" class="${signup ? 'on' : ''}" id="a-up">Sign up</button></div>
+        <label class="field"><span>Email</span><input type="email" name="email" id="a-email" autocomplete="email" required placeholder="you@example.com"></label>
+        <label class="field"><span>Password</span><input type="password" name="password" id="a-pass" autocomplete="${signup ? 'new-password' : 'current-password'}" required minlength="8" placeholder="${signup ? 'At least 8 characters' : 'Your password'}"></label>
+        ${signup ? '<label class="field"><span>Confirm password</span><input type="password" id="a-pass2" autocomplete="new-password" required minlength="8" placeholder="Type it again"></label>' : ''}
+        <div class="msg ${msg && msg.ok ? 'ok' : ''}" id="a-msg">${msg ? esc(msg.text || msg) : ''}</div>
+        <button class="btn gold" type="submit" id="a-go">${signup ? 'Create account' : 'Log in'}</button>
+        <button class="linkbtn" type="button" id="a-guest">Play as a guest instead (saves on this device only)</button>
+      </form></div>`, 'auth');
+    $('#a-in').onclick = () => authScreen('login'); $('#a-up').onclick = () => authScreen('signup');
+    $('#a-guest').onclick = () => title();
+    setTimeout(() => $('#a-email') && $('#a-email').focus(), 50);
+    $('#af').onsubmit = async (e) => {
+      e.preventDefault();
+      const email = $('#a-email').value.trim(), pass = $('#a-pass').value, m = $('#a-msg'), go = $('#a-go');
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { m.textContent = 'Please enter a valid email address.'; return; }
+      if (pass.length < 8) { m.textContent = 'Password must be at least 8 characters.'; return; }
+      if (signup && pass !== $('#a-pass2').value) { m.textContent = 'The two passwords don\'t match.'; return; }
+      go.disabled = true; go.textContent = signup ? 'Creating account…' : 'Logging in…'; m.textContent = '';
+      try { await (signup ? cloud.signup(email, pass) : cloud.login(email, pass)); title(); toast(signup ? 'Account created. Your progress will follow you.' : `Welcome back.`); }
+      catch (err) { m.textContent = err.message; go.disabled = false; go.textContent = signup ? 'Create account' : 'Log in'; }
+    };
+  }
+  function openAccount(back) {
+    show(`<div class="scr"><div class="book" style="position:relative;inset:auto;width:min(560px,94vw);flex-direction:column"><div class="main"><h2>Account</h2>
+      <div style="color:#cfc6b4;margin-bottom:18px">Signed in as <b style="color:#fff">${esc(cloud.user)}</b><br>Your progress, endings and settings are saved to your account.</div>
+      <form class="auth flat" id="pf" novalidate>
+        <h3 style="padding:0;margin:6px 0 10px">Change password</h3>
+        <label class="field"><span>Current password</span><input type="password" id="p-cur" autocomplete="current-password" required></label>
+        <label class="field"><span>New password</span><input type="password" id="p-new" autocomplete="new-password" required minlength="8" placeholder="At least 8 characters"></label>
+        <label class="field"><span>Confirm new password</span><input type="password" id="p-new2" autocomplete="new-password" required minlength="8"></label>
+        <div class="msg" id="p-msg"></div>
+        <button class="btn gold" type="submit" id="p-go">Change password</button>
+      </form>
+      <div class="btns" style="margin-top:22px;min-width:0"><button class="btn ghost" id="p-out">Log out</button><button class="btn" id="p-back">Back</button></div></div></div></div>`, 'settings');
+    $('#p-back').onclick = () => (back ? back() : closeOv());
+    $('#p-out').onclick = async () => { save(); await cloud.pushNow('progress', st); await cloud.logout(); location.reload(); };
+    $('#pf').onsubmit = async (e) => {
+      e.preventDefault();
+      const cur = $('#p-cur').value, nw = $('#p-new').value, m = $('#p-msg'), go = $('#p-go'); m.className = 'msg';
+      if (nw.length < 8) { m.textContent = 'New password must be at least 8 characters.'; return; }
+      if (nw !== $('#p-new2').value) { m.textContent = 'The new passwords don\'t match.'; return; }
+      go.disabled = true; go.textContent = 'Saving…';
+      try { await cloud.changePassword(cur, nw); m.className = 'msg ok'; m.textContent = 'Password changed. Other devices have been signed out.'; $('#pf').reset(); }
+      catch (err) { m.textContent = err.message; }
+      go.disabled = false; go.textContent = 'Change password';
+    };
+  }
+
   // ---------------- title ----------------
   function title() {
     World.setMode('title'); World.setMood('golden'); questEl.classList.add('hidden');
     const sv = store.get(SAVE, null), found = store.get(ENDS, {});
     const has = sv && sv.scene && BY[sv.scene];
     show(`<div class="scr clear"><div class="logo">The Quiet Kind</div><div class="logo-sub">A story in fifteen chapters</div>
-      <div class="btns">${has ? '<button class="btn gold" id="t1">Continue</button>' : ''}<button class="btn ${has ? 'ghost' : 'gold'}" id="t2">${has ? 'Start over' : 'Begin'}</button><button class="btn ghost" id="t3">Settings</button></div>
-      <div class="fine">${World.TOUCH ? 'Best played in landscape · headphones recommended' : 'Headphones recommended'}${Object.keys(found).length ? ` · ${Object.keys(found).length} of ${Object.keys(D.endings).length} endings found` : ''}</div></div>`, 'title');
-    $('#t2').onclick = () => { st = fresh(); st.chapter = -1; closeOv(); World.reset(); World.setMode('explore'); run(SC[0].id); };
+      <div class="btns">${has ? '<button class="btn gold" id="t1">Continue</button>' : ''}<button class="btn ${has ? 'ghost' : 'gold'}" id="t2">${has ? 'Start over' : 'Begin'}</button><button class="btn ghost" id="t3">Settings</button><button class="btn ghost" id="t4">${cloud.user ? 'Account' : 'Log in / Sign up'}</button></div>
+      <div class="fine">${cloud.user ? `Signed in as <b>${esc(cloud.user)}</b> · your progress is saved to your account` : cloud.online ? 'Playing as a guest · progress is saved on this device only' : 'Offline · progress is saved on this device only'}<br>${World.TOUCH ? 'Best played in landscape · headphones recommended' : 'Headphones recommended'}${Object.keys(found).length ? ` · ${Object.keys(found).length} of ${Object.keys(D.endings).length} endings found` : ''}</div></div>`, 'title');
+    $('#t4').onclick = () => (cloud.user ? openAccount(title) : authScreen('login'));
+    $('#t2').onclick = () => { cloud.wipeProgress(); st = fresh(); st.chapter = -1; closeOv(); World.reset(); World.setMode('explore'); run(SC[0].id); };
     if (has) $('#t1').onclick = () => { st = Object.assign(fresh(), sv); closeOv(); World.reset(); World.setChapter(st.chapter); World.setMode('explore'); apply({}); run(st.scene); };
     $('#t3').onclick = () => openSettings(title);
   }
@@ -388,7 +490,11 @@
   };
   World.onReady = () => {
     if (AUTO) { st = fresh(); st.chapter = -1; World.reset(); World.setMode('explore'); const j = Q.get('jump'); if (j && BY[j]) { st.chapter = BY[j].chapter; World.setChapter(st.chapter); } run(j && BY[j] ? j : SC[0].id); return; }
-    title();
+    cloud.check().then(async (u) => {
+      if (u) { try { await cloud.pull(); } catch (e) { } title(); }
+      else if (cloud.online) authScreen('login');
+      else title();
+    });
   };
   if (World.ready) World.onReady();
 })();

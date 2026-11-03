@@ -1,0 +1,111 @@
+@chapter 12 | The Spark at the Sink | Ironwood Junction, back at the main office | He'd decided to be alone, and he was finally okay with it. Then someone else decided differently.
+
+@scene c12a | loc=office | mood=golden | goal=Report back to the main wire office | talk=viola | others=hargrove | place=Ironwood Wire Office | date=Mid-February
+N: Something strange happens after the engagement news. A few weeks of being wrecked, and then... quiet. Like a fever breaking.
+~: The closure I'd waited ten years for finally came. Not the way I wanted. But it came. I could stop asking. For the first time in years, I felt a little lighter.
+~: I decided to stay single. Live my own life. No more complicated stuff.
+N: Back at the main office. Two to ten. And at the Port Ellis desk, in person after two years of dots and dashes: Viola Sutton.
+VIOLA>ELI: Well, well. The relay shack hermit. You're taller than you sound on the wire.
+ELI>VIOLA: How do I sound short on the wire?
+VIOLA>ELI: You tap like a guy saving his words for something. Sit down, sit down. Night shift eats at eight. You're eating with us. I'll catch you up on everything.
+N: She does. She tells him everything. He listens. That's how it always was on the wire, and it's how it is in person.
+? Viola is in the middle of a story about the coal guy.
+* Laugh at the right part. {HEART:1, viola:1}
+  VIOLA>ELI: See? You do have a laugh in there. I knew it.
+* Ask her something about herself. {N:1, viola:2}
+  VIOLA>ELI: About me? Nobody ever asks about me. ...Okay. Sit down. This is gonna take a while.
+* [silent] Nod along. {viola:1}
+
+@scene c12b | loc=lane | mood=night | goal=Walk Viola home down Willow Lane | talk=viola | place=Willow Lane | date=Two months later
+N: Every night at eight, the night shift eats together. After, everyone washes their tins at the sink in the back. It's the one time all day nobody's tapping.
+N: One night at the sink, Viola reaches past him for the soap and ends up really close. Face to face. Close enough that neither of them moves for a second.
+N: That night he walks her home down Willow Lane, like he usually does now.
+VIOLA>ELI: At the sink tonight. Did you feel that?
+ELI>VIOLA: Feel what?
+VIOLA>ELI: A spark. I felt a spark, Eli. Don't pretend you didn't notice.
+N: He didn't see that coming. Not this. Not from her.
+? What do you say?
+* The truth: "Viola, I've always thought of you as... one of the guys. Someone I'm comfortable around." {N:2, viola:-1}
+  VIOLA>ELI: One of the guys. Great. Every girl's dream.
+* "I don't know what I felt." {N:1}
+  VIOLA>ELI: Then think about it. I'll wait. Not forever, but I'll wait.
+* [silent] Keep walking. {STONE:1}
+  VIOLA>ELI: Say something, Eli. Anything.
+VIOLA>ELI: If you don't feel it too, then... I'll stop. Talking to you so much, I mean. It's not fair to me otherwise.
+~: She was already picturing us like a love story in a book. Moonlight and violins. She saw love so differently from me. But she was the only person who'd talked to me every single day for two years.
+
+@scene c12c | loc=pier | mood=night | goal=Meet Viola at the east pier to talk for real | talk=viola | place=The east pier | date=A week later
+N: She talks him into trying. Or he talks himself into it. He's never been sure which.
+N: But first he has to tell her who he really is. All of it. He's never said it out loud before. Not in order. Not to anyone.
+ELI>VIOLA: You need to know some things first. Before anything else.
+N: He tells her about the quiet house. Pa's three letters a year. The ruler. The coach stop and the two coins. Seventh year. The porch. The shaking hand that wasn't hers, or was. The phone call. The engagement announcement.
+N: Halfway through, he realizes his face is wet. He didn't feel it start.
+~: All those years I couldn't cry. And it came out at the end of a pier, in front of a girl I wasn't even sure I loved.
+ELI>VIOLA: I'm not in a good place, Viola. I don't know if I can be what you want. I keep people at a distance. I don't know how not to.
+VIOLA>ELI: ...Then we'll go slow. No promises. No commitment. We'll just see. Can we just see?
+? She's holding your hand.
+* "We can just see." {HEART:2, viola:2, set:with_viola}
+* "Are you sure you want this? Want me?" {N:1, viola:1, set:with_viola}
+  VIOLA>ELI: I'm sure. I've been sure since the relay shack.
+* [silent] Squeeze her hand. {viola:1, set:with_viola}
+~: I knew she'd been in love before. Seriously. I knew she was used to guys falling all over themselves for her. I wasn't like that. I didn't chase. But she wanted me anyway. And nobody had wanted me in a really long time.
+
+@scene c12d | loc=office | mood=dusk | goal=Find out why Viola is upset with you | talk=viola | others=nell | place=Ironwood Wire Office | date=That summer
+N: They see each other every day. And almost right away, it's clear they think about love totally differently.
+N: She wants a note on her desk every morning. She wants him to ask every day if she's eaten. She wants to hear it a lot, out loud, in the ways she's used to.
+N: He thinks two people should be free. That you shouldn't have to report every hour of your day. That just being there is the proof, not the routine.
+VIOLA>ELI: You were talking to Nell. From the night shift. For twenty minutes.
+ELI>VIOLA: She asked me how to fix her sounder.
+VIOLA>ELI: For twenty minutes? It's a sounder, Eli, not a train engine.
+NELL>ELI: ...I'm just gonna. Go. Over there.
+? Viola's eyes are wet.
+* "I'm sorry. I'll be more careful." {HEART:1, viola:1, DRIFT:1}
+  VIOLA>ELI: You always say that. And then you forget to ask if I ate.
+* "I'm allowed to talk to people, Viola." {N:2, viola:-1}
+  VIOLA>ELI: I know you're allowed! I'm not stupid! I just want to feel like I'm the one you pick.
+* "I need time. I've never done this before. I'm learning." {N:2, HEART:1, viola:1}
+  VIOLA>ELI: ...I know. I know you are. I'm sorry. I just get scared.
+VIOLA>ELI: I'm not okay. I think you should leave me alone tonight.
+N: He goes. An hour later there's a note under his door: "I'd never leave you like that. Don't go. I didn't mean it."
+~: It kept happening. "Leave me alone." "Don't leave me." I couldn't keep up with how fast she switched. I needed time to learn how she loved. And it felt like we were fighting every day about things I didn't even understand.
+~: Wanting reassurance isn't wrong. I know that. But needing space didn't mean I didn't care.
+
+@scene c12e | loc=pond | mood=golden | goal=Take Viola to the summer fair at the south pier | talk=viola | place=The south pier | date=Late summer
+N: The fair comes to town, just like when he was little. He takes Viola. The fire-eater. The sugar tent. A little painted boat bobbing on a rope.
+ELI>VIOLA: I've been here before. When I was five. My aunt brought us. I've been looking for this exact spot my whole life.
+VIOLA>ELI: And now you found it. With me.
+N: She's happy. Really happy, in that simple way she gets sometimes, like a kid.
+~: Early on, I'd told her I didn't think I'd ever get married. I didn't know what love was supposed to feel like. I'd been alone too long.
+~: But somewhere along the way, that changed. Standing on that walkway, I could picture it. Her. A house. Ma liking her. A future. I'd stopped believing in that.
+? Viola is leaning on the railing.
+* "Viola... I think I'd marry you. If you'd have me. Someday." {HEART:2, viola:3, set:promised}
+  VIOLA>ELI: Eli Ashby. Are you serious?
+  ELI>VIOLA: I'm always serious. It's my worst quality.
+  N: She cries and laughs at the same time. You make promises to each other on that pier. Real ones.
+* "This is a good day." {HEART:1, viola:1}
+  VIOLA>ELI: It's the best day.
+* [silent] Watch the boat. {DRIFT:1}
+ELI>VIOLA: And if we ever break up... don't worry about me. I'll be fine. I can handle it.
+N: He believes it when he says it.
+N: On the way home, she squeezes his arm.
+VIOLA>ELI: You take care of me like a husband would. Did you know that?
+~: Nobody had ever said anything like that to me. I'd been alone for so long. Those words went somewhere really deep, and they stayed there.
+
+@scene c12f | loc=lane | mood=overcast | goal=Visit Viola. She's sick again | talk=viola | place=Willow Lane | date=Fall
+N: Viola has rheumatism in her joints. A real illness that she'll have her whole life. Some weeks her hands swell up so badly she can't use the key.
+N: Doc Whitlow gave her medicine and some rules to follow. She doesn't always take the medicine. She doesn't always follow the rules.
+ELI>VIOLA: Did you take your medicine today?
+VIOLA>ELI: Don't. Don't be my doctor. Be my boyfriend.
+~: I didn't want to treat her like a patient. I wanted her to live her life. But I was scared for her.
+N: And there's something else. Something he knows and has tried not to think about. She still has feelings for the man she loved before him. A man from a different faith. They both knew it could never work. Knowing that didn't make the feelings go away.
+? She's lying back on the pillows with her eyes closed. You've wanted to ask her this for weeks.
+* "Viola. Who do you want? Him, or me? I need to know." {N:2, set:asked_who}
+  VIOLA>ELI: ...I don't know. I don't want anyone. I don't want anything. I just want my hands to stop hurting.
+  N: She's sick. She's in pain. You know those words might not mean everything. But they go in like a nail.
+* Don't ask. Not today. {HEART:1, DRIFT:1}
+  ~: I didn't ask. I'd changed my whole idea of the future to choose her. I couldn't stand finding out she wasn't choosing me the same way.
+* [silent] Hold her hand, very gently. {HEART:1, viola:1}
+@journal
+- I love her. I think. Or I'm trying to, which might be the same thing. {HEART:1}
+- I changed everything for her, and I don't know if she'd do the same for me. {N:1}
+- I'm doing everything right and it still feels wrong. Something inside me is going quiet again. {DRIFT:2}

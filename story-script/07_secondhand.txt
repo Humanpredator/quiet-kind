@@ -1,0 +1,120 @@
+@chapter 7 | Second-Hand Truths | Larkspur and North Ridge | Everything he learned about her, he heard from somebody else.
+
+@scene c7a | loc=home | mood=golden | goal=Read the letter that finally came back | talk=june | place=The Ashby cottage | date=Spring, months later
+N: Months go by. Then one day June walks in holding a letter like it might bite her.
+JUNE>ELI: It's her. That's her handwriting.
+N: It's a short letter. Polite. Like nothing ever happened. Like there was never a shaking hand in a chapel.
+LETTER ROSIE>ELI: Hi Eli. Hope you're well. I'm going to nursing school in Port Ellis after this term, so I won't be able to write much. Also, I told your cousin Mabel about you.
+N: He didn't even know Mabel was her cousin. He reads that line six times.
+LETTER ELI>ROSIE: What did she say?
+LETTER ROSIE>ELI: I'll tell you when I leave for Port Ellis.
+? What do you write back?
+* Don't ask about any of it. Just be glad she's writing. {HEART:1, DRIFT:1, set:never_asked}
+  ~: If I asked why she stopped, she might stop again. Talking to her made me happy. That was enough. I made it be enough.
+* Ask her gently: "What happened last year?" {N:2, rosie:-1}
+  N: Her reply takes a month. It doesn't mention last year at all. You don't ask again.
+* [silent] Fold it up without answering. {STONE:1}
+  N: You last four days before you write back.
+
+@scene c7b | loc=home | mood=dusk | goal=Write to Rosie again | place=Upstairs | date=That summer
+N: The letters are formal now. And whenever he tries to be kind, she snaps at him.
+LETTER ELI>ROSIE: Have you been eating okay? The nuns' soup sounded awful.
+LETTER ROSIE>ELI: And what exactly are you going to do about it if I'm not?
+~: Every nice thing I said bounced off like it hit a wall. But I kept trying. I didn't know how to stop.
+? You read her reply.
+* Write back something gentle anyway. {HEART:1, DRIFT:1}
+  LETTER ELI>ROSIE: Nothing, I guess. I just want to know you're okay.
+  N: She doesn't answer that part.
+* Write back something sharp. {STONE:1, rosie:-1}
+  LETTER ELI>ROSIE: Nothing. Obviously.
+  N: You regret it before the ink is dry.
+* Don't answer this one. Wait for the next. {DRIFT:1}
+
+@scene c7c | loc=yard | mood=day | goal=See what Hattie wants to show you | talk=hattie | place=The old churchyard | date=End of twelfth year
+N: Hattie Lowe, who sat next to Rosie in tenth year, still writes to her too. One afternoon she pulls Eli aside by the churchyard wall.
+HATTIE>ELI: You should see this. I don't know if I should show you. But you should see it.
+N: It's a letter from Rosie to Hattie. Hattie had asked, the way girls do: "Do you like anyone?"
+LETTER ROSIE>HATTIE: No. But I did get a confession from someone. I don't think I'm mature enough to decide something like that. And my parents matter to me.
+~: A confession. Mine. That was me. "I got a confession," like a package delivered to the wrong house.
+~: But didn't she ask first? "What would you say if I said I love you?" Wasn't her hand shaking?
+? Hattie is watching you.
+* "Thanks for showing me, Hattie." {N:1, HEART:1, hattie:1}
+  HATTIE>ELI: I'm sorry, Eli. I think she's... confused. I don't think she meant to hurt you.
+* "That's not what happened. She asked first." {N:1}
+  HATTIE>ELI: I believe you. I just don't know what she believes.
+* [silent] Give the letter back. {STONE:1}
+
+@scene c7d | loc=ridge | mood=night | goal=Ride out with the boys for your last night of school | talk=rook | others=toby,ezra,gideon,abel | place=Coyote Ridge | date=Last night of school
+N: The last night of school. All of them together. The Paper Outlaws, wanted in six towns. Abel brought a bottle of root beer he swears is whiskey.
+ROOK>ELI: To the end of being kids. Tomorrow we're grown-ups. God help us all.
+N: Halfway through the night, June rides up the hill with a letter in her coat. She shrugs. "It came this afternoon. Figured you'd want it."
+LETTER ROSIE>ELI: Congrats on finishing school. I wish you the best. I'm leaving for Port Ellis next week, and I won't be writing anymore. Please don't write back. Bye, Eli.
+N: The fire crackles. Rook is still talking. Nobody sees Eli fold the letter into a tiny square.
+? Ezra notices.
+* Hand him the letter. {N:1, ezra:1}
+  EZRA>ELI: ...Do you want to talk about it, or do you want to sit by the fire and not talk about it?
+  ELI>EZRA: The second one.
+  EZRA>ELI: Good. I'm better at that one.
+* "It's nothing. A letter from June's friend." {STONE:1}
+  EZRA>ELI: Okay. If you say so.
+* [silent] Throw it in the fire. {STONE:1, DRIFT:1}
+  N: Ezra watches it burn. He doesn't ask. He just sits closer.
+N: But she doesn't stay gone. That's the thing. Three months later, another letter. Then nothing. Then another one.
+~: She'd close the door and then open it again. Over and over. And every time it opened, I walked right back in.
+
+@scene c7e | loc=chapel | mood=day | goal=Go to Sunday service. She's home for the holidays | talk=rosie | place=St. Agnes' Chapel | date=Christmas
+N: She's home for Christmas. After the service, in the crowd at the chapel door, they end up face to face for the first time in two years.
+ROSIE>ELI: Eli.
+ELI>ROSIE: Rosie. ...Merry Christmas.
+N: She's wearing a locket, open. Inside is a photo of a handsome man with slicked-back hair.
+? You ask...
+* "Who's that in the locket?" {N:1}
+  ROSIE>ELI: That? That's my boyfriend.
+  ELI>ROSIE: ...Okay.
+  N: Just "okay." You don't know what else to say. Inside, everything is falling apart.
+* "It looks nice on you." {HEART:1}
+  ROSIE>ELI: Thanks. That's my boyfriend.
+  ELI>ROSIE: ...Okay.
+* [silent] Look at the locket and say nothing. {STONE:1, DRIFT:1}
+  ROSIE>ELI: That's my boyfriend, if you're wondering.
+N: Weeks later, Hattie tells him: it was a photo of a stage actor. A famous one from the theater in Fort Calder. Rosie had laughed about it with her friends.
+~: She showed me a picture of a stranger and called him her boyfriend. Just to see what I'd do. Or to make me stop. I never knew which.
+N: After the holidays, the letters stop again. All of them come back.
+~: And I just... kept hoping. That she'd come back. Or that I could change her mind. Or at least that someone would tell me what happened.
+
+@scene c7f | loc=academy | mood=golden | goal=Go to the opening day at the Territorial Academy | talk=toby | others=percy | place=Territorial Academy | date=August 25th
+N: August 25th. Opening day at the Territorial Academy up on North Ridge. Toby is going here too. And for some reason, so is Percy.
+N: There's a ceremony. A brass band. A speech about the future. Eli doesn't hear any of it.
+PERCY>ELI: I wrote to Rosie last week. Ha. I told her, "Our guy's still thinking about you. He's really down. You should write him."
+ELI>PERCY: You what?
+PERCY>ELI: Somebody had to say something! You never say anything!
+TOBY>PERCY: Percy. Shut up. Right now.
+~: Percy meant well. Percy always meant well. That was the worst thing about him.
+? You can't take it back now.
+* "...Thanks for trying, Percy." {HEART:1, percy:1}
+  PERCY>ELI: Ha. Yeah. You're welcome. Why do you look like that?
+* "Don't ever talk to her about me again." {STONE:1, percy:-1}
+  PERCY>ELI: Okay, okay! Ha. Sorry.
+* [silent] Walk away from the ceremony. {DRIFT:1}
+
+@scene c7g | loc=home | mood=night | goal=Ride home after the ceremony | place=The Ashby cottage | date=That same night
+N: When he gets home that night, there's a telegram waiting. The first one she's ever sent him.
+WIRE ROSIE>ELI: STILL HUNG UP ON THAT STOP GO DO SOMETHING WITH YOUR LIFE STOP
+N: Then nothing. Every letter comes back. For good this time.
+N: He stands in the kitchen holding the paper. Ma is asleep. The lamp is on.
+~: Every dream I had just... fell apart. All at once, really quietly. No noise. Like a drawing ripped down the middle.
+~: She left without telling me why. Without anything. I wasn't even worth the truth.
+? Ma's lamp is still on.
+* Wake Ma up. Tell her. {HEART:2, ma:2, N:1, set:told_ma}
+  MA>ELI: Eli? What's wrong? Oh... oh, baby. Come here.
+  N: You don't tell her everything. You don't know how. But you tell her a girl hurt you, and she doesn't ask which one, and she holds on to you until the lamp burns low.
+* Turn the lamp down and go upstairs. {STONE:2}
+* Sit at the table until the sun comes up. {DRIFT:2}
+N: After that night, everything goes grey. Not dark. Just grey. He goes to class. He passes his exams. He smiles when people expect him to.
+N: He tries to cry once, alone, in the barn. Nothing comes. Like the well has run dry.
+~: I stopped caring about everything. I just acted like I was fine. Nobody could help, because nobody knew anything was wrong.
+~: At night she came back. Every night, for a long time. Thinking about her was the only thing in that house that wasn't grey.
+@journal
+- One day I'll stop asking why. Not yet. {N:1, HEART:1}
+- I don't feel anything. That's easier. {STONE:2}
+- I'm just going through the motions. My body goes to class. I don't know where the rest of me goes. {DRIFT:2}

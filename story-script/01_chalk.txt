@@ -1,0 +1,170 @@
+@chapter 1 | Chalk and Ruler | Larkspur, years ago | A quiet boy, a loud schoolhouse, and the first things he learned to keep to himself.
+
+@scene c1a | loc=home | mood=day | goal=Talk to Ma before your first day of school | talk=ma | others=june | place=The Ashby cottage | date=Autumn, years ago
+N: Larkspur. A small town. You can hear the church bell from every porch, and at night the creek is the loudest thing around.
+N: Eli is five. His new boots pinch. His collar is buttoned so high he has to lift his chin to breathe.
+MA>ELI: Hold still. There. Now you look like somebody's son.
+ELI>MA: Is Pa coming to watch?
+MA>ELI: Your Pa's with the cavalry, way out west. He'll write. He always writes.
+~: He doesn't always write. I count the letters. There have been three.
+JUNE>ELI: The schoolhouse smells like wet chalk and Miss Thorne. You're gonna hate it.
+MA>JUNE: June Ashby.
+JUNE>ELI: ...You'll be fine. I'm right across the hall. If anyone's mean to you, come get me.
+MA>ELI: The coach comes at 8:30. Old Amos will take you there and bring you back. Don't get off anywhere else, okay?
+? Ma is waiting for an answer.
+* "Okay, Ma. I won't get lost." {ma:1}
+  MA>ELI: I know you won't. You're careful. You get that from me.
+* "Can't I just stay home with you?" {HEART:1}
+  MA>ELI: Oh, Eli. If I could keep you in my pocket all day, I would.
+  N: She holds his face in her hands a little longer than she needs to.
+* [silent] Look down at your boots. {STONE:1}
+  N: Ma kneels down and reties a lace that wasn't loose. It's the only way she knows how to say it.
+MA>ELI: Go on. Big day. The lamp will be on when you get home.
+
+@scene c1b | loc=school | mood=day | goal=Meet the headmistress at the schoolhouse | talk=larkin | place=Larkspur Schoolhouse | date=First day
+N: The schoolhouse is the biggest building Eli has ever been inside. The ceiling is so high his voice would get lost up there. So he doesn't use it.
+LARKIN>ELI: You must be the Ashby boy. Come here. Stand on the line. Hands out of your pockets.
+LARKIN>ELI: I'm going to point at a few things, and you tell me what they are. That's all. No wrong answers today.
+N: She points at a slate.
+? "What's this?"
+* "A slate." {N:1}
+  LARKIN>ELI: Good.
+* "...It's for writing." {HEART:1}
+  LARKIN>ELI: That's right. Good boy.
+N: She points at a bell. He knows that one. A cup. Easy. Then a globe, which he has never seen in his life.
+LARKIN>ELI: And this?
+ELI>LARKIN: ...A ball with the whole world painted on it.
+LARKIN>ELI: Ha! Well, that's exactly what it is. Write him down, Mr. Cutter. He's in.
+~: It's the only thing I really remember from that day. A ball with the whole world on it, and a lady laughing like I'd said something smart.
+
+@scene c1c | loc=school | mood=day | goal=Find your seat in Miss Bright's class | talk=bright | place=The little classroom | date=The first few weeks
+N: Thirty kids. One Eli. Everyone else seems to already know each other.
+BRIGHT>ELI: You can sit by the window, Eli. It's the best seat. When your eyes get tired, you can watch the birds.
+N: Miss Bright has a soft voice and chalk on her sleeves. She's the nicest grown-up he's ever met who isn't his mom.
+BRIGHT>ELI: Let's try the reading book. Sound it out with me.
+N: The reading book is full of hard little sounds that trip over each other. After two lines out loud, his throat closes up and the third line won't come.
+BRIGHT>ELI: That's okay. Let's try something else. Watch my hand.
+N: She writes his name on the slate in cursive. E-l-i, every letter holding hands with the next one.
+~: Oh.
+~: It looks like it's moving, even when it's still.
+? What do you do?
+* Copy the loops again and again. {N:1, HEART:1, set:cursive}
+  BRIGHT>ELI: Look at that. You've got a writer's hand, Eli Ashby.
+  N: He fills the slate. Then the back. Then he asks for more chalk.
+* Copy it once, then wipe it off before anyone sees. {STONE:1}
+  BRIGHT>ELI: I saw it anyway. It was really good.
+* [silent] Stare at it until the bell rings. {DRIFT:1}
+  N: When the bell rings, the letters are still there. He doesn't want to wipe them off.
+N: Nobody sits with him at lunch. He eats by the window and watches the birds, like she said.
+~: It would be nice to have a friend. Just one. Someone to sit next to.
+
+@scene c1d | loc=home | mood=golden | goal=Go home and do your homework | talk=june | place=The Ashby cottage | date=That evening
+N: The homework is three pages copied out of the reading book. Eli gets through a line and a half before his hand just stops.
+JUNE>ELI: Give it here.
+ELI>JUNE: Miss Thorne will know.
+JUNE>ELI: Miss Thorne can't tell a five-year-old's writing from an eight-year-old's. She can barely tell kids from chairs.
+N: June copies the pages fast, tongue sticking out. Ma pretends not to see from the stove.
+? June hands it back.
+* "Thanks, June." {HEART:1, june:1}
+  JUNE>ELI: Don't thank me. Just get better at it so I don't have to.
+* "I could have done it." {STONE:1}
+  JUNE>ELI: Sure you could. Next year.
+* [silent] Take it without saying anything. {}
+N: That night he practices his cursive by the lamp until Ma takes the slate away and tucks him in.
+~: Writing my own letters is easy. Writing what they want is impossible. Nobody seems to get that those are different things.
+
+@scene c1e | loc=school | mood=overcast | goal=Hand in your homework before morning prayers | talk=thorne | place=The upper classroom | date=The next year, a grey morning
+N: The next year, June has her own homework. Eli's isn't done. Just the first page in his best cursive, and then nothing.
+N: Before morning prayers, every kid brings their book up to Miss Thorne's desk.
+THORNE>ELI: Ashby. Book.
+~: If I don't hand it in, she'll count the books and know. If I do, she'll open it and know.
+? There's no good choice. What do you do?
+* Hand it in and hope she doesn't open it. {N:1}
+  N: She opens it.
+* Tell her the truth: "I couldn't finish it." {N:1, HEART:1, set:told_thorne}
+  THORNE>ELI: Couldn't? Couldn't?
+* [silent] Hide the book behind your back. {STONE:1}
+  N: She takes it out of his hands.
+N: Miss Thorne keeps a yellow wooden ruler on her desk. Everybody knows about the ruler.
+N: She uses it on him in front of the whole class. She doesn't stop until the ruler breaks.
+N: A splinter slides across the floor and stops against his boot.
+N: Nobody says a word. Thirty kids stare at their hands. Then they say their prayers.
+~: I didn't cry. I want that written down. I didn't cry.
+~: ...I didn't cry because I couldn't find where the crying was supposed to come from.
+@item splinter | A splinter of yellow wood | From a ruler that broke before you did.
+@journal
+- I learned to keep my head down. It works. {STONE:1}
+- I learned that grown-ups can be wrong, and loud about it. {N:1}
+- I don't really remember the pain. I remember the floor. {DRIFT:1}
+
+@scene c1f | loc=bridge | mood=golden | goal=Walk down to the creek after school | talk=girl | place=The creek bridge | date=That afternoon
+N: He doesn't take the coach home. He walks to the creek and sits where the water is loudest.
+N: There's a girl there already, skipping stones. She's really bad at it.
+GIRL>ELI: You're the kid who got the ruler.
+ELI>GIRL: ...
+GIRL>ELI: It's okay. She's horrible. My brother says she eats kids for dinner.
+GIRL>ELI: Here. You try. I can never make them jump.
+? She holds out a flat stone.
+* Throw it. Show her how. {HEART:1, set:stone_girl}
+  N: It skips four times. She claps like it's the best thing she's ever seen.
+  GIRL>ELI: Again! Teach me!
+* "I don't know how either." {HEART:1}
+  GIRL>ELI: Then we'll both be bad at it. That's better than being bad alone.
+* [silent] Shake your head. {STONE:1}
+  GIRL>ELI: Fine. I'll sit here anyway.
+N: They sit there until the sky goes orange. She talks. He listens. He likes it. Around her, he doesn't feel weird at all.
+N: Years later, Eli will try really hard to remember her face. He won't be able to. Not her face, not her name.
+~: Just the stones. And the feeling that I was allowed to be quiet next to someone.
+~: Girls were always easier to be around. I don't know why. It wasn't a crush. It was just... quieter.
+
+@scene c1g | loc=pond | mood=golden | goal=Go to the summer fair with Aunt Rhoda | talk=rhoda | others=june | place=The south pier | date=Summer, the fair is in town
+N: When the fair comes to town, Aunt Rhoda takes them. There's a man who eats fire, a dancing dog, and a tent that smells like sugar.
+RHODA>ELI: Hold my hand, Eli. If you get lost in this crowd, they'll sell you to the circus.
+JUNE>ELI: No they won't. He's too small to be useful.
+N: Later they stand on a little wooden walkway over the water, watching a small painted boat bob on its rope.
+RHODA>ELI: You like the boat?
+ELI>RHODA: It looks like it wants to go somewhere.
+RHODA>ELI: Boats always do. That's why you tie them up.
+~: I remember the boat. I remember the boards under my feet. I've never found that spot again.
+~: I've walked every pier around here. None of them are it. Maybe it only existed that one afternoon.
+@item boat | A ticket from the summer fair | Admit one. The ink has almost faded away.
+
+@scene c1h | loc=school | mood=day | goal=Find out who the new boy in your class is | talk=toby | place=Larkspur Schoolhouse | date=Second year
+N: In second year, a kid named Theo Briggs has a brass pencil sharpener shaped like a rocket. Everyone wants to touch it. Eli just wants to look at it.
+N: There's another new kid too, the shortest in the class. He sits down next to Eli without asking.
+TOBY>ELI: I'm Toby. Toby Pruett. My dad runs the general store. You can have a peppermint if you don't tell anyone I gave you one.
+ELI>TOBY: ...Why are you sitting here?
+TOBY>ELI: You looked quiet. I like quiet people. They don't laugh when I can't reach the coat hooks.
+? Toby holds out a peppermint.
+* Take it. "I'm Eli." {HEART:1, toby:2}
+  TOBY>ELI: I know. Everybody knows. You're the ruler kid. Don't worry, I won't call you that.
+* "I don't take stuff from people." {STONE:1}
+  TOBY>ELI: That's dumb. It's a peppermint, not a loan.
+  N: He leaves it on Eli's desk anyway. Eli eats it on the coach home.
+~: I don't know how, but I knew right then. This short, loud kid was going to be around for the rest of my life.
+~: I was right about that. I've been wrong about almost everything else.
+TOBY>ELI: Want to see something? Penelope Gray brought a music box. It plays a waltz. Come on!
+
+@scene c1i | loc=yard | mood=overcast | goal=Say goodbye to Penelope Gray | talk=penelope | others=toby | place=The old churchyard | date=Third year
+N: Penelope Gray is the class leader. She has fancy ribbons from back East, a music box, and handwriting even neater than his. Everyone wants to be her friend.
+N: Eli wants to be her friend more than anyone. He's never said a single word to her.
+TOBY>ELI: She's leaving. Her family's moving to Denver. Today's her last day.
+N: Penelope is standing by the churchyard gate with her mom and a big trunk. She's crying a little, very neatly.
+? This is your last chance to talk to her.
+* Walk over. "Bye, Penelope. I liked your music box." {N:2, HEART:1, set:said_bye_pen}
+  PENELOPE>ELI: ...You're Eli. You never talk.
+  PENELOPE>ELI: Thank you. I'm going to miss it here. Even Miss Thorne.
+  N: She gives him a ribbon. A blue one. He keeps it for twenty years.
+* Wave from where you are. {HEART:1}
+  N: She doesn't see. Or she does and doesn't know who you are. Either way, the coach pulls away.
+* [crack:Your feet won't move. Your mouth won't open.] Walk over and say goodbye. {}
+* [silent] Stay behind Toby. {STONE:1, DRIFT:1}
+  N: The trunk goes up on the coach. The coach goes down the road. That's it.
+TOBY>ELI: That's sad, huh?
+ELI>TOBY: ...I don't know what you mean.
+TOBY>ELI: Sure you don't.
+~: That's when I learned that people leave before you're ready. I wish it had been the last time.
+@journal
+- I should've said more. Next time I will. {N:1, HEART:1}
+- People leave. It's better not to want them in the first place. {STONE:1}
+- It's just a girl with a music box. It doesn't matter. {DRIFT:1}
