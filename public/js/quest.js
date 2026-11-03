@@ -96,7 +96,7 @@
     if (e.target && /^(INPUT|TEXTAREA)$/.test(e.target.tagName)) return;
     if (overlay.classList.contains('show')) {
       const kind = overlay.dataset.kind;
-      if (k === 'Escape' && ['menu', 'log', 'bag', 'map', 'settings', 'history'].includes(kind)) { if (kind === 'history') $('#hc').click(); else closeOv(); return; }
+      if (k === 'Escape' && ['menu', 'log', 'bag', 'map', 'settings', 'history'].includes(kind)) { const bk = overlay.querySelector('#hc,#s-back,#p-back,#lc,#bc,#mc'); if (bk) bk.click(); else closeOv(); return; }
       if ((k === 'j' || k === 'J') && kind === 'log') { closeOv(); return; }
       if ((k === 'm' || k === 'M') && kind === 'map') { closeOv(); return; }
       if ((k === 'b' || k === 'B') && kind === 'bag') { closeOv(); return; }
@@ -321,13 +321,13 @@
   // ---------------- overlays ----------------
   function show(html, kind) { overlay.innerHTML = html; overlay.dataset.kind = kind || ''; overlay.classList.add('show'); }
   function closeOv() { overlay.classList.remove('show'); overlay.innerHTML = ''; overlay.dataset.kind = ''; }
-  const canOpen = () => (!overlay.classList.contains('show') || ['menu', 'log', 'bag', 'map'].includes(overlay.dataset.kind)) && World.mode === 'explore';
+  const canOpen = () => (!overlay.classList.contains('show') || ['menu', 'log', 'bag', 'map', 'settings'].includes(overlay.dataset.kind)) && World.mode === 'explore';
   function openMenu() {
     if (!canOpen()) return;
     show(`<div class="scr"><div class="logo" style="font-size:clamp(30px,4.5vw,54px)">Paused</div><div class="logo-sub">${chName(st.chapter)} · ${(D.chapters.find((c) => c.n === st.chapter) || {}).title || ''}</div>
       <div class="btns"><button class="btn" id="m1">Resume</button><button class="btn ghost" id="m2">Quests</button><button class="btn ghost" id="m3">Keepsakes</button><button class="btn ghost" id="m4">Map</button><button class="btn ghost" id="m5">Settings</button>${cloud.user ? '<button class="btn ghost" id="m7">Account</button>' : ''}<button class="btn ghost" id="m6">Save &amp; return to title</button></div>
       <div class="fine">${World.TOUCH ? 'Joystick to walk · F to interact · tap the quest to walk there' : 'WASD to walk · Shift to run · F to interact · scroll to choose · click the quest to walk there<br>J quests · M map · B keepsakes · Esc menu'}</div></div>`, 'menu');
-    $('#m1').onclick = closeOv; $('#m2').onclick = () => openLog(); $('#m3').onclick = () => openBag(); $('#m4').onclick = () => openMap(); $('#m5').onclick = () => openSettings(openMenu); $('#m6').onclick = async () => { save(); await cloud.pushNow('progress', st); location.reload(); };
+    $('#m1').onclick = closeOv; $('#m2').onclick = () => openLog(undefined, openMenu); $('#m3').onclick = () => openBag(openMenu); $('#m4').onclick = () => openMap(openMenu); $('#m5').onclick = () => openSettings(openMenu); $('#m6').onclick = async () => { save(); await cloud.pushNow('progress', st); location.reload(); };
     if ($('#m7')) $('#m7').onclick = () => openAccount(openMenu);
   }
   function openSettings(back) {
@@ -342,7 +342,7 @@
     $('#s-mu').oninput = (e) => { sets.music = +e.target.value; World.audio.vol = sets.music; saveSets(); };
     $('#s-back').onclick = () => (back ? back() : closeOv());
   }
-  function openLog(sel) {
+  function openLog(sel, back) {
     if (!canOpen()) return;
     const cur = st.chapter; sel = sel === undefined ? cur : sel;
     const side = D.chapters.map((c) => { const lock = c.n > cur; return `<button class="ql ${c.n === cur ? 'cur' : ''} ${c.n === sel ? 'sel' : ''} ${lock ? 'lock' : ''} ${c.n < cur ? 'done' : ''}" data-n="${c.n}" ${lock ? 'disabled' : ''}><small>${chName(c.n)}</small>${lock ? '???' : c.title}</button>`; }).join('');
@@ -350,10 +350,10 @@
     const steps = goalsOf(sel).map((g) => { const ok = st.done[g.id], now = g.id === st.scene && !ok; const later = !ok && !now; return `<div class="step ${ok ? 'ok' : now ? 'now' : 'later'}"><span class="sd"></span><span>${later && sel === cur ? '???' : g.goal}</span></div>`; }).join('');
     show(`<div class="book"><button class="close" id="lc">✕</button><div class="side"><h3>Story quests</h3>${side}</div><div class="main"><div style="font-size:.8em;letter-spacing:.3em;color:#d3bc8e;text-transform:uppercase">${chName(sel)}</div><h2>${ch.title}</h2><div style="color:#cfc6b4;font-style:italic;margin-bottom:18px">${ch.intro}</div>${steps}
       ${sel === cur ? `<div style="margin-top:20px"><button class="btn gold" id="lnav">◆ Navigate to the current quest</button></div>` : ''}</div></div>`, 'log');
-    $('#lc').onclick = closeOv; overlay.querySelectorAll('.ql:not([disabled])').forEach((b) => (b.onclick = () => openLog(+b.dataset.n)));
+    $('#lc').onclick = () => (back ? back() : closeOv()); overlay.querySelectorAll('.ql:not([disabled])').forEach((b) => (b.onclick = () => openLog(+b.dataset.n, back)));
     const nav = $('#lnav'); if (nav) nav.onclick = () => { closeOv(); if (World.guide()) toast('Walking to the quest marker…'); };
   }
-  function openBag() {
+  function openBag(back) {
     if (!canOpen()) return; $('#b-bag').classList.remove('dot');
     const items = st.items.map((i) => `<div class="it"><b>${i.name}</b><p>${i.desc}</p></div>`).join('') || '<p style="color:#9a927e">Nothing yet.</p>';
     const pages = World.pages.map((t, i) => (st.pages[i] ? `<div class="it page"><b>Page ${i + 1}</b><p>${t}</p></div>` : `<div class="it miss"><b>Page ${i + 1}</b><p>Somewhere in the valley…</p></div>`)).join('');
@@ -362,12 +362,12 @@
       <h2 style="margin-top:28px">Loose pages <span style="font-size:.6em;color:#cfc6b4">${Object.keys(st.pages).length} / ${World.pages.length}</span></h2><div class="items">${pages}</div>
       <h2 style="margin-top:28px">How Eli is</h2><div class="stats">${bar('Warmth', st.HEART)}${bar('Guarded', st.STONE)}${bar('Distant', st.DRIFT)}${bar('Nerve', st.NERVE, 30)}</div>
       <h2 style="margin-top:28px">Diary</h2>${st.journal.map((e) => `<div class="step"><span class="sd" style="border-color:#d3bc8e"></span><span><small style="color:#9a927e">${e.ch}</small><br><span style="font:500 1.35em Caveat">${e.t}</span></span></div>`).join('') || '<p style="color:#9a927e">Empty.</p>'}</div></div>`, 'bag');
-    $('#bc').onclick = closeOv;
+    $('#bc').onclick = () => (back ? back() : closeOv());
   }
-  function openMap() {
+  function openMap(back) {
     if (!canOpen()) return;
     show(`<div class="mapv"><button class="close" id="mc">✕</button><div class="mapwrap" id="mw"></div><div class="mhelp">${World.waiting ? 'Choose a place you\'ve visited to travel there. ' : ''}The gold marker is your current quest.</div></div>`, 'map');
-    $('#mc').onclick = closeOv;
+    $('#mc').onclick = () => (back ? back() : closeOv());
     const wrap = $('#mw'), mi = World.mapImage(); const c = document.createElement('canvas'); c.width = mi.width; c.height = mi.height; c.getContext('2d').drawImage(mi, 0, 0); wrap.appendChild(c);
     const pct = (x, y) => [x / mi.width * 100 + '%', y / mi.height * 100 + '%'];
     const q = World.quest;
